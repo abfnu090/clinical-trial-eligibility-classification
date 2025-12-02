@@ -1,0 +1,544 @@
+trait,umbrella,umbrella_agreement,umbrella_flag,category,category_agreement,category_flag
+alk fusion,ALK Mutation Status,5/5,🟢,NOT_PREDICTABLE,5/5,🟢
+alk fusion status,ALK Mutation Status,5/5,🟢,NOT_PREDICTABLE,5/5,🟢
+alk gene translocation status,ALK Mutation Status,5/5,🟢,NOT_PREDICTABLE,5/5,🟢
+alk mutation,ALK Mutation Status,5/5,🟢,NOT_PREDICTABLE,5/5,🟢
+alk rearrangement,ALK Mutation Status,5/5,🟢,NOT_PREDICTABLE,5/5,🟢
+alk status,ALK Mutation Status,5/5,🟢,NOT_PREDICTABLE,5/5,🟢
+alk translocation,ALK Mutation Status,5/5,🟢,NOT_PREDICTABLE,5/5,🟢
+ast/alt,Hepatic Function,5/5,🟢,PREDICTABLE_BUT_NOT_NECESSARY,5/5,🟢
+ability to safely receive investigational and soc regimens,Treatment Amenability,4/5,🟢,PREDICTABLE_AND_NECESSARY,3/5,🟡
+ability to swallow oral medication,Gastrointestinal Function,5/5,🟢,PREDICTABLE_BUT_NOT_NECESSARY,3/5,🟡
+absence of identifiable primary tumor or nodal disease,Primary Tumor Characteristics,5/5,🟢,PREDICTABLE_BUT_NOT_NECESSARY,4/5,🟢
+absolute neutrophil count,Hematologic Function,5/5,🟢,PREDICTABLE_BUT_NOT_NECESSARY,5/5,🟢
+actionable mutations,Actionable Genomic Alterations,5/5,🟢,NOT_PREDICTABLE,5/5,🟢
+active infection,Active Infection,5/5,🟢,PREDICTABLE_AND_NECESSARY,3/5,🟡
+active infections,Active Infection,5/5,🟢,PREDICTABLE_AND_NECESSARY,3/5,🟡
+active tuberculosis,Tuberculosis,5/5,🟢,PREDICTABLE_BUT_NOT_NECESSARY,4/5,🟢
+acute coronary syndrome,Cardiac Function,5/5,🟢,PREDICTABLE_BUT_NOT_NECESSARY,3/5,🟡
+acute disease,Intercurrent Illness,5/5,🟢,PREDICTABLE_AND_NECESSARY,3/5,🟡
+additional malignancy,Prior/Concurrent Malignancy,5/5,🟢,PREDICTABLE_AND_NECESSARY,4/5,🟢
+adenocarcinoma or undifferentiated carcinoma histology,Tumor Histology,5/5,🟢,PREDICTABLE_BUT_NOT_NECESSARY,4/5,🟢
+adjuvant chemotherapy tolerance,Treatment-Related Toxicity,2/5,🔴,PREDICTABLE_AND_NECESSARY,4/5,🟢
+adjuvant/neoadjuvant therapy,Adjuvant/Neoadjuvant Therapy,5/5,🟢,PREDICTABLE_AND_NECESSARY,4/5,🟢
+advanced refractory solid tumors,Advanced/Refractory Disease,5/5,🟢,PREDICTABLE_AND_NECESSARY,5/5,🟢
+age,Age,5/5,🟢,PREDICTABLE_BUT_NOT_NECESSARY,5/5,🟢
+age 18-75 years,Age,5/5,🟢,PREDICTABLE_BUT_NOT_NECESSARY,5/5,🟢
+age ≥18 years,Age,5/5,🟢,PREDICTABLE_BUT_NOT_NECESSARY,5/5,🟢
+allogeneic transplant,Transplant History,5/5,🟢,PREDICTABLE_BUT_NOT_NECESSARY,4/5,🟢
+alpha-fetoprotein level,Tumor Markers,5/5,🟢,PREDICTABLE_BUT_NOT_NECESSARY,5/5,🟢
+amenability to consolidation immunotherapy,Treatment Amenability,5/5,🟢,PREDICTABLE_AND_NECESSARY,3/5,🟡
+anti-hepatitis b core antibody,Hepatitis B/C Status,5/5,🟢,PREDICTABLE_BUT_NOT_NECESSARY,5/5,🟢
+anticoagulant treatment,Anticoagulation Therapy,5/5,🟢,PREDICTABLE_BUT_NOT_NECESSARY,5/5,🟢
+anticoagulation treatment,Anticoagulation Therapy,5/5,🟢,PREDICTABLE_BUT_NOT_NECESSARY,5/5,🟢
+arterial thrombotic events,Thrombotic Events,5/5,🟢,PREDICTABLE_AND_NECESSARY,4/5,🟢
+autoimmune disease,Autoimmune Disease,5/5,🟢,PREDICTABLE_AND_NECESSARY,4/5,🟢
+autoimmune disease or immune deficiency,Autoimmune Disease,4/5,🟢,PREDICTABLE_AND_NECESSARY,4/5,🟢
+autoimmune diseases,Autoimmune Disease,5/5,🟢,PREDICTABLE_AND_NECESSARY,4/5,🟢
+autoimmune disorder,Autoimmune Disease,5/5,🟢,PREDICTABLE_AND_NECESSARY,4/5,🟢
+autoimmune disorders,Autoimmune Disease,5/5,🟢,PREDICTABLE_AND_NECESSARY,4/5,🟢
+autoimmune/inflammatory disorders,Autoimmune Disease,5/5,🟢,PREDICTABLE_AND_NECESSARY,4/5,🟢
+bevacizumab treatment continuity,Prior Anti-VEGF Therapy,5/5,🟢,PREDICTABLE_AND_NECESSARY,3/5,🟡
+bilirubin,Hepatic Function,5/5,🟢,PREDICTABLE_BUT_NOT_NECESSARY,5/5,🟢
+bleeding disorders,Bleeding/Coagulation Disorders,5/5,🟢,PREDICTABLE_BUT_NOT_NECESSARY,4/5,🟢
+blood pressure control,Blood Pressure/Hypertension,5/5,🟢,PREDICTABLE_BUT_NOT_NECESSARY,5/5,🟢
+body weight,Body Weight and Nutritional Status,5/5,🟢,PREDICTABLE_BUT_NOT_NECESSARY,5/5,🟢
+brain mri or ct prior to registration,Imaging Requirements,5/5,🟢,PREDICTABLE_BUT_NOT_NECESSARY,4/5,🟢
+brain imaging,Imaging Requirements,5/5,🟢,PREDICTABLE_BUT_NOT_NECESSARY,4/5,🟢
+brain metastases,Brain/CNS Metastases,5/5,🟢,PREDICTABLE_AND_NECESSARY,3/5,🟡
+cns metastases,Brain/CNS Metastases,5/5,🟢,PREDICTABLE_AND_NECESSARY,3/5,🟡
+copd with respiratory failure,Pulmonary Function,5/5,🟢,PREDICTABLE_BUT_NOT_NECESSARY,4/5,🟢
+crt sequence,Prior Chemoradiation,3/5,🟡,PREDICTABLE_AND_NECESSARY,3/5,🟡
+ct chest with iv contrast or pet/ct,Imaging Requirements,5/5,🟢,PREDICTABLE_BUT_NOT_NECESSARY,4/5,🟢
+cyp3a4 inhibitors/inducers,Drug Interactions,5/5,🟢,PREDICTABLE_BUT_NOT_NECESSARY,3/5,🟡
+carcinomatous meningitis,Brain/CNS Metastases,5/5,🟢,PREDICTABLE_AND_NECESSARY,3/5,🟡
+cardiac aneurysms,Cardiac Function,3/5,🟡,PREDICTABLE_BUT_NOT_NECESSARY,3/5,🟡
+cardiac conditions,Cardiac Function,5/5,🟢,PREDICTABLE_BUT_NOT_NECESSARY,3/5,🟡
+cardiac disease,Cardiac Function,5/5,🟢,PREDICTABLE_BUT_NOT_NECESSARY,3/5,🟡
+cardiac disease history,Cardiac Function,5/5,🟢,PREDICTABLE_BUT_NOT_NECESSARY,3/5,🟡
+cardiac function,Cardiac Function,5/5,🟢,PREDICTABLE_BUT_NOT_NECESSARY,3/5,🟡
+cardiovascular disease,Cardiac Function,4/5,🟢,PREDICTABLE_BUT_NOT_NECESSARY,3/5,🟡
+centrally located primary tumor <2 cm from nodal disease (overlap risk),Primary Tumor Characteristics,5/5,🟢,PREDICTABLE_BUT_NOT_NECESSARY,4/5,🟢
+chemotherapy cycles,Prior Chemotherapy,5/5,🟢,PREDICTABLE_AND_NECESSARY,3/5,🟡
+chemotherapy timing,Treatment Timing,5/5,🟢,PREDICTABLE_BUT_NOT_NECESSARY,4/5,🟢
+child-pugh classification,Hepatic Function,5/5,🟢,PREDICTABLE_BUT_NOT_NECESSARY,5/5,🟢
+chronic immunosuppression,Immunosuppression/Immunodeficiency,5/5,🟢,PREDICTABLE_AND_NECESSARY,4/5,🟢
+cisplatin-based chemotherapy,Prior Chemotherapy,5/5,🟢,PREDICTABLE_AND_NECESSARY,3/5,🟡
+coagulation disorders,Bleeding/Coagulation Disorders,5/5,🟢,PREDICTABLE_BUT_NOT_NECESSARY,4/5,🟢
+complete resection,Surgical Resectability/Status,5/5,🟢,PREDICTABLE_AND_NECESSARY,4/5,🟢
+concurrent hbv/hcv,Hepatitis B/C Status,5/5,🟢,PREDICTABLE_BUT_NOT_NECESSARY,5/5,🟢
+concurrent anti-cancer therapy,Concurrent Anti-Cancer Therapy,5/5,🟢,PREDICTABLE_BUT_NOT_NECESSARY,4/5,🟢
+concurrent antineoplastic therapy,Concurrent Anti-Cancer Therapy,5/5,🟢,PREDICTABLE_BUT_NOT_NECESSARY,4/5,🟢
+concurrent clinical trials,Investigational Study Participation,5/5,🟢,PREDICTABLE_AND_NECESSARY,2/5,🔴
+concurrent/prior malignancy,Prior/Concurrent Malignancy,5/5,🟢,PREDICTABLE_AND_NECESSARY,4/5,🟢
+consent compliance,Study Compliance,3/5,🟡,NOT_PREDICTABLE,3/5,🟡
+contraception,Contraception Requirements,5/5,🟢,NOT_PREDICTABLE,3/5,🟡
+contraception compliance,Contraception Requirements,4/5,🟢,NOT_PREDICTABLE,3/5,🟡
+contraceptive use,Contraception Requirements,5/5,🟢,NOT_PREDICTABLE,3/5,🟡
+contraceptive use compliance,Contraception Requirements,4/5,🟢,NOT_PREDICTABLE,3/5,🟡
+creatinine clearance,Renal Function,5/5,🟢,PREDICTABLE_BUT_NOT_NECESSARY,5/5,🟢
+creatinine clearance ≥25 ml/min (cockcroft-gault),Renal Function,5/5,🟢,PREDICTABLE_BUT_NOT_NECESSARY,5/5,🟢
+curative intent eligibility (clinical appropriateness),Treatment Amenability,5/5,🟢,PREDICTABLE_AND_NECESSARY,3/5,🟡
+denosumab use,Specific Prior Treatment Agents,3/5,🟡,PREDICTABLE_BUT_NOT_NECESSARY,3/5,🟡
+diabetes,Diabetes,5/5,🟢,PREDICTABLE_BUT_NOT_NECESSARY,4/5,🟢
+diagnosis,Diagnosis Confirmation,5/5,🟢,PREDICTABLE_BUT_NOT_NECESSARY,4/5,🟢
+disease progression,Disease Progression,5/5,🟢,PREDICTABLE_AND_NECESSARY,5/5,🟢
+disease progression after anti-pd-1/pd-l1,Disease Progression,5/5,🟢,PREDICTABLE_AND_NECESSARY,5/5,🟢
+disease progression after neoadjuvant/adjuvant/consolidation anti-pd-1/pd-l1,Disease Progression,5/5,🟢,PREDICTABLE_AND_NECESSARY,5/5,🟢
+disease progression status,Disease Progression,5/5,🟢,PREDICTABLE_AND_NECESSARY,5/5,🟢
+disease recurrence timing,Disease Recurrence,5/5,🟢,PREDICTABLE_AND_NECESSARY,5/5,🟢
+drug allergy history,Drug Hypersensitivity/Allergy,5/5,🟢,PREDICTABLE_BUT_NOT_NECESSARY,4/5,🟢
+drug hypersensitivity,Drug Hypersensitivity/Allergy,5/5,🟢,PREDICTABLE_BUT_NOT_NECESSARY,4/5,🟢
+drug intolerance,Drug Hypersensitivity/Allergy,2/5,🔴,PREDICTABLE_BUT_NOT_NECESSARY,4/5,🟢
+ebv infection,EBV Infection,5/5,🟢,PREDICTABLE_BUT_NOT_NECESSARY,4/5,🟢
+ecg abnormalities,ECG Abnormalities,5/5,🟢,PREDICTABLE_BUT_NOT_NECESSARY,5/5,🟢
+ecog ps,Performance Status,5/5,🟢,PREDICTABLE_AND_NECESSARY,5/5,🟢
+ecog performance status,Performance Status,5/5,🟢,PREDICTABLE_AND_NECESSARY,5/5,🟢
+ecog performance status 0-2,Performance Status,5/5,🟢,PREDICTABLE_AND_NECESSARY,5/5,🟢
+egfr tki treatment failure,Prior Targeted Therapy,5/5,🟢,PREDICTABLE_AND_NECESSARY,3/5,🟡
+egfr mutation,EGFR Mutation Status,5/5,🟢,NOT_PREDICTABLE,5/5,🟢
+egfr mutation status,EGFR Mutation Status,5/5,🟢,NOT_PREDICTABLE,5/5,🟢
+egfr status,EGFR Mutation Status,5/5,🟢,NOT_PREDICTABLE,5/5,🟢
+egfr/alk status,Actionable Genomic Alterations,5/5,🟢,NOT_PREDICTABLE,5/5,🟢
+echocardiogram findings,Cardiac Function,5/5,🟢,PREDICTABLE_BUT_NOT_NECESSARY,3/5,🟡
+end-organ function,Organ Function,5/5,🟢,PREDICTABLE_BUT_NOT_NECESSARY,5/5,🟢
+epstein-barr virus (ebv) infection,EBV Infection,5/5,🟢,PREDICTABLE_BUT_NOT_NECESSARY,4/5,🟢
+expected survival,Life Expectancy,5/5,🟢,PREDICTABLE_AND_NECESSARY,5/5,🟢
+extracapsular extension,Primary Tumor Characteristics,3/5,🟡,PREDICTABLE_BUT_NOT_NECESSARY,4/5,🟢
+female contraception compliance,Contraception Requirements,5/5,🟢,NOT_PREDICTABLE,3/5,🟡
+female pregnancy status,Pregnancy/Lactation Status,4/5,🟢,PREDICTABLE_BUT_NOT_NECESSARY,5/5,🟢
+genetic informed consent,Informed Consent,3/5,🟡,NOT_PREDICTABLE,4/5,🟢
+germline sequencing,Genetic/Germline Testing,5/5,🟢,NOT_PREDICTABLE,5/5,🟢
+grade 3 active infection,Active Infection,5/5,🟢,PREDICTABLE_AND_NECESSARY,3/5,🟡
+grade ≥2 pneumonitis from prior crt,Interstitial Lung Disease/Pneumonitis,5/5,🟢,PREDICTABLE_AND_NECESSARY,4/5,🟢
+gross disease remaining,Residual Disease,5/5,🟢,PREDICTABLE_AND_NECESSARY,5/5,🟢
+hbv infection,Hepatitis B/C Status,5/5,🟢,PREDICTABLE_BUT_NOT_NECESSARY,5/5,🟢
+hbv status,Hepatitis B/C Status,5/5,🟢,PREDICTABLE_BUT_NOT_NECESSARY,5/5,🟢
+hcc diagnosis,Diagnosis Confirmation,5/5,🟢,PREDICTABLE_BUT_NOT_NECESSARY,4/5,🟢
+hcv infection,Hepatitis B/C Status,5/5,🟢,PREDICTABLE_BUT_NOT_NECESSARY,5/5,🟢
+hcv status,Hepatitis B/C Status,5/5,🟢,PREDICTABLE_BUT_NOT_NECESSARY,5/5,🟢
+her2 status,HER2 Status,5/5,🟢,NOT_PREDICTABLE,5/5,🟢
+hiv infection,HIV Status,5/5,🟢,PREDICTABLE_BUT_NOT_NECESSARY,5/5,🟢
+hiv status,HIV Status,5/5,🟢,PREDICTABLE_BUT_NOT_NECESSARY,5/5,🟢
+hematologic function,Hematologic Function,5/5,🟢,PREDICTABLE_BUT_NOT_NECESSARY,5/5,🟢
+hematologic function amenable to chemo/radiation,Hematologic Function,4/5,🟢,PREDICTABLE_BUT_NOT_NECESSARY,5/5,🟢
+hematological function,Hematologic Function,5/5,🟢,PREDICTABLE_BUT_NOT_NECESSARY,5/5,🟢
+hemoglobin,Hematologic Function,5/5,🟢,PREDICTABLE_BUT_NOT_NECESSARY,5/5,🟢
+hemoglobin level,Hematologic Function,5/5,🟢,PREDICTABLE_BUT_NOT_NECESSARY,5/5,🟢
+hemoptysis history,Bleeding/Coagulation Disorders,4/5,🟢,PREDICTABLE_BUT_NOT_NECESSARY,4/5,🟢
+hepatic disorder,Hepatic Function,5/5,🟢,PREDICTABLE_BUT_NOT_NECESSARY,5/5,🟢
+hepatitis b surface antigen,Hepatitis B/C Status,5/5,🟢,PREDICTABLE_BUT_NOT_NECESSARY,5/5,🟢
+hepatitis status,Hepatitis B/C Status,5/5,🟢,PREDICTABLE_BUT_NOT_NECESSARY,5/5,🟢
+histology,Tumor Histology,5/5,🟢,PREDICTABLE_BUT_NOT_NECESSARY,4/5,🟢
+histology exclusion,Tumor Histology,5/5,🟢,PREDICTABLE_BUT_NOT_NECESSARY,4/5,🟢
+hypersensitivity,Drug Hypersensitivity/Allergy,5/5,🟢,PREDICTABLE_BUT_NOT_NECESSARY,4/5,🟢
+hypersensitivity to carboplatin or nab-paclitaxel,Drug Hypersensitivity/Allergy,5/5,🟢,PREDICTABLE_BUT_NOT_NECESSARY,4/5,🟢
+hypersensitivity to monoclonal antibodies,Drug Hypersensitivity/Allergy,5/5,🟢,PREDICTABLE_BUT_NOT_NECESSARY,4/5,🟢
+ild,Interstitial Lung Disease/Pneumonitis,5/5,🟢,PREDICTABLE_AND_NECESSARY,4/5,🟢
+ild/pneumonitis,Interstitial Lung Disease/Pneumonitis,5/5,🟢,PREDICTABLE_AND_NECESSARY,4/5,🟢
+inr,Bleeding/Coagulation Disorders,5/5,🟢,PREDICTABLE_BUT_NOT_NECESSARY,4/5,🟢
+identified primary tumor and at least one nodal metastasis,Primary Tumor Characteristics,4/5,🟢,PREDICTABLE_BUT_NOT_NECESSARY,4/5,🟢
+idiopathic pulmonary fibrosis/pneumonitis,Interstitial Lung Disease/Pneumonitis,5/5,🟢,PREDICTABLE_AND_NECESSARY,4/5,🟢
+imaging timing,Imaging Requirements,5/5,🟢,PREDICTABLE_BUT_NOT_NECESSARY,4/5,🟢
+immune-mediated therapy,Prior Immunotherapy/Checkpoint Inhibitors,5/5,🟢,PREDICTABLE_AND_NECESSARY,3/5,🟡
+immunocompromised state,Immunosuppression/Immunodeficiency,5/5,🟢,PREDICTABLE_AND_NECESSARY,4/5,🟢
+immunostimulatory agents,Concurrent Anti-Cancer Therapy,2/5,🔴,PREDICTABLE_BUT_NOT_NECESSARY,4/5,🟢
+immunosuppressive medication,Immunosuppression/Immunodeficiency,4/5,🟢,PREDICTABLE_AND_NECESSARY,4/5,🟢
+immunosuppressive therapy,Immunosuppression/Immunodeficiency,5/5,🟢,PREDICTABLE_AND_NECESSARY,4/5,🟢
+infection,Active Infection,5/5,🟢,PREDICTABLE_AND_NECESSARY,3/5,🟡
+inflammatory bowel disease,Autoimmune Disease,4/5,🟢,PREDICTABLE_AND_NECESSARY,4/5,🟢
+informed consent,Informed Consent,5/5,🟢,NOT_PREDICTABLE,4/5,🟢
+inoperability status,Surgical Resectability/Status,5/5,🟢,PREDICTABLE_AND_NECESSARY,4/5,🟢
+interstitial lung disease,Interstitial Lung Disease/Pneumonitis,5/5,🟢,PREDICTABLE_AND_NECESSARY,4/5,🟢
+interstitial lung disease/pneumonitis,Interstitial Lung Disease/Pneumonitis,5/5,🟢,PREDICTABLE_AND_NECESSARY,4/5,🟢
+investigational study participation,Investigational Study Participation,5/5,🟢,PREDICTABLE_AND_NECESSARY,2/5,🔴
+investigational therapy,Investigational Study Participation,5/5,🟢,PREDICTABLE_AND_NECESSARY,2/5,🔴
+investigator discretion,Investigator Assessment,5/5,🟢,NOT_PREDICTABLE,4/5,🟢
+investigator judgment,Investigator Assessment,5/5,🟢,NOT_PREDICTABLE,4/5,🟢
+investigator judgment early termination risk,Investigator Assessment,5/5,🟢,NOT_PREDICTABLE,4/5,🟢
+keap1 mutation,KRAS/STK11/KEAP1 Mutation Status,5/5,🟢,NOT_PREDICTABLE,5/5,🟢
+kras mutation,KRAS/STK11/KEAP1 Mutation Status,5/5,🟢,NOT_PREDICTABLE,5/5,🟢
+kaposi sarcoma/mcd in hiv,Prior/Concurrent Malignancy,4/5,🟢,PREDICTABLE_AND_NECESSARY,4/5,🟢
+known egfr/alk/other driver mutation,Actionable Genomic Alterations,5/5,🟢,NOT_PREDICTABLE,5/5,🟢
+known pd-l1 result,PD-L1 Expression Status,5/5,🟢,NOT_PREDICTABLE,5/5,🟢
+lab abnormalities,Organ Function,5/5,🟢,PREDICTABLE_BUT_NOT_NECESSARY,5/5,🟢
+left ventricular ejection fraction,Cardiac Function,5/5,🟢,PREDICTABLE_BUT_NOT_NECESSARY,3/5,🟡
+leptomeningeal carcinomatosis,Brain/CNS Metastases,5/5,🟢,PREDICTABLE_AND_NECESSARY,3/5,🟡
+life expectancy,Life Expectancy,5/5,🟢,PREDICTABLE_AND_NECESSARY,5/5,🟢
+life-threatening non-cancer illness,Intercurrent Illness,5/5,🟢,PREDICTABLE_AND_NECESSARY,3/5,🟡
+live attenuated vaccination,Live Vaccination,5/5,🟢,PREDICTABLE_BUT_NOT_NECESSARY,4/5,🟢
+live vaccination,Live Vaccination,5/5,🟢,PREDICTABLE_BUT_NOT_NECESSARY,4/5,🟢
+live vaccine,Live Vaccination,5/5,🟢,PREDICTABLE_BUT_NOT_NECESSARY,4/5,🟢
+liver enzymes,Hepatic Function,5/5,🟢,PREDICTABLE_BUT_NOT_NECESSARY,5/5,🟢
+liver function,Hepatic Function,5/5,🟢,PREDICTABLE_BUT_NOT_NECESSARY,5/5,🟢
+mds/aml,Prior/Concurrent Malignancy,5/5,🟢,PREDICTABLE_AND_NECESSARY,4/5,🟢
+mrd status,MRD Status,5/5,🟢,NOT_PREDICTABLE,5/5,🟢
+maintenance therapy history,Prior Systemic Therapy,5/5,🟢,PREDICTABLE_AND_NECESSARY,3/5,🟡
+major surgery,Prior Surgery,5/5,🟢,PREDICTABLE_BUT_NOT_NECESSARY,3/5,🟡
+malabsorption syndromes,Gastrointestinal Function,5/5,🟢,PREDICTABLE_BUT_NOT_NECESSARY,3/5,🟡
+male contraception,Contraception Requirements,5/5,🟢,NOT_PREDICTABLE,3/5,🟡
+male contraception compliance,Contraception Requirements,5/5,🟢,NOT_PREDICTABLE,3/5,🟡
+measurable disease,Measurable Disease,5/5,🟢,PREDICTABLE_AND_NECESSARY,4/5,🟢
+medical/psychiatric conditions,Neurological/Psychiatric Conditions,4/5,🟢,PREDICTABLE_AND_NECESSARY,3/5,🟡
+metastatic disease,Metastatic Disease Status,5/5,🟢,PREDICTABLE_AND_NECESSARY,3/5,🟡
+metastatic or locally recurrent gastro-oesophageal cancer,Metastatic Disease Status,3/5,🟡,PREDICTABLE_AND_NECESSARY,3/5,🟡
+minimal pleural effusion eligibility,Pleural/Pericardial Effusion,5/5,🟢,PREDICTABLE_AND_NECESSARY,3/5,🟡
+mixed histology,Tumor Histology,5/5,🟢,PREDICTABLE_BUT_NOT_NECESSARY,4/5,🟢
+mixed tumor histology,Tumor Histology,5/5,🟢,PREDICTABLE_BUT_NOT_NECESSARY,4/5,🟢
+monoclonal antibody hypersensitivity,Drug Hypersensitivity/Allergy,5/5,🟢,PREDICTABLE_BUT_NOT_NECESSARY,4/5,🟢
+n2 node sampling,Mediastinal/Lymph Node Staging,5/5,🟢,PREDICTABLE_AND_NECESSARY,3/5,🟡
+nsclc histology,Tumor Histology,5/5,🟢,PREDICTABLE_BUT_NOT_NECESSARY,4/5,🟢
+nsclc histology/cytology confirmation,Diagnosis Confirmation,5/5,🟢,PREDICTABLE_BUT_NOT_NECESSARY,4/5,🟢
+nsclc resection status,Surgical Resectability/Status,5/5,🟢,PREDICTABLE_AND_NECESSARY,4/5,🟢
+nsclc stage,Disease Stage,5/5,🟢,PREDICTABLE_AND_NECESSARY,3/5,🟡
+negative pregnancy test within 14 days,Pregnancy/Lactation Status,5/5,🟢,PREDICTABLE_BUT_NOT_NECESSARY,5/5,🟢
+neoadjuvant radiotherapy,Prior Radiotherapy,4/5,🟢,PREDICTABLE_AND_NECESSARY,3/5,🟡
+neoadjuvant/adjuvant therapy history,Adjuvant/Neoadjuvant Therapy,5/5,🟢,PREDICTABLE_AND_NECESSARY,4/5,🟢
+neurological/psychiatric disorders,Neurological/Psychiatric Conditions,5/5,🟢,PREDICTABLE_AND_NECESSARY,3/5,🟡
+no egfr mutation or alk fusion,Actionable Genomic Alterations,3/5,🟡,NOT_PREDICTABLE,5/5,🟢
+no evidence of stage iv,Disease Stage,5/5,🟢,PREDICTABLE_AND_NECESSARY,3/5,🟡
+no evidence of distant metastases (by fdg pet/ct),Metastatic Disease Status,5/5,🟢,PREDICTABLE_AND_NECESSARY,3/5,🟡
+non-healing wounds,Wound Healing,5/5,🟢,PREDICTABLE_AND_NECESSARY,4/5,🟢
+non-malignant pleural effusion status,Pleural/Pericardial Effusion,5/5,🟢,PREDICTABLE_AND_NECESSARY,3/5,🟡
+non-squamous nsclc histology,Tumor Histology,5/5,🟢,PREDICTABLE_BUT_NOT_NECESSARY,4/5,🟢
+nucleoside analog treatment,Specific Prior Treatment Agents,3/5,🟡,PREDICTABLE_BUT_NOT_NECESSARY,3/5,🟡
+organ and marrow function,Organ Function,5/5,🟢,PREDICTABLE_BUT_NOT_NECESSARY,5/5,🟢
+organ function,Organ Function,5/5,🟢,PREDICTABLE_BUT_NOT_NECESSARY,5/5,🟢
+organ transplant,Transplant History,5/5,🟢,PREDICTABLE_BUT_NOT_NECESSARY,4/5,🟢
+other active malignancy,Prior/Concurrent Malignancy,5/5,🟢,PREDICTABLE_AND_NECESSARY,4/5,🟢
+other driver oncogenes,Actionable Genomic Alterations,5/5,🟢,NOT_PREDICTABLE,5/5,🟢
+other malignancy,Prior/Concurrent Malignancy,5/5,🟢,PREDICTABLE_AND_NECESSARY,4/5,🟢
+other primary malignancy,Prior/Concurrent Malignancy,5/5,🟢,PREDICTABLE_AND_NECESSARY,4/5,🟢
+pd-1/pd-l1 expression,PD-L1 Expression Status,5/5,🟢,NOT_PREDICTABLE,5/5,🟢
+pd-l1 biomarker,PD-L1 Expression Status,5/5,🟢,NOT_PREDICTABLE,5/5,🟢
+pd-l1 expression,PD-L1 Expression Status,5/5,🟢,NOT_PREDICTABLE,5/5,🟢
+pd-l1 status,PD-L1 Expression Status,5/5,🟢,NOT_PREDICTABLE,5/5,🟢
+pd-l1 status exclusion,PD-L1 Expression Status,5/5,🟢,NOT_PREDICTABLE,5/5,🟢
+pd-l1 testing,PD-L1 Expression Status,5/5,🟢,NOT_PREDICTABLE,5/5,🟢
+pd-l1 tissue,PD-L1 Expression Status,4/5,🟢,NOT_PREDICTABLE,5/5,🟢
+pet-ct timing,Imaging Requirements,5/5,🟢,PREDICTABLE_BUT_NOT_NECESSARY,4/5,🟢
+pet/ct staging,Imaging Requirements,5/5,🟢,PREDICTABLE_BUT_NOT_NECESSARY,4/5,🟢
+"pathologically proven non-operable stage iib or iii, node positive nsclc",Disease Stage,3/5,🟡,PREDICTABLE_AND_NECESSARY,3/5,🟡
+performance status,Performance Status,5/5,🟢,PREDICTABLE_AND_NECESSARY,5/5,🟢
+pericardial effusion,Pleural/Pericardial Effusion,5/5,🟢,PREDICTABLE_AND_NECESSARY,3/5,🟡
+platelet count,Hematologic Function,5/5,🟢,PREDICTABLE_BUT_NOT_NECESSARY,5/5,🟢
+platelets,Hematologic Function,5/5,🟢,PREDICTABLE_BUT_NOT_NECESSARY,5/5,🟢
+platinum allergy,Drug Hypersensitivity/Allergy,5/5,🟢,PREDICTABLE_BUT_NOT_NECESSARY,4/5,🟢
+platinum doublet contraindication,Treatment Contraindications,5/5,🟢,PREDICTABLE_AND_NECESSARY,3/5,🟡
+platinum doublet cycles,Prior Chemotherapy,5/5,🟢,PREDICTABLE_AND_NECESSARY,3/5,🟡
+platinum doublet progression,Disease Progression,5/5,🟢,PREDICTABLE_AND_NECESSARY,5/5,🟢
+platinum-based chemotherapy contraindication,Treatment Contraindications,5/5,🟢,PREDICTABLE_AND_NECESSARY,3/5,🟡
+pleural fluid cytology if effusion visible on ct and x-ray,Pleural/Pericardial Effusion,4/5,🟢,PREDICTABLE_AND_NECESSARY,3/5,🟡
+pneumonitis,Interstitial Lung Disease/Pneumonitis,5/5,🟢,PREDICTABLE_AND_NECESSARY,4/5,🟢
+pneumonitis history,Interstitial Lung Disease/Pneumonitis,5/5,🟢,PREDICTABLE_AND_NECESSARY,4/5,🟢
+pneumonitis/ild,Interstitial Lung Disease/Pneumonitis,5/5,🟢,PREDICTABLE_AND_NECESSARY,4/5,🟢
+positive microscopic margins,Residual Disease,3/5,🟡,PREDICTABLE_AND_NECESSARY,5/5,🟢
+post-op chest ct,Imaging Requirements,5/5,🟢,PREDICTABLE_BUT_NOT_NECESSARY,4/5,🟢
+post-op recurrence,Disease Recurrence,5/5,🟢,PREDICTABLE_AND_NECESSARY,5/5,🟢
+pre-op fdg-pet/ct,Imaging Requirements,5/5,🟢,PREDICTABLE_BUT_NOT_NECESSARY,4/5,🟢
+pre-op chest ct/mri,Imaging Requirements,5/5,🟢,PREDICTABLE_BUT_NOT_NECESSARY,4/5,🟢
+pre-op imaging coverage,Imaging Requirements,5/5,🟢,PREDICTABLE_BUT_NOT_NECESSARY,4/5,🟢
+pre-op mediastinal staging,Mediastinal/Lymph Node Staging,5/5,🟢,PREDICTABLE_AND_NECESSARY,3/5,🟡
+pre-surgical plasma sample,Tumor Tissue/Biospecimen,5/5,🟢,NOT_PREDICTABLE,4/5,🟢
+pregnancy or unwillingness to discontinue nursing,Pregnancy/Lactation Status,5/5,🟢,PREDICTABLE_BUT_NOT_NECESSARY,5/5,🟢
+pregnancy status,Pregnancy/Lactation Status,5/5,🟢,PREDICTABLE_BUT_NOT_NECESSARY,5/5,🟢
+pregnancy test,Pregnancy/Lactation Status,5/5,🟢,PREDICTABLE_BUT_NOT_NECESSARY,5/5,🟢
+pregnancy/breastfeeding status,Pregnancy/Lactation Status,5/5,🟢,PREDICTABLE_BUT_NOT_NECESSARY,5/5,🟢
+pregnancy/lactation status,Pregnancy/Lactation Status,5/5,🟢,PREDICTABLE_BUT_NOT_NECESSARY,5/5,🟢
+previous malignancies,Prior/Concurrent Malignancy,5/5,🟢,PREDICTABLE_AND_NECESSARY,4/5,🟢
+primary immunodeficiency,Immunosuppression/Immunodeficiency,5/5,🟢,PREDICTABLE_AND_NECESSARY,4/5,🟢
+primary tumor site,Primary Tumor Characteristics,5/5,🟢,PREDICTABLE_BUT_NOT_NECESSARY,4/5,🟢
+primary tumor size ≤7 cm,Primary Tumor Characteristics,5/5,🟢,PREDICTABLE_BUT_NOT_NECESSARY,4/5,🟢
+prior nsclc therapy,Prior Systemic Therapy,5/5,🟢,PREDICTABLE_AND_NECESSARY,3/5,🟡
+prior parp inhibitor,Prior Targeted Therapy,3/5,🟡,PREDICTABLE_AND_NECESSARY,3/5,🟡
+prior pd-1/pd-l1 treatment,Prior Immunotherapy/Checkpoint Inhibitors,5/5,🟢,PREDICTABLE_AND_NECESSARY,3/5,🟡
+prior stage iii therapy,Prior Systemic Therapy,5/5,🟢,PREDICTABLE_AND_NECESSARY,3/5,🟡
+prior tki/crizotinib treatment,Prior Targeted Therapy,5/5,🟢,PREDICTABLE_AND_NECESSARY,3/5,🟡
+prior adjuvant therapy,Adjuvant/Neoadjuvant Therapy,5/5,🟢,PREDICTABLE_AND_NECESSARY,4/5,🟢
+prior anti-pd-1/pd-l1,Prior Immunotherapy/Checkpoint Inhibitors,5/5,🟢,PREDICTABLE_AND_NECESSARY,3/5,🟡
+prior anti-pd-1/pd-l1 therapy,Prior Immunotherapy/Checkpoint Inhibitors,5/5,🟢,PREDICTABLE_AND_NECESSARY,3/5,🟡
+prior anti-tigit therapy,Prior Immunotherapy/Checkpoint Inhibitors,5/5,🟢,PREDICTABLE_AND_NECESSARY,3/5,🟡
+prior anti-vegf therapy,Prior Anti-VEGF Therapy,5/5,🟢,PREDICTABLE_AND_NECESSARY,3/5,🟡
+prior anti-cancer therapy lines,Prior Systemic Therapy,5/5,🟢,PREDICTABLE_AND_NECESSARY,3/5,🟡
+prior bevacizumab plus platinum doublet treatment,Prior Anti-VEGF Therapy,5/5,🟢,PREDICTABLE_AND_NECESSARY,3/5,🟡
+prior checkpoint inhibitor,Prior Immunotherapy/Checkpoint Inhibitors,5/5,🟢,PREDICTABLE_AND_NECESSARY,3/5,🟡
+prior checkpoint inhibitor use,Prior Immunotherapy/Checkpoint Inhibitors,5/5,🟢,PREDICTABLE_AND_NECESSARY,3/5,🟡
+prior checkpoint therapy,Prior Immunotherapy/Checkpoint Inhibitors,5/5,🟢,PREDICTABLE_AND_NECESSARY,3/5,🟡
+prior chemoradiation,Prior Chemoradiation,5/5,🟢,PREDICTABLE_AND_NECESSARY,3/5,🟡
+prior high-dose chemotherapy,Prior Chemotherapy,5/5,🟢,PREDICTABLE_AND_NECESSARY,3/5,🟡
+prior immune-mediated therapy,Prior Immunotherapy/Checkpoint Inhibitors,5/5,🟢,PREDICTABLE_AND_NECESSARY,3/5,🟡
+prior immunotherapy,Prior Immunotherapy/Checkpoint Inhibitors,5/5,🟢,PREDICTABLE_AND_NECESSARY,3/5,🟡
+prior lung radiation,Prior Radiotherapy,5/5,🟢,PREDICTABLE_AND_NECESSARY,3/5,🟡
+prior neoadjuvant therapy,Adjuvant/Neoadjuvant Therapy,5/5,🟢,PREDICTABLE_AND_NECESSARY,4/5,🟢
+prior or concurrent malignancy not interfering with trial,Prior/Concurrent Malignancy,5/5,🟢,PREDICTABLE_AND_NECESSARY,4/5,🟢
+prior platinum-based therapy,Prior Chemotherapy,5/5,🟢,PREDICTABLE_AND_NECESSARY,3/5,🟡
+prior radiotherapy to the study cancer,Prior Radiotherapy,5/5,🟢,PREDICTABLE_AND_NECESSARY,3/5,🟡
+prior sorafenib treatment,Prior Targeted Therapy,3/5,🟡,PREDICTABLE_AND_NECESSARY,3/5,🟡
+prior systemic therapy,Prior Systemic Therapy,5/5,🟢,PREDICTABLE_AND_NECESSARY,3/5,🟡
+prior systemic therapy for current cancer,Prior Systemic Therapy,5/5,🟢,PREDICTABLE_AND_NECESSARY,3/5,🟡
+prior systemic treatment,Prior Systemic Therapy,5/5,🟢,PREDICTABLE_AND_NECESSARY,3/5,🟡
+prior systemic treatment history,Prior Systemic Therapy,5/5,🟢,PREDICTABLE_AND_NECESSARY,3/5,🟡
+prior targeted therapy for sensitizing mutation,Prior Targeted Therapy,5/5,🟢,PREDICTABLE_AND_NECESSARY,3/5,🟡
+prior therapy,Prior Systemic Therapy,5/5,🟢,PREDICTABLE_AND_NECESSARY,3/5,🟡
+prior therapy lines,Prior Systemic Therapy,5/5,🟢,PREDICTABLE_AND_NECESSARY,3/5,🟡
+prior thoracic radiotherapy,Prior Radiotherapy,5/5,🟢,PREDICTABLE_AND_NECESSARY,3/5,🟡
+prior trastuzumab treatment,Specific Prior Treatment Agents,3/5,🟡,PREDICTABLE_BUT_NOT_NECESSARY,3/5,🟡
+prior treatment,Prior Systemic Therapy,5/5,🟢,PREDICTABLE_AND_NECESSARY,3/5,🟡
+progression during crt,Disease Progression,5/5,🟢,PREDICTABLE_AND_NECESSARY,5/5,🟢
+proteinuria,Proteinuria,5/5,🟢,PREDICTABLE_BUT_NOT_NECESSARY,5/5,🟢
+psychotropic drug or alcohol abuse,Neurological/Psychiatric Conditions,4/5,🟢,PREDICTABLE_AND_NECESSARY,3/5,🟡
+pulmonary conditions,Pulmonary Function,5/5,🟢,PREDICTABLE_BUT_NOT_NECESSARY,4/5,🟢
+pulmonary fibrosis/pneumonitis,Interstitial Lung Disease/Pneumonitis,5/5,🟢,PREDICTABLE_AND_NECESSARY,4/5,🟢
+pulmonary function,Pulmonary Function,5/5,🟢,PREDICTABLE_BUT_NOT_NECESSARY,4/5,🟢
+pulmonary interstitial fibrosis,Interstitial Lung Disease/Pneumonitis,5/5,🟢,PREDICTABLE_AND_NECESSARY,4/5,🟢
+recist 1.1 evaluable disease by ct scan,Measurable Disease,5/5,🟢,PREDICTABLE_AND_NECESSARY,4/5,🟢
+recist evaluable lesions,Measurable Disease,5/5,🟢,PREDICTABLE_AND_NECESSARY,4/5,🟢
+recist v1.1 measurable disease,Measurable Disease,5/5,🟢,PREDICTABLE_AND_NECESSARY,4/5,🟢
+ros1 rearrangement,ROS1 Rearrangement Status,5/5,🟢,NOT_PREDICTABLE,5/5,🟢
+radiation dose,Prior Radiotherapy,5/5,🟢,PREDICTABLE_AND_NECESSARY,3/5,🟡
+radiation therapy,Prior Radiotherapy,5/5,🟢,PREDICTABLE_AND_NECESSARY,3/5,🟡
+re-resection status,Surgical Resectability/Status,5/5,🟢,PREDICTABLE_AND_NECESSARY,4/5,🟢
+recent biological response modifiers,Prior Immunotherapy/Checkpoint Inhibitors,2/5,🔴,PREDICTABLE_AND_NECESSARY,3/5,🟡
+recent bleeding events,Bleeding/Coagulation Disorders,5/5,🟢,PREDICTABLE_BUT_NOT_NECESSARY,4/5,🟢
+recent drug therapy,Prior Systemic Therapy,3/5,🟡,PREDICTABLE_AND_NECESSARY,3/5,🟡
+recent investigational treatment,Investigational Study Participation,3/5,🟡,PREDICTABLE_AND_NECESSARY,2/5,🔴
+recent radiotherapy,Prior Radiotherapy,4/5,🟢,PREDICTABLE_AND_NECESSARY,3/5,🟡
+recent surgery,Prior Surgery,5/5,🟢,PREDICTABLE_BUT_NOT_NECESSARY,3/5,🟡
+recent systemic therapy,Prior Systemic Therapy,3/5,🟡,PREDICTABLE_AND_NECESSARY,3/5,🟡
+recurrent or refractory nsclc,Advanced/Refractory Disease,5/5,🟢,PREDICTABLE_AND_NECESSARY,5/5,🟢
+renal function,Renal Function,5/5,🟢,PREDICTABLE_BUT_NOT_NECESSARY,5/5,🟢
+resection type,Surgical Resectability/Status,4/5,🟢,PREDICTABLE_AND_NECESSARY,4/5,🟢
+residency and ancestry,Residency/Demographics,5/5,🟢,PREDICTABLE_BUT_NOT_NECESSARY,5/5,🟢
+stk11 mutation,KRAS/STK11/KEAP1 Mutation Status,5/5,🟢,NOT_PREDICTABLE,5/5,🟢
+second malignancy history,Prior/Concurrent Malignancy,5/5,🟢,PREDICTABLE_AND_NECESSARY,4/5,🟢
+second-line therapy refusal,Treatment Amenability,4/5,🟢,PREDICTABLE_AND_NECESSARY,3/5,🟡
+seizure disorder,Neurological/Psychiatric Conditions,5/5,🟢,PREDICTABLE_AND_NECESSARY,3/5,🟡
+sensitizing egfr mutation,EGFR Mutation Status,5/5,🟢,NOT_PREDICTABLE,5/5,🟢
+separate tumor nodules in same lobe,Primary Tumor Characteristics,5/5,🟢,PREDICTABLE_BUT_NOT_NECESSARY,4/5,🟢
+serum albumin,Body Weight and Nutritional Status,4/5,🟢,PREDICTABLE_BUT_NOT_NECESSARY,5/5,🟢
+serum bilirubin,Hepatic Function,5/5,🟢,PREDICTABLE_BUT_NOT_NECESSARY,5/5,🟢
+serum creatinine,Renal Function,5/5,🟢,PREDICTABLE_BUT_NOT_NECESSARY,5/5,🟢
+serum total bilirubin,Hepatic Function,5/5,🟢,PREDICTABLE_BUT_NOT_NECESSARY,5/5,🟢
+severe cardiac disease,Cardiac Function,5/5,🟢,PREDICTABLE_BUT_NOT_NECESSARY,3/5,🟡
+severe infection,Active Infection,5/5,🟢,PREDICTABLE_AND_NECESSARY,3/5,🟡
+severe infections,Active Infection,5/5,🟢,PREDICTABLE_AND_NECESSARY,3/5,🟡
+sex,Sex,5/5,🟢,PREDICTABLE_BUT_NOT_NECESSARY,5/5,🟢
+small cell histology,Tumor Histology,5/5,🟢,PREDICTABLE_BUT_NOT_NECESSARY,4/5,🟢
+small cell lung cancer,Tumor Histology,4/5,🟢,PREDICTABLE_BUT_NOT_NECESSARY,4/5,🟢
+smoking status,Smoking Status,5/5,🟢,PREDICTABLE_BUT_NOT_NECESSARY,4/5,🟢
+spinal cord compression,Brain/CNS Metastases,5/5,🟢,PREDICTABLE_AND_NECESSARY,3/5,🟡
+stage,Disease Stage,5/5,🟢,PREDICTABLE_AND_NECESSARY,3/5,🟡
+stage iiib upstaging,Disease Stage,5/5,🟢,PREDICTABLE_AND_NECESSARY,3/5,🟡
+staging system,Disease Stage,5/5,🟢,PREDICTABLE_AND_NECESSARY,3/5,🟡
+steroid use,Corticosteroid Use,5/5,🟢,PREDICTABLE_BUT_NOT_NECESSARY,4/5,🟢
+study compliance willingness,Study Compliance,5/5,🟢,NOT_PREDICTABLE,3/5,🟡
+surgery recovery,Prior Surgery,4/5,🟢,PREDICTABLE_BUT_NOT_NECESSARY,3/5,🟡
+surgical candidacy,Surgical Resectability/Status,5/5,🟢,PREDICTABLE_AND_NECESSARY,4/5,🟢
+surgical candidate,Surgical Resectability/Status,5/5,🟢,PREDICTABLE_AND_NECESSARY,4/5,🟢
+surgical eligibility,Surgical Resectability/Status,5/5,🟢,PREDICTABLE_AND_NECESSARY,4/5,🟢
+surgical margins,Surgical Resectability/Status,4/5,🟢,PREDICTABLE_AND_NECESSARY,4/5,🟢
+surgical resectability/inoperability/refusal,Surgical Resectability/Status,5/5,🟢,PREDICTABLE_AND_NECESSARY,4/5,🟢
+systemic corticosteroids,Corticosteroid Use,5/5,🟢,PREDICTABLE_BUT_NOT_NECESSARY,4/5,🟢
+systemic disease,Metastatic Disease Status,5/5,🟢,PREDICTABLE_AND_NECESSARY,3/5,🟡
+systemic infection,Active Infection,5/5,🟢,PREDICTABLE_AND_NECESSARY,3/5,🟡
+tace eligibility,Locoregional Therapy Eligibility,5/5,🟢,PREDICTABLE_AND_NECESSARY,4/5,🟢
+tki treatment,Prior Targeted Therapy,5/5,🟢,PREDICTABLE_AND_NECESSARY,3/5,🟡
+tnm staging iiib/iiic/iv,Disease Stage,5/5,🟢,PREDICTABLE_AND_NECESSARY,3/5,🟡
+target lesion,Measurable Disease,5/5,🟢,PREDICTABLE_AND_NECESSARY,4/5,🟢
+thyroid function,Thyroid Function,5/5,🟢,PREDICTABLE_BUT_NOT_NECESSARY,5/5,🟢
+time from progression to randomization,Treatment Timing,5/5,🟢,PREDICTABLE_BUT_NOT_NECESSARY,4/5,🟢
+toxicity,Treatment-Related Toxicity,5/5,🟢,PREDICTABLE_AND_NECESSARY,4/5,🟢
+toxicity from prior therapy,Treatment-Related Toxicity,5/5,🟢,PREDICTABLE_AND_NECESSARY,4/5,🟢
+toxicity recovery,Treatment-Related Toxicity,4/5,🟢,PREDICTABLE_AND_NECESSARY,4/5,🟢
+treatment start feasibility,Treatment Timing,4/5,🟢,PREDICTABLE_BUT_NOT_NECESSARY,4/5,🟢
+tuberculosis,Tuberculosis,5/5,🟢,PREDICTABLE_BUT_NOT_NECESSARY,4/5,🟢
+tumor sample,Tumor Tissue/Biospecimen,5/5,🟢,NOT_PREDICTABLE,4/5,🟢
+tumor tissue,Tumor Tissue/Biospecimen,5/5,🟢,NOT_PREDICTABLE,4/5,🟢
+tumor tissue and blood samples,Tumor Tissue/Biospecimen,5/5,🟢,NOT_PREDICTABLE,4/5,🟢
+tumor tissue provision,Tumor Tissue/Biospecimen,5/5,🟢,NOT_PREDICTABLE,4/5,🟢
+tumor tissue sample,Tumor Tissue/Biospecimen,5/5,🟢,NOT_PREDICTABLE,4/5,🟢
+uncontrolled illness,Intercurrent Illness,5/5,🟢,PREDICTABLE_AND_NECESSARY,3/5,🟡
+uncontrolled intercurrent illness,Intercurrent Illness,5/5,🟢,PREDICTABLE_AND_NECESSARY,3/5,🟡
+unresectable/metastatic disease,Advanced/Refractory Disease,2/5,🔴,PREDICTABLE_AND_NECESSARY,5/5,🟢
+vascular aneurysms,Vascular Conditions,5/5,🟢,PREDICTABLE_BUT_NOT_NECESSARY,4/5,🟢
+venous thrombotic events,Thrombotic Events,5/5,🟢,PREDICTABLE_AND_NECESSARY,4/5,🟢
+viral hepatitis status,Hepatitis B/C Status,5/5,🟢,PREDICTABLE_BUT_NOT_NECESSARY,5/5,🟢
+viral load,Hepatitis B/C Status,2/5,🔴,PREDICTABLE_BUT_NOT_NECESSARY,5/5,🟢
+who performance status,Performance Status,5/5,🟢,PREDICTABLE_AND_NECESSARY,5/5,🟢
+wedge resection,Surgical Resectability/Status,3/5,🟡,PREDICTABLE_AND_NECESSARY,4/5,🟢
+weight loss,Body Weight and Nutritional Status,5/5,🟢,PREDICTABLE_BUT_NOT_NECESSARY,5/5,🟢
+whole blood transfusion,Transfusion Requirements,5/5,🟢,PREDICTABLE_BUT_NOT_NECESSARY,3/5,🟡
+wound healing,Wound Healing,5/5,🟢,PREDICTABLE_AND_NECESSARY,4/5,🟢
+actionable driver oncogenes,Actionable Genomic Alterations,5/5,🟢,NOT_PREDICTABLE,5/5,🟢
+actionable genomic alterations,Actionable Genomic Alterations,5/5,🟢,NOT_PREDICTABLE,5/5,🟢
+actionable molecular alterations,Actionable Genomic Alterations,5/5,🟢,NOT_PREDICTABLE,5/5,🟢
+active second malignancy,Prior/Concurrent Malignancy,5/5,🟢,PREDICTABLE_AND_NECESSARY,4/5,🟢
+adhesive allergy,Drug Hypersensitivity/Allergy,5/5,🟢,PREDICTABLE_BUT_NOT_NECESSARY,4/5,🟢
+adjuvant chemotherapy,Adjuvant/Neoadjuvant Therapy,5/5,🟢,PREDICTABLE_AND_NECESSARY,4/5,🟢
+adjuvant neoadjuvant timing,Treatment Timing,3/5,🟡,PREDICTABLE_BUT_NOT_NECESSARY,4/5,🟢
+adjuvant progression timing,Disease Progression,3/5,🟡,PREDICTABLE_AND_NECESSARY,5/5,🟢
+adjuvant radiotherapy,Adjuvant/Neoadjuvant Therapy,3/5,🟡,PREDICTABLE_AND_NECESSARY,4/5,🟢
+adjuvant therapy,Adjuvant/Neoadjuvant Therapy,5/5,🟢,PREDICTABLE_AND_NECESSARY,4/5,🟢
+alkaline phosphatase,Hepatic Function,5/5,🟢,PREDICTABLE_BUT_NOT_NECESSARY,5/5,🟢
+anc,Hematologic Function,5/5,🟢,PREDICTABLE_BUT_NOT_NECESSARY,5/5,🟢
+arrhythmia history,Cardiac Function,4/5,🟢,PREDICTABLE_BUT_NOT_NECESSARY,3/5,🟡
+ast alt,Hepatic Function,5/5,🟢,PREDICTABLE_BUT_NOT_NECESSARY,5/5,🟢
+autoimmune inflammatory disorder,Autoimmune Disease,5/5,🟢,PREDICTABLE_AND_NECESSARY,4/5,🟢
+biosample provision,Tumor Tissue/Biospecimen,5/5,🟢,NOT_PREDICTABLE,4/5,🟢
+blood pressure,Blood Pressure/Hypertension,5/5,🟢,PREDICTABLE_BUT_NOT_NECESSARY,5/5,🟢
+bone marrow function,Hematologic Function,5/5,🟢,PREDICTABLE_BUT_NOT_NECESSARY,5/5,🟢
+cardiac history,Cardiac Function,5/5,🟢,PREDICTABLE_BUT_NOT_NECESSARY,3/5,🟡
+cardiovascular cerebrovascular condition,Cardiac Function,3/5,🟡,PREDICTABLE_BUT_NOT_NECESSARY,3/5,🟡
+cardiovascular history,Cardiac Function,4/5,🟢,PREDICTABLE_BUT_NOT_NECESSARY,3/5,🟡
+cardiovascular impairment,Cardiac Function,4/5,🟢,PREDICTABLE_BUT_NOT_NECESSARY,3/5,🟡
+cerebrovascular accident,Vascular Conditions,5/5,🟢,PREDICTABLE_BUT_NOT_NECESSARY,4/5,🟢
+chemotherapy recovery,Treatment-Related Toxicity,4/5,🟢,PREDICTABLE_AND_NECESSARY,4/5,🟢
+chronic steroid use,Corticosteroid Use,5/5,🟢,PREDICTABLE_BUT_NOT_NECESSARY,4/5,🟢
+clinical study participation,Investigational Study Participation,5/5,🟢,PREDICTABLE_AND_NECESSARY,2/5,🔴
+cns lesions,Brain/CNS Metastases,5/5,🟢,PREDICTABLE_AND_NECESSARY,3/5,🟡
+compliance,Study Compliance,5/5,🟢,NOT_PREDICTABLE,3/5,🟡
+concurrent anticancer therapy,Concurrent Anti-Cancer Therapy,5/5,🟢,PREDICTABLE_BUT_NOT_NECESSARY,4/5,🟢
+concurrent experimental therapy,Investigational Study Participation,3/5,🟡,PREDICTABLE_AND_NECESSARY,2/5,🔴
+concurrent investigational therapy,Investigational Study Participation,3/5,🟡,PREDICTABLE_AND_NECESSARY,2/5,🔴
+corneal disease,Corneal Disease,5/5,🟢,PREDICTABLE_BUT_NOT_NECESSARY,3/5,🟡
+ct scan,Imaging Requirements,5/5,🟢,PREDICTABLE_BUT_NOT_NECESSARY,4/5,🟢
+curative intent therapy,Treatment Amenability,5/5,🟢,PREDICTABLE_AND_NECESSARY,3/5,🟡
+current pulmonary conditions,Pulmonary Function,5/5,🟢,PREDICTABLE_BUT_NOT_NECESSARY,4/5,🟢
+device operation,Implantable Devices,5/5,🟢,PREDICTABLE_BUT_NOT_NECESSARY,4/5,🟢
+disease burden,Measurable Disease,4/5,🟢,PREDICTABLE_AND_NECESSARY,4/5,🟢
+disease response,Disease Progression,4/5,🟢,PREDICTABLE_AND_NECESSARY,5/5,🟢
+dlco,Pulmonary Function,5/5,🟢,PREDICTABLE_BUT_NOT_NECESSARY,4/5,🟢
+docetaxel contraindication,Treatment Contraindications,5/5,🟢,PREDICTABLE_AND_NECESSARY,3/5,🟡
+drug allergy,Drug Hypersensitivity/Allergy,5/5,🟢,PREDICTABLE_BUT_NOT_NECESSARY,4/5,🟢
+early stage relapse,Disease Recurrence,5/5,🟢,PREDICTABLE_AND_NECESSARY,5/5,🟢
+egfr alk braf ros1 mutation,Actionable Genomic Alterations,5/5,🟢,NOT_PREDICTABLE,5/5,🟢
+egfr alk mutation,Actionable Genomic Alterations,5/5,🟢,NOT_PREDICTABLE,5/5,🟢
+egfr alk ros1,Actionable Genomic Alterations,5/5,🟢,NOT_PREDICTABLE,5/5,🟢
+egfr alk ros1 testing,Actionable Genomic Alterations,4/5,🟢,NOT_PREDICTABLE,5/5,🟢
+egfr alk status,Actionable Genomic Alterations,5/5,🟢,NOT_PREDICTABLE,5/5,🟢
+egfr ros1 alk,Actionable Genomic Alterations,5/5,🟢,NOT_PREDICTABLE,5/5,🟢
+enrollment timing,Treatment Timing,5/5,🟢,PREDICTABLE_BUT_NOT_NECESSARY,4/5,🟢
+fdg pet ct,Imaging Requirements,5/5,🟢,PREDICTABLE_BUT_NOT_NECESSARY,4/5,🟢
+female contraception,Contraception Requirements,5/5,🟢,NOT_PREDICTABLE,3/5,🟡
+fistula,Wound Healing,3/5,🟡,PREDICTABLE_AND_NECESSARY,4/5,🟢
+follow up accessibility,Study Compliance,4/5,🟢,NOT_PREDICTABLE,3/5,🟡
+gi abnormalities,Gastrointestinal Function,5/5,🟢,PREDICTABLE_BUT_NOT_NECESSARY,3/5,🟡
+gi absorption condition,Gastrointestinal Function,5/5,🟢,PREDICTABLE_BUT_NOT_NECESSARY,3/5,🟡
+gi disease,Gastrointestinal Function,5/5,🟢,PREDICTABLE_BUT_NOT_NECESSARY,3/5,🟡
+hbv hcv infection,Hepatitis B/C Status,5/5,🟢,PREDICTABLE_BUT_NOT_NECESSARY,5/5,🟢
+hematological dysfunction,Hematologic Function,5/5,🟢,PREDICTABLE_BUT_NOT_NECESSARY,5/5,🟢
+hemoptysis,Bleeding/Coagulation Disorders,4/5,🟢,PREDICTABLE_BUT_NOT_NECESSARY,4/5,🟢
+hepatic dysfunction,Hepatic Function,5/5,🟢,PREDICTABLE_BUT_NOT_NECESSARY,5/5,🟢
+hepatitis b c,Hepatitis B/C Status,5/5,🟢,PREDICTABLE_BUT_NOT_NECESSARY,5/5,🟢
+high dose steroid,Corticosteroid Use,5/5,🟢,PREDICTABLE_BUT_NOT_NECESSARY,4/5,🟢
+hypertension,Blood Pressure/Hypertension,5/5,🟢,PREDICTABLE_BUT_NOT_NECESSARY,5/5,🟢
+ibd gi perforation,Gastrointestinal Function,3/5,🟡,PREDICTABLE_BUT_NOT_NECESSARY,3/5,🟡
+ild history,Interstitial Lung Disease/Pneumonitis,5/5,🟢,PREDICTABLE_AND_NECESSARY,4/5,🟢
+ild pneumonitis,Interstitial Lung Disease/Pneumonitis,5/5,🟢,PREDICTABLE_AND_NECESSARY,4/5,🟢
+ild pneumonitis history,Interstitial Lung Disease/Pneumonitis,5/5,🟢,PREDICTABLE_AND_NECESSARY,4/5,🟢
+immunodeficiency,Immunosuppression/Immunodeficiency,5/5,🟢,PREDICTABLE_AND_NECESSARY,4/5,🟢
+immunodeficiency immunosuppression,Immunosuppression/Immunodeficiency,5/5,🟢,PREDICTABLE_AND_NECESSARY,4/5,🟢
+immunodeficiency transplant immunosuppression,Immunosuppression/Immunodeficiency,4/5,🟢,PREDICTABLE_AND_NECESSARY,4/5,🟢
+immunosuppressive drugs,Immunosuppression/Immunodeficiency,4/5,🟢,PREDICTABLE_AND_NECESSARY,4/5,🟢
+immunotherapy contraindication,Treatment Contraindications,5/5,🟢,PREDICTABLE_AND_NECESSARY,3/5,🟡
+immunotherapy hypersensitivity,Drug Hypersensitivity/Allergy,5/5,🟢,PREDICTABLE_BUT_NOT_NECESSARY,4/5,🟢
+implantable devices,Implantable Devices,5/5,🟢,PREDICTABLE_BUT_NOT_NECESSARY,4/5,🟢
+infection status,Active Infection,5/5,🟢,PREDICTABLE_AND_NECESSARY,3/5,🟡
+institutionalization,Study Compliance,2/5,🔴,NOT_PREDICTABLE,3/5,🟡
+intercurrent illness,Intercurrent Illness,5/5,🟢,PREDICTABLE_AND_NECESSARY,3/5,🟡
+interference condition,Intercurrent Illness,4/5,🟢,PREDICTABLE_AND_NECESSARY,3/5,🟡
+ip hypersensitivity,Drug Hypersensitivity/Allergy,5/5,🟢,PREDICTABLE_BUT_NOT_NECESSARY,4/5,🟢
+leptomeningeal cns disease,Brain/CNS Metastases,5/5,🟢,PREDICTABLE_AND_NECESSARY,3/5,🟡
+leptomeningeal disease,Brain/CNS Metastases,5/5,🟢,PREDICTABLE_AND_NECESSARY,3/5,🟡
+live virus vaccination,Live Vaccination,5/5,🟢,PREDICTABLE_BUT_NOT_NECESSARY,4/5,🟢
+lvef,Cardiac Function,5/5,🟢,PREDICTABLE_BUT_NOT_NECESSARY,3/5,🟡
+major surgery recovery,Prior Surgery,4/5,🟢,PREDICTABLE_BUT_NOT_NECESSARY,3/5,🟡
+mds aml history,Prior/Concurrent Malignancy,5/5,🟢,PREDICTABLE_AND_NECESSARY,4/5,🟢
+measurable lesion,Measurable Disease,5/5,🟢,PREDICTABLE_AND_NECESSARY,4/5,🟢
+medical psychiatric risk,Neurological/Psychiatric Conditions,4/5,🟢,PREDICTABLE_AND_NECESSARY,3/5,🟡
+metastatic progression timing,Disease Progression,4/5,🟢,PREDICTABLE_AND_NECESSARY,5/5,🟢
+minor surgery,Prior Surgery,5/5,🟢,PREDICTABLE_BUT_NOT_NECESSARY,3/5,🟡
+molecular alterations,Actionable Genomic Alterations,5/5,🟢,NOT_PREDICTABLE,5/5,🟢
+molecular status,Actionable Genomic Alterations,5/5,🟢,NOT_PREDICTABLE,5/5,🟢
+mrd eligibility,MRD Status,5/5,🟢,NOT_PREDICTABLE,5/5,🟢
+neo adjuvant chemotherapy,Adjuvant/Neoadjuvant Therapy,5/5,🟢,PREDICTABLE_AND_NECESSARY,4/5,🟢
+other actionable alterations,Actionable Genomic Alterations,5/5,🟢,NOT_PREDICTABLE,5/5,🟢
+other malignancy history,Prior/Concurrent Malignancy,5/5,🟢,PREDICTABLE_AND_NECESSARY,4/5,🟢
+palliative radiotherapy,Prior Radiotherapy,5/5,🟢,PREDICTABLE_AND_NECESSARY,3/5,🟡
+pd l1 expression,PD-L1 Expression Status,5/5,🟢,NOT_PREDICTABLE,5/5,🟢
+pd l1 status,PD-L1 Expression Status,5/5,🟢,NOT_PREDICTABLE,5/5,🟢
+pd l1 tps,PD-L1 Expression Status,5/5,🟢,NOT_PREDICTABLE,5/5,🟢
+pembrolizumab monotherapy,Prior Immunotherapy/Checkpoint Inhibitors,4/5,🟢,PREDICTABLE_AND_NECESSARY,3/5,🟡
+pericarditis history,Cardiac Function,5/5,🟢,PREDICTABLE_BUT_NOT_NECESSARY,3/5,🟡
+peripheral neuropathy,Neurological/Psychiatric Conditions,3/5,🟡,PREDICTABLE_AND_NECESSARY,3/5,🟡
+persistent disease,Residual Disease,5/5,🟢,PREDICTABLE_AND_NECESSARY,5/5,🟢
+pet mri brain,Imaging Requirements,5/5,🟢,PREDICTABLE_BUT_NOT_NECESSARY,4/5,🟢
+physician assigned therapy,Investigator Assessment,4/5,🟢,NOT_PREDICTABLE,4/5,🟢
+planned surgery,Prior Surgery,3/5,🟡,PREDICTABLE_BUT_NOT_NECESSARY,3/5,🟡
+platinum cycles,Prior Chemotherapy,5/5,🟢,PREDICTABLE_AND_NECESSARY,3/5,🟡
+pneumonitis ild,Interstitial Lung Disease/Pneumonitis,5/5,🟢,PREDICTABLE_AND_NECESSARY,4/5,🟢
+post platinum therapy,Prior Chemotherapy,4/5,🟢,PREDICTABLE_AND_NECESSARY,3/5,🟡
+post treatment imaging,Imaging Requirements,5/5,🟢,PREDICTABLE_BUT_NOT_NECESSARY,4/5,🟢
+pregnancy breastfeeding,Pregnancy/Lactation Status,5/5,🟢,PREDICTABLE_BUT_NOT_NECESSARY,5/5,🟢
+pregnancy intent,Contraception Requirements,3/5,🟡,NOT_PREDICTABLE,3/5,🟡
+pregnancy lactation,Pregnancy/Lactation Status,5/5,🟢,PREDICTABLE_BUT_NOT_NECESSARY,5/5,🟢
+preop imaging,Imaging Requirements,5/5,🟢,PREDICTABLE_BUT_NOT_NECESSARY,4/5,🟢
+preop radiotherapy,Prior Radiotherapy,4/5,🟢,PREDICTABLE_AND_NECESSARY,3/5,🟡
+prior adjuvant pd l1,Prior Immunotherapy/Checkpoint Inhibitors,4/5,🟢,PREDICTABLE_AND_NECESSARY,3/5,🟡
+prior brain mets,Brain/CNS Metastases,5/5,🟢,PREDICTABLE_AND_NECESSARY,3/5,🟡
+prior crt,Prior Chemoradiation,5/5,🟢,PREDICTABLE_AND_NECESSARY,3/5,🟡
+prior definitive therapy,Prior Systemic Therapy,4/5,🟢,PREDICTABLE_AND_NECESSARY,3/5,🟡
+prior immune related ae,Treatment-Related Toxicity,5/5,🟢,PREDICTABLE_AND_NECESSARY,4/5,🟢
+prior immune therapy,Prior Immunotherapy/Checkpoint Inhibitors,5/5,🟢,PREDICTABLE_AND_NECESSARY,3/5,🟡
+prior induction therapy,Prior Systemic Therapy,3/5,🟡,PREDICTABLE_AND_NECESSARY,3/5,🟡
+prior io agent,Prior Immunotherapy/Checkpoint Inhibitors,5/5,🟢,PREDICTABLE_AND_NECESSARY,3/5,🟡
+prior io rtki therapy,Prior Immunotherapy/Checkpoint Inhibitors,4/5,🟢,PREDICTABLE_AND_NECESSARY,3/5,🟡
+prior io therapy,Prior Immunotherapy/Checkpoint Inhibitors,5/5,🟢,PREDICTABLE_AND_NECESSARY,3/5,🟡
+prior kras g12c inhibitor,Prior Targeted Therapy,3/5,🟡,PREDICTABLE_AND_NECESSARY,3/5,🟡
+prior lung radiotherapy,Prior Radiotherapy,5/5,🟢,PREDICTABLE_AND_NECESSARY,3/5,🟡
+prior mmae ib6 therapy,Specific Prior Treatment Agents,4/5,🟢,PREDICTABLE_BUT_NOT_NECESSARY,3/5,🟡
+prior pd1 pdl1 therapy,Prior Immunotherapy/Checkpoint Inhibitors,5/5,🟢,PREDICTABLE_AND_NECESSARY,3/5,🟡
+prior pneumonitis,Interstitial Lung Disease/Pneumonitis,5/5,🟢,PREDICTABLE_AND_NECESSARY,4/5,🟢
+prior radiotherapy,Prior Radiotherapy,5/5,🟢,PREDICTABLE_AND_NECESSARY,3/5,🟡
+prior topoisomerase adc,Specific Prior Treatment Agents,4/5,🟢,PREDICTABLE_BUT_NOT_NECESSARY,3/5,🟡
+prior toxicity,Treatment-Related Toxicity,5/5,🟢,PREDICTABLE_AND_NECESSARY,4/5,🟢
+prior transplant,Transplant History,5/5,🟢,PREDICTABLE_BUT_NOT_NECESSARY,4/5,🟢
+prior transplantation,Transplant History,5/5,🟢,PREDICTABLE_BUT_NOT_NECESSARY,4/5,🟢
+psychiatric condition,Neurological/Psychiatric Conditions,5/5,🟢,PREDICTABLE_AND_NECESSARY,3/5,🟡
+pulmonary compromise,Pulmonary Function,5/5,🟢,PREDICTABLE_BUT_NOT_NECESSARY,4/5,🟢
+pulmonary disease,Pulmonary Function,5/5,🟢,PREDICTABLE_BUT_NOT_NECESSARY,4/5,🟢
+qtcf interval,ECG Abnormalities,5/5,🟢,PREDICTABLE_BUT_NOT_NECESSARY,5/5,🟢
+questionnaire completion,Study Compliance,5/5,🟢,NOT_PREDICTABLE,3/5,🟡
+radiation technique,Prior Radiotherapy,5/5,🟢,PREDICTABLE_AND_NECESSARY,3/5,🟡
+recent antitumor therapy,Prior Systemic Therapy,3/5,🟡,PREDICTABLE_AND_NECESSARY,3/5,🟡
+recent colony stimulating factor,Prior Systemic Therapy,3/5,🟡,PREDICTABLE_AND_NECESSARY,3/5,🟡
+recent mri brain,Imaging Requirements,5/5,🟢,PREDICTABLE_BUT_NOT_NECESSARY,4/5,🟢
+recent pet,Imaging Requirements,5/5,🟢,PREDICTABLE_BUT_NOT_NECESSARY,4/5,🟢
+recent steroids,Corticosteroid Use,4/5,🟢,PREDICTABLE_BUT_NOT_NECESSARY,4/5,🟢
+recovery from prior therapy,Treatment-Related Toxicity,4/5,🟢,PREDICTABLE_AND_NECESSARY,4/5,🟢
+renal dysfunction,Renal Function,5/5,🟢,PREDICTABLE_BUT_NOT_NECESSARY,5/5,🟢
+resection types,Surgical Resectability/Status,4/5,🟢,PREDICTABLE_AND_NECESSARY,4/5,🟢
+residual disease site,Residual Disease,5/5,🟢,PREDICTABLE_AND_NECESSARY,5/5,🟢
+second malignancy,Prior/Concurrent Malignancy,5/5,🟢,PREDICTABLE_AND_NECESSARY,4/5,🟢
+second screen imaging,Imaging Requirements,5/5,🟢,PREDICTABLE_BUT_NOT_NECESSARY,4/5,🟢
+sequential crt,Prior Chemoradiation,4/5,🟢,PREDICTABLE_AND_NECESSARY,3/5,🟡
+small cell sarcomatoid,Tumor Histology,5/5,🟢,PREDICTABLE_BUT_NOT_NECESSARY,4/5,🟢
+stable brain mets,Brain/CNS Metastases,5/5,🟢,PREDICTABLE_AND_NECESSARY,3/5,🟡
+surgical resection,Surgical Resectability/Status,3/5,🟡,PREDICTABLE_AND_NECESSARY,4/5,🟢
+surveillance consent,Informed Consent,4/5,🟢,NOT_PREDICTABLE,4/5,🟢
+surveillance start timing,Treatment Timing,5/5,🟢,PREDICTABLE_BUT_NOT_NECESSARY,4/5,🟢
+swallowing ability,Gastrointestinal Function,5/5,🟢,PREDICTABLE_BUT_NOT_NECESSARY,3/5,🟡
+synchronous tumors,Prior/Concurrent Malignancy,3/5,🟡,PREDICTABLE_AND_NECESSARY,4/5,🟢
+systemic therapy timing,Treatment Timing,5/5,🟢,PREDICTABLE_BUT_NOT_NECESSARY,4/5,🟢
+third space fluid retention,Pleural/Pericardial Effusion,5/5,🟢,PREDICTABLE_AND_NECESSARY,3/5,🟡
+tissue provision,Tumor Tissue/Biospecimen,5/5,🟢,NOT_PREDICTABLE,4/5,🟢
+treatment start,Treatment Timing,4/5,🟢,PREDICTABLE_BUT_NOT_NECESSARY,4/5,🟢
+tumor biopsy,Tumor Tissue/Biospecimen,5/5,🟢,NOT_PREDICTABLE,4/5,🟢
+tumor cavitation vessel invasion,Primary Tumor Characteristics,5/5,🟢,PREDICTABLE_BUT_NOT_NECESSARY,4/5,🟢
+tumor size number,Primary Tumor Characteristics,5/5,🟢,PREDICTABLE_BUT_NOT_NECESSARY,4/5,🟢
+tumor specimen,Tumor Tissue/Biospecimen,5/5,🟢,NOT_PREDICTABLE,4/5,🟢
+unapproved surgical procedures,Prior Surgery,5/5,🟢,PREDICTABLE_BUT_NOT_NECESSARY,3/5,🟡
+unresectable nsclc,Surgical Resectability/Status,4/5,🟢,PREDICTABLE_AND_NECESSARY,4/5,🟢
+unresectable status,Surgical Resectability/Status,4/5,🟢,PREDICTABLE_AND_NECESSARY,4/5,🟢
+washout period,Washout Period,5/5,🟢,PREDICTABLE_BUT_NOT_NECESSARY,4/5,🟢
+who ps,Performance Status,5/5,🟢,PREDICTABLE_AND_NECESSARY,5/5,🟢

@@ -1,0 +1,462 @@
+[
+  {
+    "umbrella": "Age",
+    "category": "PREDICTABLE_BUT_NOT_NECESSARY",
+    "rationale": "Basic demographic data routinely captured in EHR demographics section. Easy to obtain directly without imputation."
+  },
+  {
+    "umbrella": "Sex",
+    "category": "PREDICTABLE_BUT_NOT_NECESSARY",
+    "rationale": "Standard demographic field always available in EHR. No imputation needed."
+  },
+  {
+    "umbrella": "Performance Status",
+    "category": "PREDICTABLE_AND_NECESSARY",
+    "rationale": "Commonly required but often missing or subjective; inferable from clinical notes, visit frequency, and functional assessments in EHR. Worth imputing to expand eligibility."
+  },
+  {
+    "umbrella": "Life Expectancy",
+    "category": "PREDICTABLE_AND_NECESSARY",
+    "rationale": "Frequently required but rarely documented numerically; predictable using ML models from PS, comorbidities, and EHR data. Imputation expands matching."
+  },
+  {
+    "umbrella": "Body Weight and Nutritional Status",
+    "category": "PREDICTABLE_BUT_NOT_NECESSARY",
+    "rationale": "Available from vitals, BMI calculations, and routine labs like albumin. Directly obtainable."
+  },
+  {
+    "umbrella": "Smoking Status",
+    "category": "PREDICTABLE_BUT_NOT_NECESSARY",
+    "rationale": "Typically documented in social history; easy to extract. Routine intake data."
+  },
+  {
+    "umbrella": "ALK Mutation Status",
+    "category": "NOT_PREDICTABLE",
+    "rationale": "Requires tumor genomic sequencing or FISH, not standard in EHR."
+  },
+  {
+    "umbrella": "EGFR Mutation Status",
+    "category": "NOT_PREDICTABLE",
+    "rationale": "Requires specific NGS or PCR testing, unavailable in standard EHR."
+  },
+  {
+    "umbrella": "ROS1 Rearrangement Status",
+    "category": "NOT_PREDICTABLE",
+    "rationale": "Requires genomic profiling or IHC/FISH, not routinely in EHR."
+  },
+  {
+    "umbrella": "KRAS/STK11/KEAP1 Mutation Status",
+    "category": "NOT_PREDICTABLE",
+    "rationale": "Specific somatic mutations detected via NGS panels, not inferable from standard EHR."
+  },
+  {
+    "umbrella": "Actionable Genomic Alterations",
+    "category": "NOT_PREDICTABLE",
+    "rationale": "Depends on comprehensive tumor NGS results, requiring specialized testing."
+  },
+  {
+    "umbrella": "PD-L1 Expression Status",
+    "category": "NOT_PREDICTABLE",
+    "rationale": "Requires IHC staining on tumor tissue, not available in standard EHR."
+  },
+  {
+    "umbrella": "HER2 Status",
+    "category": "NOT_PREDICTABLE",
+    "rationale": "Determined by IHC/FISH assays, specialized pathology not routine."
+  },
+  {
+    "umbrella": "MRD Status",
+    "category": "NOT_PREDICTABLE",
+    "rationale": "Requires ctDNA NGS or flow cytometry, prospective specialized assay."
+  },
+  {
+    "umbrella": "Tumor Histology",
+    "category": "PREDICTABLE_BUT_NOT_NECESSARY",
+    "rationale": "Extractable from pathology reports in EHR. Routinely documented."
+  },
+  {
+    "umbrella": "Disease Stage",
+    "category": "PREDICTABLE_BUT_NOT_NECESSARY",
+    "rationale": "TNM staging and summaries available in oncology notes and reports."
+  },
+  {
+    "umbrella": "Diagnosis Confirmation",
+    "category": "PREDICTABLE_BUT_NOT_NECESSARY",
+    "rationale": "Confirmed via pathology, biopsy reports in EHR."
+  },
+  {
+    "umbrella": "Primary Tumor Characteristics",
+    "category": "PREDICTABLE_BUT_NOT_NECESSARY",
+    "rationale": "Details from imaging, pathology in EHR."
+  },
+  {
+    "umbrella": "Measurable Disease",
+    "category": "PREDICTABLE_AND_NECESSARY",
+    "rationale": "Assessable via RECIST from serial imaging reports; often implicit, worth imputing."
+  },
+  {
+    "umbrella": "Metastatic Disease Status",
+    "category": "PREDICTABLE_BUT_NOT_NECESSARY",
+    "rationale": "Documented in staging scans and progress notes."
+  },
+  {
+    "umbrella": "Residual Disease",
+    "category": "PREDICTABLE_AND_NECESSARY",
+    "rationale": "Inferred post-treatment from imaging/notes; commonly required but not always explicit."
+  },
+  {
+    "umbrella": "Disease Progression",
+    "category": "PREDICTABLE_AND_NECESSARY",
+    "rationale": "Commonly required; inferred from serial imaging, notes, and treatment changes in EHR."
+  },
+  {
+    "umbrella": "Disease Recurrence",
+    "category": "PREDICTABLE_AND_NECESSARY",
+    "rationale": "Detectable from timeline of scans, rising markers, biopsies; often needs imputation."
+  },
+  {
+    "umbrella": "Brain/CNS Metastases",
+    "category": "PREDICTABLE_BUT_NOT_NECESSARY",
+    "rationale": "Reported in MRI/CT head imaging and neuro notes."
+  },
+  {
+    "umbrella": "Hepatic Function",
+    "category": "PREDICTABLE_BUT_NOT_NECESSARY",
+    "rationale": "Routine LFTs like ALT/AST/bilirubin in labs."
+  },
+  {
+    "umbrella": "Renal Function",
+    "category": "PREDICTABLE_BUT_NOT_NECESSARY",
+    "rationale": "Creatinine, eGFR from standard labs."
+  },
+  {
+    "umbrella": "Hematologic Function",
+    "category": "PREDICTABLE_BUT_NOT_NECESSARY",
+    "rationale": "CBC parameters like ANC, platelets routine."
+  },
+  {
+    "umbrella": "Organ Function",
+    "category": "PREDICTABLE_BUT_NOT_NECESSARY",
+    "rationale": "Aggregate of routine labs for major organs."
+  },
+  {
+    "umbrella": "Cardiac Function",
+    "category": "PREDICTABLE_BUT_NOT_NECESSARY",
+    "rationale": "EF from echoes, troponins if tested."
+  },
+  {
+    "umbrella": "ECG Abnormalities",
+    "category": "PREDICTABLE_BUT_NOT_NECESSARY",
+    "rationale": "ECG reports and cardiology notes in EHR."
+  },
+  {
+    "umbrella": "Pulmonary Function",
+    "category": "PREDICTABLE_BUT_NOT_NECESSARY",
+    "rationale": "PFT results documented when performed."
+  },
+  {
+    "umbrella": "Interstitial Lung Disease/Pneumonitis",
+    "category": "PREDICTABLE_BUT_NOT_NECESSARY",
+    "rationale": "CT chest findings and pulmonology evaluations."
+  },
+  {
+    "umbrella": "Blood Pressure/Hypertension",
+    "category": "PREDICTABLE_BUT_NOT_NECESSARY",
+    "rationale": "Vitals trends and problem list."
+  },
+  {
+    "umbrella": "Thrombotic Events",
+    "category": "PREDICTABLE_BUT_NOT_NECESSARY",
+    "rationale": "History, imaging, D-dimer in records."
+  },
+  {
+    "umbrella": "Bleeding/Coagulation Disorders",
+    "category": "PREDICTABLE_BUT_NOT_NECESSARY",
+    "rationale": "PT/PTT, history, hematology notes."
+  },
+  {
+    "umbrella": "Anticoagulation Therapy",
+    "category": "PREDICTABLE_BUT_NOT_NECESSARY",
+    "rationale": "Active medications list."
+  },
+  {
+    "umbrella": "Vascular Conditions",
+    "category": "PREDICTABLE_BUT_NOT_NECESSARY",
+    "rationale": "Vascular surgery notes, imaging."
+  },
+  {
+    "umbrella": "Autoimmune Disease",
+    "category": "PREDICTABLE_BUT_NOT_NECESSARY",
+    "rationale": "Problem list, immunology labs, rheumatology."
+  },
+  {
+    "umbrella": "Active Infection",
+    "category": "PREDICTABLE_BUT_NOT_NECESSARY",
+    "rationale": "Recent cultures, WBC, antibiotics in notes."
+  },
+  {
+    "umbrella": "Hepatitis B/C Status",
+    "category": "PREDICTABLE_BUT_NOT_NECESSARY",
+    "rationale": "Viral serologies and PCR often screened/documented."
+  },
+  {
+    "umbrella": "HIV Status",
+    "category": "PREDICTABLE_BUT_NOT_NECESSARY",
+    "rationale": "Routine screening labs or infectious disease records."
+  },
+  {
+    "umbrella": "Tuberculosis",
+    "category": "PREDICTABLE_BUT_NOT_NECESSARY",
+    "rationale": "PPD/Quantiferon history or chest imaging."
+  },
+  {
+    "umbrella": "EBV Infection",
+    "category": "PREDICTABLE_BUT_NOT_NECESSARY",
+    "rationale": "Serologies documented in relevant cases like lymphoma."
+  },
+  {
+    "umbrella": "Immunosuppression/Immunodeficiency",
+    "category": "PREDICTABLE_BUT_NOT_NECESSARY",
+    "rationale": "Immunoglobulin levels, CD4, transplant history."
+  },
+  {
+    "umbrella": "Prior/Concurrent Malignancy",
+    "category": "PREDICTABLE_BUT_NOT_NECESSARY",
+    "rationale": "Cancer registry, problem list, treatment history."
+  },
+  {
+    "umbrella": "Prior Systemic Therapy",
+    "category": "PREDICTABLE_BUT_NOT_NECESSARY",
+    "rationale": "Oncology treatment timelines in EHR."
+  },
+  {
+    "umbrella": "Prior Immunotherapy/Checkpoint Inhibitors",
+    "category": "PREDICTABLE_BUT_NOT_NECESSARY",
+    "rationale": "Medication and infusion records."
+  },
+  {
+    "umbrella": "Prior Targeted Therapy",
+    "category": "PREDICTABLE_BUT_NOT_NECESSARY",
+    "rationale": "Specific agents in treatment history."
+  },
+  {
+    "umbrella": "Prior Chemotherapy",
+    "category": "PREDICTABLE_BUT_NOT_NECESSARY",
+    "rationale": "Chemo regimens documented."
+  },
+  {
+    "umbrella": "Prior Anti-VEGF Therapy",
+    "category": "PREDICTABLE_BUT_NOT_NECESSARY",
+    "rationale": "Medications like bevacizumab in records."
+  },
+  {
+    "umbrella": "Prior Radiotherapy",
+    "category": "PREDICTABLE_BUT_NOT_NECESSARY",
+    "rationale": "Radiation oncology plans and dosimetry."
+  },
+  {
+    "umbrella": "Prior Chemoradiation",
+    "category": "PREDICTABLE_BUT_NOT_NECESSARY",
+    "rationale": "Combined modality treatment records."
+  },
+  {
+    "umbrella": "Adjuvant/Neoadjuvant Therapy",
+    "category": "PREDICTABLE_BUT_NOT_NECESSARY",
+    "rationale": "Treatment intent documented in oncology notes."
+  },
+  {
+    "umbrella": "Specific Prior Treatment Agents",
+    "category": "PREDICTABLE_BUT_NOT_NECESSARY",
+    "rationale": "Detailed medication and regimen history."
+  },
+  {
+    "umbrella": "Prior Surgery",
+    "category": "PREDICTABLE_BUT_NOT_NECESSARY",
+    "rationale": "Surgical history and operative reports."
+  },
+  {
+    "umbrella": "Surgical Resectability/Status",
+    "category": "PREDICTABLE_AND_NECESSARY",
+    "rationale": "Assessment from imaging, MDT notes; often subjective and worth imputing."
+  },
+  {
+    "umbrella": "Mediastinal/Lymph Node Staging",
+    "category": "PREDICTABLE_BUT_NOT_NECESSARY",
+    "rationale": "EBUS, PET-CT, pathology staging."
+  },
+  {
+    "umbrella": "Imaging Requirements",
+    "category": "NOT_PREDICTABLE",
+    "rationale": "Trial-specific scans may require prospective acquisition."
+  },
+  {
+    "umbrella": "Tumor Tissue/Biospecimen",
+    "category": "NOT_PREDICTABLE",
+    "rationale": "Requires biobanking or archival tissue verification."
+  },
+  {
+    "umbrella": "Genetic/Germline Testing",
+    "category": "NOT_PREDICTABLE",
+    "rationale": "Specialized germline NGS panels needed."
+  },
+  {
+    "umbrella": "Treatment-Related Toxicity",
+    "category": "PREDICTABLE_BUT_NOT_NECESSARY",
+    "rationale": "Graded AEs in progress notes and oncology records."
+  },
+  {
+    "umbrella": "Washout Period",
+    "category": "PREDICTABLE_BUT_NOT_NECESSARY",
+    "rationale": "Computed from last dose dates in treatment history."
+  },
+  {
+    "umbrella": "Concurrent Anti-Cancer Therapy",
+    "category": "PREDICTABLE_BUT_NOT_NECESSARY",
+    "rationale": "Current active medications list."
+  },
+  {
+    "umbrella": "Investigational Study Participation",
+    "category": "PREDICTABLE_BUT_NOT_NECESSARY",
+    "rationale": "Clinical trial history in EHR."
+  },
+  {
+    "umbrella": "Drug Hypersensitivity/Allergy",
+    "category": "PREDICTABLE_BUT_NOT_NECESSARY",
+    "rationale": "Dedicated allergy module in EHR."
+  },
+  {
+    "umbrella": "Treatment Contraindications",
+    "category": "PREDICTABLE_BUT_NOT_NECESSARY",
+    "rationale": "Inferred from comorbidities, labs, meds."
+  },
+  {
+    "umbrella": "Corticosteroid Use",
+    "category": "PREDICTABLE_BUT_NOT_NECESSARY",
+    "rationale": "Medication reconciliation."
+  },
+  {
+    "umbrella": "Transplant History",
+    "category": "PREDICTABLE_BUT_NOT_NECESSARY",
+    "rationale": "Transplant records and immunosuppression."
+  },
+  {
+    "umbrella": "Live Vaccination",
+    "category": "PREDICTABLE_BUT_NOT_NECESSARY",
+    "rationale": "Immunization history and recent notes."
+  },
+  {
+    "umbrella": "Pregnancy/Lactation Status",
+    "category": "PREDICTABLE_BUT_NOT_NECESSARY",
+    "rationale": "Routine screening questions and beta-HCG labs."
+  },
+  {
+    "umbrella": "Contraception Requirements",
+    "category": "NOT_PREDICTABLE",
+    "rationale": "Prospective patient commitment and verification."
+  },
+  {
+    "umbrella": "Gastrointestinal Function",
+    "category": "PREDICTABLE_BUT_NOT_NECESSARY",
+    "rationale": "Endoscopy reports, symptom scales."
+  },
+  {
+    "umbrella": "Pleural/Pericardial Effusion",
+    "category": "PREDICTABLE_BUT_NOT_NECESSARY",
+    "rationale": "Chest imaging findings."
+  },
+  {
+    "umbrella": "Neurological/Psychiatric Conditions",
+    "category": "PREDICTABLE_BUT_NOT_NECESSARY",
+    "rationale": "Neurology/psych notes, problem list."
+  },
+  {
+    "umbrella": "Thyroid Function",
+    "category": "PREDICTABLE_BUT_NOT_NECESSARY",
+    "rationale": "TSH, free T4 labs."
+  },
+  {
+    "umbrella": "Diabetes",
+    "category": "PREDICTABLE_BUT_NOT_NECESSARY",
+    "rationale": "HbA1c, glucose, endocrinology records."
+  },
+  {
+    "umbrella": "Wound Healing",
+    "category": "PREDICTABLE_BUT_NOT_NECESSARY",
+    "rationale": "Post-op notes, wound care documentation."
+  },
+  {
+    "umbrella": "Proteinuria",
+    "category": "PREDICTABLE_BUT_NOT_NECESSARY",
+    "rationale": "Urinalysis, albumin/creatinine ratio."
+  },
+  {
+    "umbrella": "Corneal Disease",
+    "category": "PREDICTABLE_BUT_NOT_NECESSARY",
+    "rationale": "Ophthalmology consults if relevant."
+  },
+  {
+    "umbrella": "Drug Interactions",
+    "category": "NOT_PREDICTABLE",
+    "rationale": "Depends on investigational drug profile, prospective check."
+  },
+  {
+    "umbrella": "Informed Consent",
+    "category": "NOT_PREDICTABLE",
+    "rationale": "Trial-specific procedure, not in standard EHR."
+  },
+  {
+    "umbrella": "Study Compliance",
+    "category": "NOT_PREDICTABLE",
+    "rationale": "Prospective monitoring during trial."
+  },
+  {
+    "umbrella": "Investigator Assessment",
+    "category": "NOT_PREDICTABLE",
+    "rationale": "Subjective trial eligibility judgment."
+  },
+  {
+    "umbrella": "Treatment Timing",
+    "category": "PREDICTABLE_BUT_NOT_NECESSARY",
+    "rationale": "Timelines from encounter and treatment dates."
+  },
+  {
+    "umbrella": "Intercurrent Illness",
+    "category": "PREDICTABLE_BUT_NOT_NECESSARY",
+    "rationale": "Recent diagnoses and visits."
+  },
+  {
+    "umbrella": "Implantable Devices",
+    "category": "PREDICTABLE_BUT_NOT_NECESSARY",
+    "rationale": "Device registry, cardiology/surgery history."
+  },
+  {
+    "umbrella": "Transfusion Requirements",
+    "category": "PREDICTABLE_BUT_NOT_NECESSARY",
+    "rationale": "Transfusion history, hemoglobin trends."
+  },
+  {
+    "umbrella": "Locoregional Therapy Eligibility",
+    "category": "PREDICTABLE_AND_NECESSARY",
+    "rationale": "Based on tumor location/size from imaging; assessment often imputed."
+  },
+  {
+    "umbrella": "Residency/Demographics",
+    "category": "PREDICTABLE_BUT_NOT_NECESSARY",
+    "rationale": "Address/zip from patient demographics."
+  },
+  {
+    "umbrella": "Advanced/Refractory Disease",
+    "category": "PREDICTABLE_AND_NECESSARY",
+    "rationale": "Inferred from lines of therapy and progression; commonly required but variable documentation."
+  },
+  {
+    "umbrella": "Treatment Amenability",
+    "category": "PREDICTABLE_AND_NECESSARY",
+    "rationale": "Clinician judgment from disease/response data; worth predicting."
+  },
+  {
+    "umbrella": "Tumor Markers",
+    "category": "PREDICTABLE_BUT_NOT_NECESSARY",
+    "rationale": "Serial labs like CEA, PSA in flow sheets."
+  }
+]

@@ -1,0 +1,462 @@
+[
+  {
+    "umbrella": "Age",
+    "category": "PREDICTABLE_BUT_NOT_NECESSARY",
+    "rationale": "Date of birth is a required demographic field in all EHRs and is always directly available."
+  },
+  {
+    "umbrella": "Sex",
+    "category": "PREDICTABLE_BUT_NOT_NECESSARY",
+    "rationale": "Sex is a required demographic field captured during registration and is universally available in EHR data."
+  },
+  {
+    "umbrella": "Performance Status",
+    "category": "PREDICTABLE_AND_NECESSARY",
+    "rationale": "Frequently required across oncology trials but inconsistently documented; can be inferred from clinical notes describing functional status, mobility, and activities of daily living."
+  },
+  {
+    "umbrella": "Life Expectancy",
+    "category": "PREDICTABLE_AND_NECESSARY",
+    "rationale": "Commonly required but rarely explicitly documented; can be predicted from disease stage, comorbidities, performance status, and prognostic indicators in the EHR."
+  },
+  {
+    "umbrella": "Body Weight and Nutritional Status",
+    "category": "PREDICTABLE_BUT_NOT_NECESSARY",
+    "rationale": "Weight and BMI are routinely captured in vital signs; nutritional assessments are typically documented during oncology intake."
+  },
+  {
+    "umbrella": "Smoking Status",
+    "category": "PREDICTABLE_BUT_NOT_NECESSARY",
+    "rationale": "Smoking status is a standard social history field captured during intake and routinely documented in EHRs."
+  },
+  {
+    "umbrella": "ALK Mutation Status",
+    "category": "NOT_PREDICTABLE",
+    "rationale": "Requires FISH, IHC, or NGS molecular testing that cannot be reliably inferred from standard clinical EHR data."
+  },
+  {
+    "umbrella": "EGFR Mutation Status",
+    "category": "NOT_PREDICTABLE",
+    "rationale": "Requires molecular/genomic testing (PCR, NGS) on tumor tissue; cannot be predicted from standard EHR data."
+  },
+  {
+    "umbrella": "ROS1 Rearrangement Status",
+    "category": "NOT_PREDICTABLE",
+    "rationale": "Requires specialized molecular testing (FISH, NGS) that must be performed prospectively on tumor tissue."
+  },
+  {
+    "umbrella": "KRAS/STK11/KEAP1 Mutation Status",
+    "category": "NOT_PREDICTABLE",
+    "rationale": "Requires genomic sequencing or targeted mutation panels; cannot be inferred from clinical or laboratory EHR data."
+  },
+  {
+    "umbrella": "Actionable Genomic Alterations",
+    "category": "NOT_PREDICTABLE",
+    "rationale": "Requires comprehensive genomic profiling or NGS testing that must be performed on tumor specimens."
+  },
+  {
+    "umbrella": "PD-L1 Expression Status",
+    "category": "NOT_PREDICTABLE",
+    "rationale": "Requires immunohistochemistry assay on tumor tissue with specific antibody clones; cannot be predicted from clinical data."
+  },
+  {
+    "umbrella": "HER2 Status",
+    "category": "NOT_PREDICTABLE",
+    "rationale": "Requires IHC and/or FISH testing on tumor tissue; expression levels cannot be inferred from standard EHR data."
+  },
+  {
+    "umbrella": "MRD Status",
+    "category": "NOT_PREDICTABLE",
+    "rationale": "Requires specialized assays such as flow cytometry, PCR, or NGS-based testing that must be performed prospectively."
+  },
+  {
+    "umbrella": "Tumor Histology",
+    "category": "PREDICTABLE_BUT_NOT_NECESSARY",
+    "rationale": "Histology is documented in pathology reports which are standard components of oncology EHR records."
+  },
+  {
+    "umbrella": "Disease Stage",
+    "category": "PREDICTABLE_AND_NECESSARY",
+    "rationale": "Universally required for trial matching but often fragmented across imaging, pathology, and clinical notes; benefits from NLP-based inference and consolidation."
+  },
+  {
+    "umbrella": "Diagnosis Confirmation",
+    "category": "PREDICTABLE_BUT_NOT_NECESSARY",
+    "rationale": "Pathologic diagnosis is documented in pathology reports and is a standard structured element in oncology EHRs."
+  },
+  {
+    "umbrella": "Primary Tumor Characteristics",
+    "category": "PREDICTABLE_BUT_NOT_NECESSARY",
+    "rationale": "Tumor size, location, and characteristics are documented in pathology and radiology reports within the EHR."
+  },
+  {
+    "umbrella": "Measurable Disease",
+    "category": "PREDICTABLE_AND_NECESSARY",
+    "rationale": "Commonly required but RECIST measurability is rarely explicitly stated; can be inferred from imaging reports describing lesion dimensions."
+  },
+  {
+    "umbrella": "Metastatic Disease Status",
+    "category": "PREDICTABLE_AND_NECESSARY",
+    "rationale": "Critical for trial eligibility but may be scattered across multiple imaging reports and clinical notes; benefits from aggregation and inference."
+  },
+  {
+    "umbrella": "Residual Disease",
+    "category": "PREDICTABLE_AND_NECESSARY",
+    "rationale": "Often required post-treatment but not always explicitly documented; can be inferred from surgical pathology and post-treatment imaging."
+  },
+  {
+    "umbrella": "Disease Progression",
+    "category": "PREDICTABLE_AND_NECESSARY",
+    "rationale": "Frequently required across trials but requires inference from longitudinal imaging comparisons and clinical assessments documented in notes."
+  },
+  {
+    "umbrella": "Disease Recurrence",
+    "category": "PREDICTABLE_AND_NECESSARY",
+    "rationale": "Important for eligibility but often requires inference from treatment history, disease-free intervals, and new findings on imaging."
+  },
+  {
+    "umbrella": "Brain/CNS Metastases",
+    "category": "PREDICTABLE_AND_NECESSARY",
+    "rationale": "Commonly required criterion but requires aggregation of brain imaging results and may need inference of stability/treatment status."
+  },
+  {
+    "umbrella": "Hepatic Function",
+    "category": "PREDICTABLE_BUT_NOT_NECESSARY",
+    "rationale": "Liver function tests (AST, ALT, bilirubin) are routine laboratory values directly available in structured EHR data."
+  },
+  {
+    "umbrella": "Renal Function",
+    "category": "PREDICTABLE_BUT_NOT_NECESSARY",
+    "rationale": "Creatinine and calculated GFR/CrCl are standard laboratory values routinely available in EHR data."
+  },
+  {
+    "umbrella": "Hematologic Function",
+    "category": "PREDICTABLE_BUT_NOT_NECESSARY",
+    "rationale": "CBC components (ANC, platelets, hemoglobin) are routine labs directly available as structured data in EHRs."
+  },
+  {
+    "umbrella": "Organ Function",
+    "category": "PREDICTABLE_BUT_NOT_NECESSARY",
+    "rationale": "General organ function is assessed through routine laboratory panels that are standard structured EHR data."
+  },
+  {
+    "umbrella": "Cardiac Function",
+    "category": "PREDICTABLE_AND_NECESSARY",
+    "rationale": "LVEF is commonly required but echocardiograms may not be recent or routine; may need inference from available cardiac imaging or identification of missing data."
+  },
+  {
+    "umbrella": "ECG Abnormalities",
+    "category": "PREDICTABLE_BUT_NOT_NECESSARY",
+    "rationale": "ECG results including QTc intervals are documented in cardiology reports and are typically available when performed."
+  },
+  {
+    "umbrella": "Pulmonary Function",
+    "category": "PREDICTABLE_AND_NECESSARY",
+    "rationale": "PFTs are often required for thoracic oncology trials but not routinely performed; when available, may need extraction from unstructured reports."
+  },
+  {
+    "umbrella": "Interstitial Lung Disease/Pneumonitis",
+    "category": "PREDICTABLE_AND_NECESSARY",
+    "rationale": "Important safety criterion but may be underdiagnosed or documented inconsistently; can be inferred from imaging findings, diagnoses, and treatment history."
+  },
+  {
+    "umbrella": "Blood Pressure/Hypertension",
+    "category": "PREDICTABLE_BUT_NOT_NECESSARY",
+    "rationale": "Blood pressure is routinely captured in vital signs and hypertension diagnoses are documented in problem lists."
+  },
+  {
+    "umbrella": "Thrombotic Events",
+    "category": "PREDICTABLE_AND_NECESSARY",
+    "rationale": "Commonly required but historical events may be inconsistently documented; can be inferred from imaging, diagnoses, and anticoagulation history."
+  },
+  {
+    "umbrella": "Bleeding/Coagulation Disorders",
+    "category": "PREDICTABLE_BUT_NOT_NECESSARY",
+    "rationale": "Coagulation labs (PT, INR, PTT) are available as structured data; bleeding history is documented in problem lists and notes."
+  },
+  {
+    "umbrella": "Anticoagulation Therapy",
+    "category": "PREDICTABLE_BUT_NOT_NECESSARY",
+    "rationale": "Current and historical anticoagulant use is documented in medication lists and administration records."
+  },
+  {
+    "umbrella": "Vascular Conditions",
+    "category": "PREDICTABLE_BUT_NOT_NECESSARY",
+    "rationale": "Vascular diagnoses are captured in problem lists and procedure histories within the EHR."
+  },
+  {
+    "umbrella": "Autoimmune Disease",
+    "category": "PREDICTABLE_AND_NECESSARY",
+    "rationale": "Critical for immunotherapy trials but may be underreported in problem lists; can be inferred from diagnoses, immunosuppressive medications, and specialty notes."
+  },
+  {
+    "umbrella": "Active Infection",
+    "category": "PREDICTABLE_BUT_NOT_NECESSARY",
+    "rationale": "Active infections are documented through diagnoses, culture results, and antibiotic prescriptions in the EHR."
+  },
+  {
+    "umbrella": "Hepatitis B/C Status",
+    "category": "PREDICTABLE_BUT_NOT_NECESSARY",
+    "rationale": "Hepatitis serology results are available as structured laboratory data when testing has been performed."
+  },
+  {
+    "umbrella": "HIV Status",
+    "category": "PREDICTABLE_BUT_NOT_NECESSARY",
+    "rationale": "HIV testing results are available as structured laboratory data; status can also be inferred from antiretroviral medications."
+  },
+  {
+    "umbrella": "Tuberculosis",
+    "category": "PREDICTABLE_BUT_NOT_NECESSARY",
+    "rationale": "TB testing results (PPD, IGRA), diagnoses, and treatment history are documented in structured EHR data."
+  },
+  {
+    "umbrella": "EBV Infection",
+    "category": "PREDICTABLE_BUT_NOT_NECESSARY",
+    "rationale": "EBV serology and viral load results are available as structured laboratory data when testing is performed."
+  },
+  {
+    "umbrella": "Immunosuppression/Immunodeficiency",
+    "category": "PREDICTABLE_AND_NECESSARY",
+    "rationale": "Important for immunotherapy eligibility but requires inference from diagnoses, immunosuppressive medications, and laboratory values."
+  },
+  {
+    "umbrella": "Prior/Concurrent Malignancy",
+    "category": "PREDICTABLE_AND_NECESSARY",
+    "rationale": "Frequently required but cancer history may be incomplete in problem lists; benefits from inference across oncology notes and pathology records."
+  },
+  {
+    "umbrella": "Prior Systemic Therapy",
+    "category": "PREDICTABLE_BUT_NOT_NECESSARY",
+    "rationale": "Chemotherapy and systemic therapy administration is documented in medication administration records and treatment summaries."
+  },
+  {
+    "umbrella": "Prior Immunotherapy/Checkpoint Inhibitors",
+    "category": "PREDICTABLE_BUT_NOT_NECESSARY",
+    "rationale": "Immunotherapy agents are documented in medication administration records with specific drug names readily identifiable."
+  },
+  {
+    "umbrella": "Prior Targeted Therapy",
+    "category": "PREDICTABLE_BUT_NOT_NECESSARY",
+    "rationale": "Targeted therapy medications are documented in medication records and can be identified by drug class."
+  },
+  {
+    "umbrella": "Prior Chemotherapy",
+    "category": "PREDICTABLE_BUT_NOT_NECESSARY",
+    "rationale": "Chemotherapy administration is well-documented in medication administration records and oncology treatment summaries."
+  },
+  {
+    "umbrella": "Prior Anti-VEGF Therapy",
+    "category": "PREDICTABLE_BUT_NOT_NECESSARY",
+    "rationale": "Anti-VEGF agents (bevacizumab, ramucirumab) are documented in medication administration records."
+  },
+  {
+    "umbrella": "Prior Radiotherapy",
+    "category": "PREDICTABLE_BUT_NOT_NECESSARY",
+    "rationale": "Radiation therapy is documented in procedure records and radiation oncology treatment summaries."
+  },
+  {
+    "umbrella": "Prior Chemoradiation",
+    "category": "PREDICTABLE_BUT_NOT_NECESSARY",
+    "rationale": "Concurrent chemoradiation can be identified from overlapping chemotherapy and radiation treatment dates in the EHR."
+  },
+  {
+    "umbrella": "Adjuvant/Neoadjuvant Therapy",
+    "category": "PREDICTABLE_AND_NECESSARY",
+    "rationale": "Treatment intent is commonly required but often not explicitly documented; requires inference from treatment timing relative to surgery."
+  },
+  {
+    "umbrella": "Specific Prior Treatment Agents",
+    "category": "PREDICTABLE_BUT_NOT_NECESSARY",
+    "rationale": "Specific drug names are documented in medication administration records and can be directly queried."
+  },
+  {
+    "umbrella": "Prior Surgery",
+    "category": "PREDICTABLE_BUT_NOT_NECESSARY",
+    "rationale": "Surgical procedures are documented in procedure codes and operative notes within the EHR."
+  },
+  {
+    "umbrella": "Surgical Resectability/Status",
+    "category": "NOT_PREDICTABLE",
+    "rationale": "Determination of resectability requires prospective surgical evaluation and multidisciplinary assessment that cannot be reliably inferred from existing data."
+  },
+  {
+    "umbrella": "Mediastinal/Lymph Node Staging",
+    "category": "PREDICTABLE_AND_NECESSARY",
+    "rationale": "Nodal staging is important for lung cancer trials but may be fragmented across pathology and imaging; benefits from aggregation and inference."
+  },
+  {
+    "umbrella": "Imaging Requirements",
+    "category": "PREDICTABLE_BUT_NOT_NECESSARY",
+    "rationale": "Imaging study completion and dates are documented in radiology information systems integrated with the EHR."
+  },
+  {
+    "umbrella": "Tumor Tissue/Biospecimen",
+    "category": "NOT_PREDICTABLE",
+    "rationale": "Physical specimen availability and adequacy for future testing cannot be reliably determined from EHR data alone; requires pathology/biobank verification."
+  },
+  {
+    "umbrella": "Genetic/Germline Testing",
+    "category": "NOT_PREDICTABLE",
+    "rationale": "Germline genetic testing requires specialized assays that must be performed prospectively; results cannot be inferred from clinical data."
+  },
+  {
+    "umbrella": "Treatment-Related Toxicity",
+    "category": "PREDICTABLE_AND_NECESSARY",
+    "rationale": "Prior toxicities are commonly required but inconsistently graded; can be inferred from diagnoses, labs, dose modifications, and clinical notes."
+  },
+  {
+    "umbrella": "Washout Period",
+    "category": "PREDICTABLE_BUT_NOT_NECESSARY",
+    "rationale": "Last treatment dates are documented in medication administration records allowing direct calculation of washout periods."
+  },
+  {
+    "umbrella": "Concurrent Anti-Cancer Therapy",
+    "category": "PREDICTABLE_BUT_NOT_NECESSARY",
+    "rationale": "Current medications and active treatment regimens are documented in medication lists and oncology treatment plans."
+  },
+  {
+    "umbrella": "Investigational Study Participation",
+    "category": "PREDICTABLE_AND_NECESSARY",
+    "rationale": "Clinical trial participation may not be reliably captured in standard EHR data; requires inference from research notes or external trial databases."
+  },
+  {
+    "umbrella": "Drug Hypersensitivity/Allergy",
+    "category": "PREDICTABLE_BUT_NOT_NECESSARY",
+    "rationale": "Allergies and drug hypersensitivities are documented in dedicated allergy lists within the EHR."
+  },
+  {
+    "umbrella": "Treatment Contraindications",
+    "category": "PREDICTABLE_AND_NECESSARY",
+    "rationale": "Contraindications often require inference from multiple data elements including diagnoses, medications, and clinical assessments."
+  },
+  {
+    "umbrella": "Corticosteroid Use",
+    "category": "PREDICTABLE_BUT_NOT_NECESSARY",
+    "rationale": "Corticosteroid prescriptions and doses are documented in medication lists and administration records."
+  },
+  {
+    "umbrella": "Transplant History",
+    "category": "PREDICTABLE_BUT_NOT_NECESSARY",
+    "rationale": "Transplant procedures are documented in surgical history and problem lists with associated immunosuppression regimens."
+  },
+  {
+    "umbrella": "Live Vaccination",
+    "category": "PREDICTABLE_BUT_NOT_NECESSARY",
+    "rationale": "Vaccination records including vaccine types and dates are maintained in immunization registries linked to EHRs."
+  },
+  {
+    "umbrella": "Pregnancy/Lactation Status",
+    "category": "PREDICTABLE_BUT_NOT_NECESSARY",
+    "rationale": "Pregnancy tests are routine labs and pregnancy/lactation status is documented during intake assessments."
+  },
+  {
+    "umbrella": "Contraception Requirements",
+    "category": "NOT_PREDICTABLE",
+    "rationale": "Willingness to use contraception is an administrative/consent requirement that requires prospective patient confirmation."
+  },
+  {
+    "umbrella": "Gastrointestinal Function",
+    "category": "PREDICTABLE_BUT_NOT_NECESSARY",
+    "rationale": "GI conditions and functional status are documented in diagnoses, procedure notes, and gastroenterology consultations."
+  },
+  {
+    "umbrella": "Pleural/Pericardial Effusion",
+    "category": "PREDICTABLE_AND_NECESSARY",
+    "rationale": "Commonly relevant for thoracic oncology but may require aggregation from multiple imaging reports and procedure notes to determine current status."
+  },
+  {
+    "umbrella": "Neurological/Psychiatric Conditions",
+    "category": "PREDICTABLE_BUT_NOT_NECESSARY",
+    "rationale": "Neurological and psychiatric diagnoses are documented in problem lists and specialty consultation notes."
+  },
+  {
+    "umbrella": "Thyroid Function",
+    "category": "PREDICTABLE_BUT_NOT_NECESSARY",
+    "rationale": "Thyroid function tests (TSH, T3, T4) are routine laboratory values available as structured EHR data."
+  },
+  {
+    "umbrella": "Diabetes",
+    "category": "PREDICTABLE_BUT_NOT_NECESSARY",
+    "rationale": "Diabetes diagnoses, HbA1c levels, and diabetes medications are well-documented in structured EHR data."
+  },
+  {
+    "umbrella": "Wound Healing",
+    "category": "PREDICTABLE_AND_NECESSARY",
+    "rationale": "Wound healing status is relevant for surgical trials but not routinely documented; may require inference from surgical notes and clinical assessments."
+  },
+  {
+    "umbrella": "Proteinuria",
+    "category": "PREDICTABLE_BUT_NOT_NECESSARY",
+    "rationale": "Urinalysis and urine protein quantification are available as structured laboratory data in the EHR."
+  },
+  {
+    "umbrella": "Corneal Disease",
+    "category": "PREDICTABLE_BUT_NOT_NECESSARY",
+    "rationale": "Corneal conditions are documented in ophthalmology notes and problem lists when present."
+  },
+  {
+    "umbrella": "Drug Interactions",
+    "category": "PREDICTABLE_BUT_NOT_NECESSARY",
+    "rationale": "Current medications are available in medication lists allowing computational assessment of potential drug interactions."
+  },
+  {
+    "umbrella": "Informed Consent",
+    "category": "NOT_PREDICTABLE",
+    "rationale": "Consent is a prospective administrative requirement that cannot be predicted from clinical EHR data."
+  },
+  {
+    "umbrella": "Study Compliance",
+    "category": "NOT_PREDICTABLE",
+    "rationale": "Ability to comply with study procedures requires prospective assessment and cannot be reliably predicted from EHR data."
+  },
+  {
+    "umbrella": "Investigator Assessment",
+    "category": "NOT_PREDICTABLE",
+    "rationale": "Investigator judgment and discretionary assessments require prospective clinical evaluation at the time of screening."
+  },
+  {
+    "umbrella": "Treatment Timing",
+    "category": "PREDICTABLE_BUT_NOT_NECESSARY",
+    "rationale": "Treatment dates are documented in medication administration and procedure records allowing direct timing calculations."
+  },
+  {
+    "umbrella": "Intercurrent Illness",
+    "category": "PREDICTABLE_BUT_NOT_NECESSARY",
+    "rationale": "Active medical conditions are documented in problem lists, recent diagnoses, and clinical notes."
+  },
+  {
+    "umbrella": "Implantable Devices",
+    "category": "PREDICTABLE_BUT_NOT_NECESSARY",
+    "rationale": "Implanted devices (pacemakers, ports) are documented in procedure history and problem lists."
+  },
+  {
+    "umbrella": "Transfusion Requirements",
+    "category": "PREDICTABLE_BUT_NOT_NECESSARY",
+    "rationale": "Blood product transfusions are documented in medication/blood bank administration records."
+  },
+  {
+    "umbrella": "Locoregional Therapy Eligibility",
+    "category": "NOT_PREDICTABLE",
+    "rationale": "Eligibility for locoregional interventions requires prospective multidisciplinary assessment and cannot be reliably inferred from existing data."
+  },
+  {
+    "umbrella": "Residency/Demographics",
+    "category": "PREDICTABLE_BUT_NOT_NECESSARY",
+    "rationale": "Address and demographic information are standard registration fields available in all EHR systems."
+  },
+  {
+    "umbrella": "Advanced/Refractory Disease",
+    "category": "PREDICTABLE_AND_NECESSARY",
+    "rationale": "Common eligibility requirement but often requires inference from treatment history, lines of therapy, and disease progression documentation."
+  },
+  {
+    "umbrella": "Treatment Amenability",
+    "category": "NOT_PREDICTABLE",
+    "rationale": "Determination of treatment amenability requires prospective clinical assessment and multidisciplinary evaluation."
+  },
+  {
+    "umbrella": "Tumor Markers",
+    "category": "PREDICTABLE_BUT_NOT_NECESSARY",
+    "rationale": "Serum tumor markers (CEA, CA-125, PSA) are structured laboratory values available in EHR data when ordered."
+  }
+]

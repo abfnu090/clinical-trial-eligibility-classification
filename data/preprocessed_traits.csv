@@ -1,0 +1,280 @@
+Canonical_Trait
+ALK rearrangement/fusion status
+Ability to safely receive investigational and SOC regimens
+Ability to swallow oral medication
+Absence of identifiable primary tumor or nodal disease
+Absolute neutrophil count
+Actionable mutations
+Active infection
+Acute disease
+Advanced refractory solid tumors
+Age
+Alkaline phosphatase
+Allogeneic transplant
+Alpha-fetoprotein level
+Amenability to consolidation immunotherapy
+Anticoagulant treatment
+Anticoagulation treatment
+Arterial thrombotic events
+Autoimmune disease/disorder
+Bevacizumab treatment continuity
+Bleeding/Coagulation disorders
+Blood pressure control
+Body weight
+Brain imaging
+Brain metastases
+CT chest with IV contrast or PET/CT
+CYP3A4 inhibitors/inducers
+Cardiac conditions
+Centrally located primary tumor <2 cm from nodal disease (overlap risk)
+Chemotherapy cycles
+Chemotherapy timing
+Child-Pugh classification
+Complete resection
+Concurrent anti-cancer therapy
+Concurrent antineoplastic therapy
+Concurrent clinical trials
+Contraception
+Creatinine clearance/Renal function
+Curative intent eligibility (clinical appropriateness)
+Denosumab use
+Diabetes
+Diagnosis
+Disease progression
+Disease progression status
+Disease recurrence timing
+Drug allergy/hypersensitivity
+EBV infection
+ECOG Performance Status
+EGFR mutation status
+EGFR/ALK/ROS1/BRAF combined status
+Epstein-Barr virus (EBV) infection
+Extracapsular extension
+Germline sequencing
+Gross disease remaining
+HBV status
+HCC diagnosis
+HCV status
+HER2 status
+HIV status
+Hematologic function
+Hemoglobin
+Hepatic disorder
+Hepatitis status (combined)
+Histology
+Identified primary tumor and at least one nodal metastasis
+Imaging timing
+Immunostimulatory agents
+Immunosuppression
+Infection
+Informed consent
+Inoperability status
+Interstitial lung disease/pneumonitis
+Investigational study participation
+Investigational therapy
+Investigator discretion
+Investigator judgment
+Investigator judgment early termination risk
+KRAS mutation
+Kaposi sarcoma/MCD in HIV
+Lab abnormalities
+Life expectancy
+Life-threatening non-cancer illness
+Live vaccine
+Liver function
+MDS/AML
+MRD status
+Maintenance therapy history
+Malabsorption syndromes
+Measurable disease
+Medical/psychiatric conditions
+Metastatic disease
+Metastatic or locally recurrent gastro-oesophageal cancer
+Minimal pleural effusion eligibility
+N2 node sampling
+NSCLC resection status
+Neurological/psychiatric disorders
+No evidence of distant metastases (by FDG PET/CT)
+Non-healing wounds
+Non-malignant pleural effusion status
+Nucleoside analog treatment
+Organ function
+Organ transplant
+Other driver oncogenes
+Other malignancy
+PD-L1 expression/status
+PET-CT timing
+PET/CT staging
+"Pathologically proven non-operable stage IIB or III, node positive NSCLC"
+Pericardial effusion
+Platelet count
+Platinum doublet contraindication
+Platinum doublet cycles
+Platinum doublet progression
+Platinum-based chemotherapy contraindication
+Pleural fluid cytology if effusion visible on CT and x-ray
+Positive microscopic margins
+Post-op chest CT
+Post-op recurrence
+Pre-op FDG-PET/CT
+Pre-op chest CT/MRI
+Pre-op imaging coverage
+Pre-op mediastinal staging
+Pre-surgical plasma sample
+Pregnancy/reproductive status
+Primary tumor site
+Primary tumor size â‰¤7 cm
+Prior PARP inhibitor
+Prior PD-1/PD-L1 therapy
+Prior Stage III therapy
+Prior adjuvant/neoadjuvant therapy
+Prior anti-TIGIT therapy
+Prior anti-VEGF therapy
+Prior checkpoint inhibitor therapy
+Prior chemoradiation
+Prior chemotherapy
+Prior immunotherapy
+Prior radiotherapy
+Prior systemic therapy
+Prior targeted therapy
+Proteinuria
+Psychotropic drug or alcohol abuse
+Pulmonary function
+ROS1 rearrangement
+Radiation dose
+Radiation therapy
+Re-resection status
+Recent biological response modifiers
+Recent drug therapy
+Recent investigational treatment
+Recent radiotherapy
+Recent systemic therapy
+Recent/Major surgery
+Recurrent or refractory NSCLC
+Resection type
+Residency and ancestry
+STK11 mutation
+Second-line therapy refusal
+Seizure disorder
+Separate tumor nodules in same lobe
+Serum albumin
+Sex
+Smoking status
+Stage
+Steroid use
+Study compliance willingness
+Surgical margins
+Surgical resectability/inoperability/refusal
+Systemic disease
+TACE eligibility
+Thyroid function
+Time from progression to randomization
+Toxicity
+Toxicity from prior therapy
+Toxicity recovery
+Treatment start feasibility
+Tuberculosis
+Tumor tissue/sample
+Uncontrolled illness
+Uncontrolled intercurrent illness
+Unresectable/metastatic disease
+Vascular aneurysms
+Venous thrombotic events
+Viral load
+Wedge resection
+Weight loss
+Whole blood transfusion
+Wound healing
+actionable_driver_oncogenes
+actionable_genomic_alterations
+actionable_molecular_alterations
+adhesive_allergy
+adjuvant_progression_timing
+adjuvant_therapy
+allogeneic_transplant
+blood_pressure
+body_weight
+cerebrovascular_accident
+chemotherapy_recovery
+clinical_study_participation
+compliance
+concurrent_anticancer_therapy
+concurrent_experimental_therapy
+concurrent_investigational_therapy
+corneal_disease
+ct_scan
+curative_intent_therapy
+device_operation
+diabetes
+disease_burden
+disease_progression
+disease_response
+docetaxel_contraindication
+early_stage_relapse
+enrollment_timing
+fdg_pet_ct
+fistula
+follow_up_accessibility
+gi_abnormalities
+gi_absorption_condition
+gi_disease
+hypertension
+immunotherapy_contraindication
+implantable_devices
+institutionalization
+intercurrent_illness
+interference_condition
+investigational_therapy
+mds_aml_history
+medical_psychiatric_risk
+metastatic_progression_timing
+molecular_alterations
+molecular_status
+mrd_eligibility
+other_actionable_alterations
+pembrolizumab_monotherapy
+peripheral_neuropathy
+persistent_disease
+physician_assigned_therapy
+planned_surgery
+platinum_cycles
+post_platinum_therapy
+post_treatment_imaging
+preop_imaging
+prior_immune_related_ae
+prior_mmae_ib6_therapy
+prior_parp_inhibitor
+prior_topoisomerase_adc
+prior_toxicity
+prior_transplant
+prior_transplantation
+psychiatric_condition
+qtcf_interval
+questionnaire_completion
+radiation_dose
+radiation_technique
+recent_antitumor_therapy
+recent_colony_stimulating_factor
+recent_pet
+recent_radiotherapy
+recovery_from_prior_therapy
+resection_types
+residual_disease_site
+second_screen_imaging
+smoking_status
+surveillance_consent
+surveillance_start_timing
+swallowing_ability
+synchronous_tumors
+systemic_therapy_timing
+third_space_fluid_retention
+treatment_start
+tumor_cavitation_vessel_invasion
+tumor_size_number
+unapproved_surgical_procedures
+unresectable_nsclc
+unresectable_status
+washout_period
+wedge_resection
+whole_blood_transfusion
+wound_healing

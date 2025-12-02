@@ -1,0 +1,544 @@
+trait,umbrella,agreement,flag,claude,gpt5,gemini,deepseek,grok
+alk fusion,ALK Mutation Status,5/5,🟢,ALK Mutation Status,ALK Mutation Status,ALK Mutation Status,ALK Mutation Status,ALK Mutation Status
+alk fusion status,ALK Mutation Status,5/5,🟢,ALK Mutation Status,ALK Mutation Status,ALK Mutation Status,ALK Mutation Status,ALK Mutation Status
+alk gene translocation status,ALK Mutation Status,5/5,🟢,ALK Mutation Status,ALK Mutation Status,ALK Mutation Status,ALK Mutation Status,ALK Mutation Status
+alk mutation,ALK Mutation Status,5/5,🟢,ALK Mutation Status,ALK Mutation Status,ALK Mutation Status,ALK Mutation Status,ALK Mutation Status
+alk rearrangement,ALK Mutation Status,5/5,🟢,ALK Mutation Status,ALK Mutation Status,ALK Mutation Status,ALK Mutation Status,ALK Mutation Status
+alk status,ALK Mutation Status,5/5,🟢,ALK Mutation Status,ALK Mutation Status,ALK Mutation Status,ALK Mutation Status,ALK Mutation Status
+alk translocation,ALK Mutation Status,5/5,🟢,ALK Mutation Status,ALK Mutation Status,ALK Mutation Status,ALK Mutation Status,ALK Mutation Status
+ast/alt,Hepatic Function,5/5,🟢,Hepatic Function,Hepatic Function,Hepatic Function,Hepatic Function,Hepatic Function
+ability to safely receive investigational and soc regimens,Treatment Amenability,4/5,🟢,Treatment Amenability,Treatment Contraindications,Treatment Amenability,Treatment Amenability,Treatment Amenability
+ability to swallow oral medication,Gastrointestinal Function,5/5,🟢,Gastrointestinal Function,Gastrointestinal Function,Gastrointestinal Function,Gastrointestinal Function,Gastrointestinal Function
+absence of identifiable primary tumor or nodal disease,Primary Tumor Characteristics,5/5,🟢,Primary Tumor Characteristics,Primary Tumor Characteristics,Primary Tumor Characteristics,Primary Tumor Characteristics,Primary Tumor Characteristics
+absolute neutrophil count,Hematologic Function,5/5,🟢,Hematologic Function,Hematologic Function,Hematologic Function,Hematologic Function,Hematologic Function
+actionable mutations,Actionable Genomic Alterations,5/5,🟢,Actionable Genomic Alterations,Actionable Genomic Alterations,Actionable Genomic Alterations,Actionable Genomic Alterations,Actionable Genomic Alterations
+active infection,Active Infection,5/5,🟢,Active Infection,Active Infection,Active Infection,Active Infection,Active Infection
+active infections,Active Infection,5/5,🟢,Active Infection,Active Infection,Active Infection,Active Infection,Active Infection
+active tuberculosis,Tuberculosis,5/5,🟢,Tuberculosis,Tuberculosis,Tuberculosis,Tuberculosis,Tuberculosis
+acute coronary syndrome,Cardiac Function,5/5,🟢,Cardiac Function,Cardiac Function,Cardiac Function,Cardiac Function,Cardiac Function
+acute disease,Intercurrent Illness,5/5,🟢,Intercurrent Illness,Intercurrent Illness,Intercurrent Illness,Intercurrent Illness,Intercurrent Illness
+additional malignancy,Prior/Concurrent Malignancy,5/5,🟢,Prior/Concurrent Malignancy,Prior/Concurrent Malignancy,Prior/Concurrent Malignancy,Prior/Concurrent Malignancy,Prior/Concurrent Malignancy
+adenocarcinoma or undifferentiated carcinoma histology,Tumor Histology,5/5,🟢,Tumor Histology,Tumor Histology,Tumor Histology,Tumor Histology,Tumor Histology
+adjuvant chemotherapy tolerance,Treatment-Related Toxicity,2/5,🔴,Treatment-Related Toxicity,Treatment-Related Toxicity,Treatment Amenability,Adjuvant/Neoadjuvant Therapy,Treatment Amenability
+adjuvant/neoadjuvant therapy,Adjuvant/Neoadjuvant Therapy,5/5,🟢,Adjuvant/Neoadjuvant Therapy,Adjuvant/Neoadjuvant Therapy,Adjuvant/Neoadjuvant Therapy,Adjuvant/Neoadjuvant Therapy,Adjuvant/Neoadjuvant Therapy
+advanced refractory solid tumors,Advanced/Refractory Disease,5/5,🟢,Advanced/Refractory Disease,Advanced/Refractory Disease,Advanced/Refractory Disease,Advanced/Refractory Disease,Advanced/Refractory Disease
+age,Age,5/5,🟢,Age,Age,Age,Age,Age
+age 18-75 years,Age,5/5,🟢,Age,Age,Age,Age,Age
+age ≥18 years,Age,5/5,🟢,Age,Age,Age,Age,Age
+allogeneic transplant,Transplant History,5/5,🟢,Transplant History,Transplant History,Transplant History,Transplant History,Transplant History
+alpha-fetoprotein level,Tumor Markers,5/5,🟢,Tumor Markers,Tumor Markers,Tumor Markers,Tumor Markers,Tumor Markers
+amenability to consolidation immunotherapy,Treatment Amenability,5/5,🟢,Treatment Amenability,Treatment Amenability,Treatment Amenability,Treatment Amenability,Treatment Amenability
+anti-hepatitis b core antibody,Hepatitis B/C Status,5/5,🟢,Hepatitis B/C Status,Hepatitis B/C Status,Hepatitis B/C Status,Hepatitis B/C Status,Hepatitis B/C Status
+anticoagulant treatment,Anticoagulation Therapy,5/5,🟢,Anticoagulation Therapy,Anticoagulation Therapy,Anticoagulation Therapy,Anticoagulation Therapy,Anticoagulation Therapy
+anticoagulation treatment,Anticoagulation Therapy,5/5,🟢,Anticoagulation Therapy,Anticoagulation Therapy,Anticoagulation Therapy,Anticoagulation Therapy,Anticoagulation Therapy
+arterial thrombotic events,Thrombotic Events,5/5,🟢,Thrombotic Events,Thrombotic Events,Thrombotic Events,Thrombotic Events,Thrombotic Events
+autoimmune disease,Autoimmune Disease,5/5,🟢,Autoimmune Disease,Autoimmune Disease,Autoimmune Disease,Autoimmune Disease,Autoimmune Disease
+autoimmune disease or immune deficiency,Autoimmune Disease,4/5,🟢,Autoimmune Disease,Autoimmune Disease,Autoimmune Disease,Immunosuppression/Immunodeficiency,Autoimmune Disease
+autoimmune diseases,Autoimmune Disease,5/5,🟢,Autoimmune Disease,Autoimmune Disease,Autoimmune Disease,Autoimmune Disease,Autoimmune Disease
+autoimmune disorder,Autoimmune Disease,5/5,🟢,Autoimmune Disease,Autoimmune Disease,Autoimmune Disease,Autoimmune Disease,Autoimmune Disease
+autoimmune disorders,Autoimmune Disease,5/5,🟢,Autoimmune Disease,Autoimmune Disease,Autoimmune Disease,Autoimmune Disease,Autoimmune Disease
+autoimmune/inflammatory disorders,Autoimmune Disease,5/5,🟢,Autoimmune Disease,Autoimmune Disease,Autoimmune Disease,Autoimmune Disease,Autoimmune Disease
+bevacizumab treatment continuity,Prior Anti-VEGF Therapy,5/5,🟢,Prior Anti-VEGF Therapy,Prior Anti-VEGF Therapy,Prior Anti-VEGF Therapy,Prior Anti-VEGF Therapy,Prior Anti-VEGF Therapy
+bilirubin,Hepatic Function,5/5,🟢,Hepatic Function,Hepatic Function,Hepatic Function,Hepatic Function,Hepatic Function
+bleeding disorders,Bleeding/Coagulation Disorders,5/5,🟢,Bleeding/Coagulation Disorders,Bleeding/Coagulation Disorders,Bleeding/Coagulation Disorders,Bleeding/Coagulation Disorders,Bleeding/Coagulation Disorders
+blood pressure control,Blood Pressure/Hypertension,5/5,🟢,Blood Pressure/Hypertension,Blood Pressure/Hypertension,Blood Pressure/Hypertension,Blood Pressure/Hypertension,Blood Pressure/Hypertension
+body weight,Body Weight and Nutritional Status,5/5,🟢,Body Weight and Nutritional Status,Body Weight and Nutritional Status,Body Weight and Nutritional Status,Body Weight and Nutritional Status,Body Weight and Nutritional Status
+brain mri or ct prior to registration,Imaging Requirements,5/5,🟢,Imaging Requirements,Imaging Requirements,Imaging Requirements,Imaging Requirements,Imaging Requirements
+brain imaging,Imaging Requirements,5/5,🟢,Imaging Requirements,Imaging Requirements,Imaging Requirements,Imaging Requirements,Imaging Requirements
+brain metastases,Brain/CNS Metastases,5/5,🟢,Brain/CNS Metastases,Brain/CNS Metastases,Brain/CNS Metastases,Brain/CNS Metastases,Brain/CNS Metastases
+cns metastases,Brain/CNS Metastases,5/5,🟢,Brain/CNS Metastases,Brain/CNS Metastases,Brain/CNS Metastases,Brain/CNS Metastases,Brain/CNS Metastases
+copd with respiratory failure,Pulmonary Function,5/5,🟢,Pulmonary Function,Pulmonary Function,Pulmonary Function,Pulmonary Function,Pulmonary Function
+crt sequence,Prior Chemoradiation,3/5,🟡,Prior Chemoradiation,Treatment Timing,Treatment Timing,Prior Chemoradiation,Prior Chemoradiation
+ct chest with iv contrast or pet/ct,Imaging Requirements,5/5,🟢,Imaging Requirements,Imaging Requirements,Imaging Requirements,Imaging Requirements,Imaging Requirements
+cyp3a4 inhibitors/inducers,Drug Interactions,5/5,🟢,Drug Interactions,Drug Interactions,Drug Interactions,Drug Interactions,Drug Interactions
+carcinomatous meningitis,Brain/CNS Metastases,5/5,🟢,Brain/CNS Metastases,Brain/CNS Metastases,Brain/CNS Metastases,Brain/CNS Metastases,Brain/CNS Metastases
+cardiac aneurysms,Cardiac Function,3/5,🟡,Cardiac Function,Vascular Conditions,Cardiac Function,Cardiac Function,Vascular Conditions
+cardiac conditions,Cardiac Function,5/5,🟢,Cardiac Function,Cardiac Function,Cardiac Function,Cardiac Function,Cardiac Function
+cardiac disease,Cardiac Function,5/5,🟢,Cardiac Function,Cardiac Function,Cardiac Function,Cardiac Function,Cardiac Function
+cardiac disease history,Cardiac Function,5/5,🟢,Cardiac Function,Cardiac Function,Cardiac Function,Cardiac Function,Cardiac Function
+cardiac function,Cardiac Function,5/5,🟢,Cardiac Function,Cardiac Function,Cardiac Function,Cardiac Function,Cardiac Function
+cardiovascular disease,Cardiac Function,4/5,🟢,Cardiac Function,Vascular Conditions,Cardiac Function,Cardiac Function,Cardiac Function
+centrally located primary tumor <2 cm from nodal disease (overlap risk),Primary Tumor Characteristics,5/5,🟢,Primary Tumor Characteristics,Primary Tumor Characteristics,Primary Tumor Characteristics,Primary Tumor Characteristics,Primary Tumor Characteristics
+chemotherapy cycles,Prior Chemotherapy,5/5,🟢,Prior Chemotherapy,Prior Chemotherapy,Prior Chemotherapy,Prior Chemotherapy,Prior Chemotherapy
+chemotherapy timing,Treatment Timing,5/5,🟢,Treatment Timing,Treatment Timing,Treatment Timing,Treatment Timing,Treatment Timing
+child-pugh classification,Hepatic Function,5/5,🟢,Hepatic Function,Hepatic Function,Hepatic Function,Hepatic Function,Hepatic Function
+chronic immunosuppression,Immunosuppression/Immunodeficiency,5/5,🟢,Immunosuppression/Immunodeficiency,Immunosuppression/Immunodeficiency,Immunosuppression/Immunodeficiency,Immunosuppression/Immunodeficiency,Immunosuppression/Immunodeficiency
+cisplatin-based chemotherapy,Prior Chemotherapy,5/5,🟢,Prior Chemotherapy,Prior Chemotherapy,Prior Chemotherapy,Prior Chemotherapy,Prior Chemotherapy
+coagulation disorders,Bleeding/Coagulation Disorders,5/5,🟢,Bleeding/Coagulation Disorders,Bleeding/Coagulation Disorders,Bleeding/Coagulation Disorders,Bleeding/Coagulation Disorders,Bleeding/Coagulation Disorders
+complete resection,Surgical Resectability/Status,5/5,🟢,Surgical Resectability/Status,Surgical Resectability/Status,Surgical Resectability/Status,Surgical Resectability/Status,Surgical Resectability/Status
+concurrent hbv/hcv,Hepatitis B/C Status,5/5,🟢,Hepatitis B/C Status,Hepatitis B/C Status,Hepatitis B/C Status,Hepatitis B/C Status,Hepatitis B/C Status
+concurrent anti-cancer therapy,Concurrent Anti-Cancer Therapy,5/5,🟢,Concurrent Anti-Cancer Therapy,Concurrent Anti-Cancer Therapy,Concurrent Anti-Cancer Therapy,Concurrent Anti-Cancer Therapy,Concurrent Anti-Cancer Therapy
+concurrent antineoplastic therapy,Concurrent Anti-Cancer Therapy,5/5,🟢,Concurrent Anti-Cancer Therapy,Concurrent Anti-Cancer Therapy,Concurrent Anti-Cancer Therapy,Concurrent Anti-Cancer Therapy,Concurrent Anti-Cancer Therapy
+concurrent clinical trials,Investigational Study Participation,5/5,🟢,Investigational Study Participation,Investigational Study Participation,Investigational Study Participation,Investigational Study Participation,Investigational Study Participation
+concurrent/prior malignancy,Prior/Concurrent Malignancy,5/5,🟢,Prior/Concurrent Malignancy,Prior/Concurrent Malignancy,Prior/Concurrent Malignancy,Prior/Concurrent Malignancy,Prior/Concurrent Malignancy
+consent compliance,Study Compliance,3/5,🟡,Informed Consent,Study Compliance,Study Compliance,Informed Consent,Study Compliance
+contraception,Contraception Requirements,5/5,🟢,Contraception Requirements,Contraception Requirements,Contraception Requirements,Contraception Requirements,Contraception Requirements
+contraception compliance,Contraception Requirements,4/5,🟢,Contraception Requirements,Contraception Requirements,Contraception Requirements,Contraception Requirements,Study Compliance
+contraceptive use,Contraception Requirements,5/5,🟢,Contraception Requirements,Contraception Requirements,Contraception Requirements,Contraception Requirements,Contraception Requirements
+contraceptive use compliance,Contraception Requirements,4/5,🟢,Contraception Requirements,Contraception Requirements,Contraception Requirements,Contraception Requirements,Study Compliance
+creatinine clearance,Renal Function,5/5,🟢,Renal Function,Renal Function,Renal Function,Renal Function,Renal Function
+creatinine clearance ≥25 ml/min (cockcroft-gault),Renal Function,5/5,🟢,Renal Function,Renal Function,Renal Function,Renal Function,Renal Function
+curative intent eligibility (clinical appropriateness),Treatment Amenability,5/5,🟢,Treatment Amenability,Treatment Amenability,Treatment Amenability,Treatment Amenability,Treatment Amenability
+denosumab use,Specific Prior Treatment Agents,3/5,🟡,Specific Prior Treatment Agents,Specific Prior Treatment Agents,Concurrent Anti-Cancer Therapy,Prior Systemic Therapy,Specific Prior Treatment Agents
+diabetes,Diabetes,5/5,🟢,Diabetes,Diabetes,Diabetes,Diabetes,Diabetes
+diagnosis,Diagnosis Confirmation,5/5,🟢,Diagnosis Confirmation,Diagnosis Confirmation,Diagnosis Confirmation,Diagnosis Confirmation,Diagnosis Confirmation
+disease progression,Disease Progression,5/5,🟢,Disease Progression,Disease Progression,Disease Progression,Disease Progression,Disease Progression
+disease progression after anti-pd-1/pd-l1,Disease Progression,5/5,🟢,Disease Progression,Disease Progression,Disease Progression,Disease Progression,Disease Progression
+disease progression after neoadjuvant/adjuvant/consolidation anti-pd-1/pd-l1,Disease Progression,5/5,🟢,Disease Progression,Disease Progression,Disease Progression,Disease Progression,Disease Progression
+disease progression status,Disease Progression,5/5,🟢,Disease Progression,Disease Progression,Disease Progression,Disease Progression,Disease Progression
+disease recurrence timing,Disease Recurrence,5/5,🟢,Disease Recurrence,Disease Recurrence,Disease Recurrence,Disease Recurrence,Disease Recurrence
+drug allergy history,Drug Hypersensitivity/Allergy,5/5,🟢,Drug Hypersensitivity/Allergy,Drug Hypersensitivity/Allergy,Drug Hypersensitivity/Allergy,Drug Hypersensitivity/Allergy,Drug Hypersensitivity/Allergy
+drug hypersensitivity,Drug Hypersensitivity/Allergy,5/5,🟢,Drug Hypersensitivity/Allergy,Drug Hypersensitivity/Allergy,Drug Hypersensitivity/Allergy,Drug Hypersensitivity/Allergy,Drug Hypersensitivity/Allergy
+drug intolerance,Drug Hypersensitivity/Allergy,2/5,🔴,Drug Hypersensitivity/Allergy,Treatment Contraindications,Treatment-Related Toxicity,Drug Hypersensitivity/Allergy,Treatment-Related Toxicity
+ebv infection,EBV Infection,5/5,🟢,EBV Infection,EBV Infection,EBV Infection,EBV Infection,EBV Infection
+ecg abnormalities,ECG Abnormalities,5/5,🟢,ECG Abnormalities,ECG Abnormalities,ECG Abnormalities,ECG Abnormalities,ECG Abnormalities
+ecog ps,Performance Status,5/5,🟢,Performance Status,Performance Status,Performance Status,Performance Status,Performance Status
+ecog performance status,Performance Status,5/5,🟢,Performance Status,Performance Status,Performance Status,Performance Status,Performance Status
+ecog performance status 0-2,Performance Status,5/5,🟢,Performance Status,Performance Status,Performance Status,Performance Status,Performance Status
+egfr tki treatment failure,Prior Targeted Therapy,5/5,🟢,Prior Targeted Therapy,Prior Targeted Therapy,Prior Targeted Therapy,Prior Targeted Therapy,Prior Targeted Therapy
+egfr mutation,EGFR Mutation Status,5/5,🟢,EGFR Mutation Status,EGFR Mutation Status,EGFR Mutation Status,EGFR Mutation Status,EGFR Mutation Status
+egfr mutation status,EGFR Mutation Status,5/5,🟢,EGFR Mutation Status,EGFR Mutation Status,EGFR Mutation Status,EGFR Mutation Status,EGFR Mutation Status
+egfr status,EGFR Mutation Status,5/5,🟢,EGFR Mutation Status,EGFR Mutation Status,EGFR Mutation Status,EGFR Mutation Status,EGFR Mutation Status
+egfr/alk status,Actionable Genomic Alterations,5/5,🟢,Actionable Genomic Alterations,Actionable Genomic Alterations,Actionable Genomic Alterations,Actionable Genomic Alterations,Actionable Genomic Alterations
+echocardiogram findings,Cardiac Function,5/5,🟢,Cardiac Function,Cardiac Function,Cardiac Function,Cardiac Function,Cardiac Function
+end-organ function,Organ Function,5/5,🟢,Organ Function,Organ Function,Organ Function,Organ Function,Organ Function
+epstein-barr virus (ebv) infection,EBV Infection,5/5,🟢,EBV Infection,EBV Infection,EBV Infection,EBV Infection,EBV Infection
+expected survival,Life Expectancy,5/5,🟢,Life Expectancy,Life Expectancy,Life Expectancy,Life Expectancy,Life Expectancy
+extracapsular extension,Primary Tumor Characteristics,3/5,🟡,Primary Tumor Characteristics,Residual Disease,Mediastinal/Lymph Node Staging,Primary Tumor Characteristics,Primary Tumor Characteristics
+female contraception compliance,Contraception Requirements,5/5,🟢,Contraception Requirements,Contraception Requirements,Contraception Requirements,Contraception Requirements,Contraception Requirements
+female pregnancy status,Pregnancy/Lactation Status,4/5,🟢,Pregnancy/Lactation Status,Pregnancy/Lactation Status,Pregnancy/Lactation Status,Pregnancy/Lactation Status,
+genetic informed consent,Informed Consent,3/5,🟡,Informed Consent,Informed Consent,Genetic/Germline Testing,Informed Consent,Genetic/Germline Testing
+germline sequencing,Genetic/Germline Testing,5/5,🟢,Genetic/Germline Testing,Genetic/Germline Testing,Genetic/Germline Testing,Genetic/Germline Testing,Genetic/Germline Testing
+grade 3 active infection,Active Infection,5/5,🟢,Active Infection,Active Infection,Active Infection,Active Infection,Active Infection
+grade ≥2 pneumonitis from prior crt,Interstitial Lung Disease/Pneumonitis,5/5,🟢,Interstitial Lung Disease/Pneumonitis,Interstitial Lung Disease/Pneumonitis,Interstitial Lung Disease/Pneumonitis,Interstitial Lung Disease/Pneumonitis,Interstitial Lung Disease/Pneumonitis
+gross disease remaining,Residual Disease,5/5,🟢,Residual Disease,Residual Disease,Residual Disease,Residual Disease,Residual Disease
+hbv infection,Hepatitis B/C Status,5/5,🟢,Hepatitis B/C Status,Hepatitis B/C Status,Hepatitis B/C Status,Hepatitis B/C Status,Hepatitis B/C Status
+hbv status,Hepatitis B/C Status,5/5,🟢,Hepatitis B/C Status,Hepatitis B/C Status,Hepatitis B/C Status,Hepatitis B/C Status,Hepatitis B/C Status
+hcc diagnosis,Diagnosis Confirmation,5/5,🟢,Diagnosis Confirmation,Diagnosis Confirmation,Diagnosis Confirmation,Diagnosis Confirmation,Diagnosis Confirmation
+hcv infection,Hepatitis B/C Status,5/5,🟢,Hepatitis B/C Status,Hepatitis B/C Status,Hepatitis B/C Status,Hepatitis B/C Status,Hepatitis B/C Status
+hcv status,Hepatitis B/C Status,5/5,🟢,Hepatitis B/C Status,Hepatitis B/C Status,Hepatitis B/C Status,Hepatitis B/C Status,Hepatitis B/C Status
+her2 status,HER2 Status,5/5,🟢,HER2 Status,HER2 Status,HER2 Status,HER2 Status,HER2 Status
+hiv infection,HIV Status,5/5,🟢,HIV Status,HIV Status,HIV Status,HIV Status,HIV Status
+hiv status,HIV Status,5/5,🟢,HIV Status,HIV Status,HIV Status,HIV Status,HIV Status
+hematologic function,Hematologic Function,5/5,🟢,Hematologic Function,Hematologic Function,Hematologic Function,Hematologic Function,Hematologic Function
+hematologic function amenable to chemo/radiation,Hematologic Function,4/5,🟢,Hematologic Function,Hematologic Function,Hematologic Function,Hematologic Function,Treatment Amenability
+hematological function,Hematologic Function,5/5,🟢,Hematologic Function,Hematologic Function,Hematologic Function,Hematologic Function,Hematologic Function
+hemoglobin,Hematologic Function,5/5,🟢,Hematologic Function,Hematologic Function,Hematologic Function,Hematologic Function,Hematologic Function
+hemoglobin level,Hematologic Function,5/5,🟢,Hematologic Function,Hematologic Function,Hematologic Function,Hematologic Function,Hematologic Function
+hemoptysis history,Bleeding/Coagulation Disorders,4/5,🟢,Bleeding/Coagulation Disorders,Pulmonary Function,Bleeding/Coagulation Disorders,Bleeding/Coagulation Disorders,Bleeding/Coagulation Disorders
+hepatic disorder,Hepatic Function,5/5,🟢,Hepatic Function,Hepatic Function,Hepatic Function,Hepatic Function,Hepatic Function
+hepatitis b surface antigen,Hepatitis B/C Status,5/5,🟢,Hepatitis B/C Status,Hepatitis B/C Status,Hepatitis B/C Status,Hepatitis B/C Status,Hepatitis B/C Status
+hepatitis status,Hepatitis B/C Status,5/5,🟢,Hepatitis B/C Status,Hepatitis B/C Status,Hepatitis B/C Status,Hepatitis B/C Status,Hepatitis B/C Status
+histology,Tumor Histology,5/5,🟢,Tumor Histology,Tumor Histology,Tumor Histology,Tumor Histology,Tumor Histology
+histology exclusion,Tumor Histology,5/5,🟢,Tumor Histology,Tumor Histology,Tumor Histology,Tumor Histology,Tumor Histology
+hypersensitivity,Drug Hypersensitivity/Allergy,5/5,🟢,Drug Hypersensitivity/Allergy,Drug Hypersensitivity/Allergy,Drug Hypersensitivity/Allergy,Drug Hypersensitivity/Allergy,Drug Hypersensitivity/Allergy
+hypersensitivity to carboplatin or nab-paclitaxel,Drug Hypersensitivity/Allergy,5/5,🟢,Drug Hypersensitivity/Allergy,Drug Hypersensitivity/Allergy,Drug Hypersensitivity/Allergy,Drug Hypersensitivity/Allergy,Drug Hypersensitivity/Allergy
+hypersensitivity to monoclonal antibodies,Drug Hypersensitivity/Allergy,5/5,🟢,Drug Hypersensitivity/Allergy,Drug Hypersensitivity/Allergy,Drug Hypersensitivity/Allergy,Drug Hypersensitivity/Allergy,Drug Hypersensitivity/Allergy
+ild,Interstitial Lung Disease/Pneumonitis,5/5,🟢,Interstitial Lung Disease/Pneumonitis,Interstitial Lung Disease/Pneumonitis,Interstitial Lung Disease/Pneumonitis,Interstitial Lung Disease/Pneumonitis,Interstitial Lung Disease/Pneumonitis
+ild/pneumonitis,Interstitial Lung Disease/Pneumonitis,5/5,🟢,Interstitial Lung Disease/Pneumonitis,Interstitial Lung Disease/Pneumonitis,Interstitial Lung Disease/Pneumonitis,Interstitial Lung Disease/Pneumonitis,Interstitial Lung Disease/Pneumonitis
+inr,Bleeding/Coagulation Disorders,5/5,🟢,Bleeding/Coagulation Disorders,Bleeding/Coagulation Disorders,Bleeding/Coagulation Disorders,Bleeding/Coagulation Disorders,Bleeding/Coagulation Disorders
+identified primary tumor and at least one nodal metastasis,Primary Tumor Characteristics,4/5,🟢,Primary Tumor Characteristics,Primary Tumor Characteristics,Primary Tumor Characteristics,Disease Stage,Primary Tumor Characteristics
+idiopathic pulmonary fibrosis/pneumonitis,Interstitial Lung Disease/Pneumonitis,5/5,🟢,Interstitial Lung Disease/Pneumonitis,Interstitial Lung Disease/Pneumonitis,Interstitial Lung Disease/Pneumonitis,Interstitial Lung Disease/Pneumonitis,Interstitial Lung Disease/Pneumonitis
+imaging timing,Imaging Requirements,5/5,🟢,Imaging Requirements,Imaging Requirements,Imaging Requirements,Imaging Requirements,Imaging Requirements
+immune-mediated therapy,Prior Immunotherapy/Checkpoint Inhibitors,5/5,🟢,Prior Immunotherapy/Checkpoint Inhibitors,Prior Immunotherapy/Checkpoint Inhibitors,Prior Immunotherapy/Checkpoint Inhibitors,Prior Immunotherapy/Checkpoint Inhibitors,Prior Immunotherapy/Checkpoint Inhibitors
+immunocompromised state,Immunosuppression/Immunodeficiency,5/5,🟢,Immunosuppression/Immunodeficiency,Immunosuppression/Immunodeficiency,Immunosuppression/Immunodeficiency,Immunosuppression/Immunodeficiency,Immunosuppression/Immunodeficiency
+immunostimulatory agents,Concurrent Anti-Cancer Therapy,2/5,🔴,Concurrent Anti-Cancer Therapy,Prior Immunotherapy/Checkpoint Inhibitors,Immunosuppression/Immunodeficiency,Prior Immunotherapy/Checkpoint Inhibitors,Concurrent Anti-Cancer Therapy
+immunosuppressive medication,Immunosuppression/Immunodeficiency,4/5,🟢,Immunosuppression/Immunodeficiency,Corticosteroid Use,Immunosuppression/Immunodeficiency,Immunosuppression/Immunodeficiency,Immunosuppression/Immunodeficiency
+immunosuppressive therapy,Immunosuppression/Immunodeficiency,5/5,🟢,Immunosuppression/Immunodeficiency,Immunosuppression/Immunodeficiency,Immunosuppression/Immunodeficiency,Immunosuppression/Immunodeficiency,Immunosuppression/Immunodeficiency
+infection,Active Infection,5/5,🟢,Active Infection,Active Infection,Active Infection,Active Infection,Active Infection
+inflammatory bowel disease,Autoimmune Disease,4/5,🟢,Autoimmune Disease,Gastrointestinal Function,Autoimmune Disease,Autoimmune Disease,Autoimmune Disease
+informed consent,Informed Consent,5/5,🟢,Informed Consent,Informed Consent,Informed Consent,Informed Consent,Informed Consent
+inoperability status,Surgical Resectability/Status,5/5,🟢,Surgical Resectability/Status,Surgical Resectability/Status,Surgical Resectability/Status,Surgical Resectability/Status,Surgical Resectability/Status
+interstitial lung disease,Interstitial Lung Disease/Pneumonitis,5/5,🟢,Interstitial Lung Disease/Pneumonitis,Interstitial Lung Disease/Pneumonitis,Interstitial Lung Disease/Pneumonitis,Interstitial Lung Disease/Pneumonitis,Interstitial Lung Disease/Pneumonitis
+interstitial lung disease/pneumonitis,Interstitial Lung Disease/Pneumonitis,5/5,🟢,Interstitial Lung Disease/Pneumonitis,Interstitial Lung Disease/Pneumonitis,Interstitial Lung Disease/Pneumonitis,Interstitial Lung Disease/Pneumonitis,Interstitial Lung Disease/Pneumonitis
+investigational study participation,Investigational Study Participation,5/5,🟢,Investigational Study Participation,Investigational Study Participation,Investigational Study Participation,Investigational Study Participation,Investigational Study Participation
+investigational therapy,Investigational Study Participation,5/5,🟢,Investigational Study Participation,Investigational Study Participation,Investigational Study Participation,Investigational Study Participation,Investigational Study Participation
+investigator discretion,Investigator Assessment,5/5,🟢,Investigator Assessment,Investigator Assessment,Investigator Assessment,Investigator Assessment,Investigator Assessment
+investigator judgment,Investigator Assessment,5/5,🟢,Investigator Assessment,Investigator Assessment,Investigator Assessment,Investigator Assessment,Investigator Assessment
+investigator judgment early termination risk,Investigator Assessment,5/5,🟢,Investigator Assessment,Investigator Assessment,Investigator Assessment,Investigator Assessment,Investigator Assessment
+keap1 mutation,KRAS/STK11/KEAP1 Mutation Status,5/5,🟢,KRAS/STK11/KEAP1 Mutation Status,KRAS/STK11/KEAP1 Mutation Status,KRAS/STK11/KEAP1 Mutation Status,KRAS/STK11/KEAP1 Mutation Status,KRAS/STK11/KEAP1 Mutation Status
+kras mutation,KRAS/STK11/KEAP1 Mutation Status,5/5,🟢,KRAS/STK11/KEAP1 Mutation Status,KRAS/STK11/KEAP1 Mutation Status,KRAS/STK11/KEAP1 Mutation Status,KRAS/STK11/KEAP1 Mutation Status,KRAS/STK11/KEAP1 Mutation Status
+kaposi sarcoma/mcd in hiv,Prior/Concurrent Malignancy,4/5,🟢,Prior/Concurrent Malignancy,Prior/Concurrent Malignancy,HIV Status,Prior/Concurrent Malignancy,Prior/Concurrent Malignancy
+known egfr/alk/other driver mutation,Actionable Genomic Alterations,5/5,🟢,Actionable Genomic Alterations,Actionable Genomic Alterations,Actionable Genomic Alterations,Actionable Genomic Alterations,Actionable Genomic Alterations
+known pd-l1 result,PD-L1 Expression Status,5/5,🟢,PD-L1 Expression Status,PD-L1 Expression Status,PD-L1 Expression Status,PD-L1 Expression Status,PD-L1 Expression Status
+lab abnormalities,Organ Function,5/5,🟢,Organ Function,Organ Function,Organ Function,Organ Function,Organ Function
+left ventricular ejection fraction,Cardiac Function,5/5,🟢,Cardiac Function,Cardiac Function,Cardiac Function,Cardiac Function,Cardiac Function
+leptomeningeal carcinomatosis,Brain/CNS Metastases,5/5,🟢,Brain/CNS Metastases,Brain/CNS Metastases,Brain/CNS Metastases,Brain/CNS Metastases,Brain/CNS Metastases
+life expectancy,Life Expectancy,5/5,🟢,Life Expectancy,Life Expectancy,Life Expectancy,Life Expectancy,Life Expectancy
+life-threatening non-cancer illness,Intercurrent Illness,5/5,🟢,Intercurrent Illness,Intercurrent Illness,Intercurrent Illness,Intercurrent Illness,Intercurrent Illness
+live attenuated vaccination,Live Vaccination,5/5,🟢,Live Vaccination,Live Vaccination,Live Vaccination,Live Vaccination,Live Vaccination
+live vaccination,Live Vaccination,5/5,🟢,Live Vaccination,Live Vaccination,Live Vaccination,Live Vaccination,Live Vaccination
+live vaccine,Live Vaccination,5/5,🟢,Live Vaccination,Live Vaccination,Live Vaccination,Live Vaccination,Live Vaccination
+liver enzymes,Hepatic Function,5/5,🟢,Hepatic Function,Hepatic Function,Hepatic Function,Hepatic Function,Hepatic Function
+liver function,Hepatic Function,5/5,🟢,Hepatic Function,Hepatic Function,Hepatic Function,Hepatic Function,Hepatic Function
+mds/aml,Prior/Concurrent Malignancy,5/5,🟢,Prior/Concurrent Malignancy,Prior/Concurrent Malignancy,Prior/Concurrent Malignancy,Prior/Concurrent Malignancy,Prior/Concurrent Malignancy
+mrd status,MRD Status,5/5,🟢,MRD Status,MRD Status,MRD Status,MRD Status,MRD Status
+maintenance therapy history,Prior Systemic Therapy,5/5,🟢,Prior Systemic Therapy,Prior Systemic Therapy,Prior Systemic Therapy,Prior Systemic Therapy,Prior Systemic Therapy
+major surgery,Prior Surgery,5/5,🟢,Prior Surgery,Prior Surgery,Prior Surgery,Prior Surgery,Prior Surgery
+malabsorption syndromes,Gastrointestinal Function,5/5,🟢,Gastrointestinal Function,Gastrointestinal Function,Gastrointestinal Function,Gastrointestinal Function,Gastrointestinal Function
+male contraception,Contraception Requirements,5/5,🟢,Contraception Requirements,Contraception Requirements,Contraception Requirements,Contraception Requirements,Contraception Requirements
+male contraception compliance,Contraception Requirements,5/5,🟢,Contraception Requirements,Contraception Requirements,Contraception Requirements,Contraception Requirements,Contraception Requirements
+measurable disease,Measurable Disease,5/5,🟢,Measurable Disease,Measurable Disease,Measurable Disease,Measurable Disease,Measurable Disease
+medical/psychiatric conditions,Neurological/Psychiatric Conditions,4/5,🟢,Neurological/Psychiatric Conditions,Neurological/Psychiatric Conditions,Intercurrent Illness,Neurological/Psychiatric Conditions,Neurological/Psychiatric Conditions
+metastatic disease,Metastatic Disease Status,5/5,🟢,Metastatic Disease Status,Metastatic Disease Status,Metastatic Disease Status,Metastatic Disease Status,Metastatic Disease Status
+metastatic or locally recurrent gastro-oesophageal cancer,Metastatic Disease Status,3/5,🟡,Disease Stage,Metastatic Disease Status,Metastatic Disease Status,Diagnosis Confirmation,Metastatic Disease Status
+minimal pleural effusion eligibility,Pleural/Pericardial Effusion,5/5,🟢,Pleural/Pericardial Effusion,Pleural/Pericardial Effusion,Pleural/Pericardial Effusion,Pleural/Pericardial Effusion,Pleural/Pericardial Effusion
+mixed histology,Tumor Histology,5/5,🟢,Tumor Histology,Tumor Histology,Tumor Histology,Tumor Histology,Tumor Histology
+mixed tumor histology,Tumor Histology,5/5,🟢,Tumor Histology,Tumor Histology,Tumor Histology,Tumor Histology,Tumor Histology
+monoclonal antibody hypersensitivity,Drug Hypersensitivity/Allergy,5/5,🟢,Drug Hypersensitivity/Allergy,Drug Hypersensitivity/Allergy,Drug Hypersensitivity/Allergy,Drug Hypersensitivity/Allergy,Drug Hypersensitivity/Allergy
+n2 node sampling,Mediastinal/Lymph Node Staging,5/5,🟢,Mediastinal/Lymph Node Staging,Mediastinal/Lymph Node Staging,Mediastinal/Lymph Node Staging,Mediastinal/Lymph Node Staging,Mediastinal/Lymph Node Staging
+nsclc histology,Tumor Histology,5/5,🟢,Tumor Histology,Tumor Histology,Tumor Histology,Tumor Histology,Tumor Histology
+nsclc histology/cytology confirmation,Diagnosis Confirmation,5/5,🟢,Diagnosis Confirmation,Diagnosis Confirmation,Diagnosis Confirmation,Diagnosis Confirmation,Diagnosis Confirmation
+nsclc resection status,Surgical Resectability/Status,5/5,🟢,Surgical Resectability/Status,Surgical Resectability/Status,Surgical Resectability/Status,Surgical Resectability/Status,Surgical Resectability/Status
+nsclc stage,Disease Stage,5/5,🟢,Disease Stage,Disease Stage,Disease Stage,Disease Stage,Disease Stage
+negative pregnancy test within 14 days,Pregnancy/Lactation Status,5/5,🟢,Pregnancy/Lactation Status,Pregnancy/Lactation Status,Pregnancy/Lactation Status,Pregnancy/Lactation Status,Pregnancy/Lactation Status
+neoadjuvant radiotherapy,Prior Radiotherapy,4/5,🟢,Prior Radiotherapy,Adjuvant/Neoadjuvant Therapy,Prior Radiotherapy,Prior Radiotherapy,Prior Radiotherapy
+neoadjuvant/adjuvant therapy history,Adjuvant/Neoadjuvant Therapy,5/5,🟢,Adjuvant/Neoadjuvant Therapy,Adjuvant/Neoadjuvant Therapy,Adjuvant/Neoadjuvant Therapy,Adjuvant/Neoadjuvant Therapy,Adjuvant/Neoadjuvant Therapy
+neurological/psychiatric disorders,Neurological/Psychiatric Conditions,5/5,🟢,Neurological/Psychiatric Conditions,Neurological/Psychiatric Conditions,Neurological/Psychiatric Conditions,Neurological/Psychiatric Conditions,Neurological/Psychiatric Conditions
+no egfr mutation or alk fusion,Actionable Genomic Alterations,3/5,🟡,Actionable Genomic Alterations,EGFR Mutation Status,Actionable Genomic Alterations,Actionable Genomic Alterations,ALK Mutation Status
+no evidence of stage iv,Disease Stage,5/5,🟢,Disease Stage,Disease Stage,Disease Stage,Disease Stage,Disease Stage
+no evidence of distant metastases (by fdg pet/ct),Metastatic Disease Status,5/5,🟢,Metastatic Disease Status,Metastatic Disease Status,Metastatic Disease Status,Metastatic Disease Status,Metastatic Disease Status
+non-healing wounds,Wound Healing,5/5,🟢,Wound Healing,Wound Healing,Wound Healing,Wound Healing,Wound Healing
+non-malignant pleural effusion status,Pleural/Pericardial Effusion,5/5,🟢,Pleural/Pericardial Effusion,Pleural/Pericardial Effusion,Pleural/Pericardial Effusion,Pleural/Pericardial Effusion,Pleural/Pericardial Effusion
+non-squamous nsclc histology,Tumor Histology,5/5,🟢,Tumor Histology,Tumor Histology,Tumor Histology,Tumor Histology,Tumor Histology
+nucleoside analog treatment,Specific Prior Treatment Agents,3/5,🟡,Specific Prior Treatment Agents,Prior Systemic Therapy,Specific Prior Treatment Agents,Hepatitis B/C Status,Specific Prior Treatment Agents
+organ and marrow function,Organ Function,5/5,🟢,Organ Function,Organ Function,Organ Function,Organ Function,Organ Function
+organ function,Organ Function,5/5,🟢,Organ Function,Organ Function,Organ Function,Organ Function,Organ Function
+organ transplant,Transplant History,5/5,🟢,Transplant History,Transplant History,Transplant History,Transplant History,Transplant History
+other active malignancy,Prior/Concurrent Malignancy,5/5,🟢,Prior/Concurrent Malignancy,Prior/Concurrent Malignancy,Prior/Concurrent Malignancy,Prior/Concurrent Malignancy,Prior/Concurrent Malignancy
+other driver oncogenes,Actionable Genomic Alterations,5/5,🟢,Actionable Genomic Alterations,Actionable Genomic Alterations,Actionable Genomic Alterations,Actionable Genomic Alterations,Actionable Genomic Alterations
+other malignancy,Prior/Concurrent Malignancy,5/5,🟢,Prior/Concurrent Malignancy,Prior/Concurrent Malignancy,Prior/Concurrent Malignancy,Prior/Concurrent Malignancy,Prior/Concurrent Malignancy
+other primary malignancy,Prior/Concurrent Malignancy,5/5,🟢,Prior/Concurrent Malignancy,Prior/Concurrent Malignancy,Prior/Concurrent Malignancy,Prior/Concurrent Malignancy,Prior/Concurrent Malignancy
+pd-1/pd-l1 expression,PD-L1 Expression Status,5/5,🟢,PD-L1 Expression Status,PD-L1 Expression Status,PD-L1 Expression Status,PD-L1 Expression Status,PD-L1 Expression Status
+pd-l1 biomarker,PD-L1 Expression Status,5/5,🟢,PD-L1 Expression Status,PD-L1 Expression Status,PD-L1 Expression Status,PD-L1 Expression Status,PD-L1 Expression Status
+pd-l1 expression,PD-L1 Expression Status,5/5,🟢,PD-L1 Expression Status,PD-L1 Expression Status,PD-L1 Expression Status,PD-L1 Expression Status,PD-L1 Expression Status
+pd-l1 status,PD-L1 Expression Status,5/5,🟢,PD-L1 Expression Status,PD-L1 Expression Status,PD-L1 Expression Status,PD-L1 Expression Status,PD-L1 Expression Status
+pd-l1 status exclusion,PD-L1 Expression Status,5/5,🟢,PD-L1 Expression Status,PD-L1 Expression Status,PD-L1 Expression Status,PD-L1 Expression Status,PD-L1 Expression Status
+pd-l1 testing,PD-L1 Expression Status,5/5,🟢,PD-L1 Expression Status,PD-L1 Expression Status,PD-L1 Expression Status,PD-L1 Expression Status,PD-L1 Expression Status
+pd-l1 tissue,PD-L1 Expression Status,4/5,🟢,Tumor Tissue/Biospecimen,PD-L1 Expression Status,PD-L1 Expression Status,PD-L1 Expression Status,PD-L1 Expression Status
+pet-ct timing,Imaging Requirements,5/5,🟢,Imaging Requirements,Imaging Requirements,Imaging Requirements,Imaging Requirements,Imaging Requirements
+pet/ct staging,Imaging Requirements,5/5,🟢,Imaging Requirements,Imaging Requirements,Imaging Requirements,Imaging Requirements,Imaging Requirements
+"pathologically proven non-operable stage iib or iii, node positive nsclc",Disease Stage,3/5,🟡,Disease Stage,Disease Stage,Surgical Resectability/Status,Disease Stage,Diagnosis Confirmation
+performance status,Performance Status,5/5,🟢,Performance Status,Performance Status,Performance Status,Performance Status,Performance Status
+pericardial effusion,Pleural/Pericardial Effusion,5/5,🟢,Pleural/Pericardial Effusion,Pleural/Pericardial Effusion,Pleural/Pericardial Effusion,Pleural/Pericardial Effusion,Pleural/Pericardial Effusion
+platelet count,Hematologic Function,5/5,🟢,Hematologic Function,Hematologic Function,Hematologic Function,Hematologic Function,Hematologic Function
+platelets,Hematologic Function,5/5,🟢,Hematologic Function,Hematologic Function,Hematologic Function,Hematologic Function,Hematologic Function
+platinum allergy,Drug Hypersensitivity/Allergy,5/5,🟢,Drug Hypersensitivity/Allergy,Drug Hypersensitivity/Allergy,Drug Hypersensitivity/Allergy,Drug Hypersensitivity/Allergy,Drug Hypersensitivity/Allergy
+platinum doublet contraindication,Treatment Contraindications,5/5,🟢,Treatment Contraindications,Treatment Contraindications,Treatment Contraindications,Treatment Contraindications,Treatment Contraindications
+platinum doublet cycles,Prior Chemotherapy,5/5,🟢,Prior Chemotherapy,Prior Chemotherapy,Prior Chemotherapy,Prior Chemotherapy,Prior Chemotherapy
+platinum doublet progression,Disease Progression,5/5,🟢,Disease Progression,Disease Progression,Disease Progression,Disease Progression,Disease Progression
+platinum-based chemotherapy contraindication,Treatment Contraindications,5/5,🟢,Treatment Contraindications,Treatment Contraindications,Treatment Contraindications,Treatment Contraindications,Treatment Contraindications
+pleural fluid cytology if effusion visible on ct and x-ray,Pleural/Pericardial Effusion,4/5,🟢,Tumor Tissue/Biospecimen,Pleural/Pericardial Effusion,Pleural/Pericardial Effusion,Pleural/Pericardial Effusion,Pleural/Pericardial Effusion
+pneumonitis,Interstitial Lung Disease/Pneumonitis,5/5,🟢,Interstitial Lung Disease/Pneumonitis,Interstitial Lung Disease/Pneumonitis,Interstitial Lung Disease/Pneumonitis,Interstitial Lung Disease/Pneumonitis,Interstitial Lung Disease/Pneumonitis
+pneumonitis history,Interstitial Lung Disease/Pneumonitis,5/5,🟢,Interstitial Lung Disease/Pneumonitis,Interstitial Lung Disease/Pneumonitis,Interstitial Lung Disease/Pneumonitis,Interstitial Lung Disease/Pneumonitis,Interstitial Lung Disease/Pneumonitis
+pneumonitis/ild,Interstitial Lung Disease/Pneumonitis,5/5,🟢,Interstitial Lung Disease/Pneumonitis,Interstitial Lung Disease/Pneumonitis,Interstitial Lung Disease/Pneumonitis,Interstitial Lung Disease/Pneumonitis,Interstitial Lung Disease/Pneumonitis
+positive microscopic margins,Residual Disease,3/5,🟡,Residual Disease,Residual Disease,Surgical Resectability/Status,Surgical Resectability/Status,Residual Disease
+post-op chest ct,Imaging Requirements,5/5,🟢,Imaging Requirements,Imaging Requirements,Imaging Requirements,Imaging Requirements,Imaging Requirements
+post-op recurrence,Disease Recurrence,5/5,🟢,Disease Recurrence,Disease Recurrence,Disease Recurrence,Disease Recurrence,Disease Recurrence
+pre-op fdg-pet/ct,Imaging Requirements,5/5,🟢,Imaging Requirements,Imaging Requirements,Imaging Requirements,Imaging Requirements,Imaging Requirements
+pre-op chest ct/mri,Imaging Requirements,5/5,🟢,Imaging Requirements,Imaging Requirements,Imaging Requirements,Imaging Requirements,Imaging Requirements
+pre-op imaging coverage,Imaging Requirements,5/5,🟢,Imaging Requirements,Imaging Requirements,Imaging Requirements,Imaging Requirements,Imaging Requirements
+pre-op mediastinal staging,Mediastinal/Lymph Node Staging,5/5,🟢,Mediastinal/Lymph Node Staging,Mediastinal/Lymph Node Staging,Mediastinal/Lymph Node Staging,Mediastinal/Lymph Node Staging,Mediastinal/Lymph Node Staging
+pre-surgical plasma sample,Tumor Tissue/Biospecimen,5/5,🟢,Tumor Tissue/Biospecimen,Tumor Tissue/Biospecimen,Tumor Tissue/Biospecimen,Tumor Tissue/Biospecimen,Tumor Tissue/Biospecimen
+pregnancy or unwillingness to discontinue nursing,Pregnancy/Lactation Status,5/5,🟢,Pregnancy/Lactation Status,Pregnancy/Lactation Status,Pregnancy/Lactation Status,Pregnancy/Lactation Status,Pregnancy/Lactation Status
+pregnancy status,Pregnancy/Lactation Status,5/5,🟢,Pregnancy/Lactation Status,Pregnancy/Lactation Status,Pregnancy/Lactation Status,Pregnancy/Lactation Status,Pregnancy/Lactation Status
+pregnancy test,Pregnancy/Lactation Status,5/5,🟢,Pregnancy/Lactation Status,Pregnancy/Lactation Status,Pregnancy/Lactation Status,Pregnancy/Lactation Status,Pregnancy/Lactation Status
+pregnancy/breastfeeding status,Pregnancy/Lactation Status,5/5,🟢,Pregnancy/Lactation Status,Pregnancy/Lactation Status,Pregnancy/Lactation Status,Pregnancy/Lactation Status,Pregnancy/Lactation Status
+pregnancy/lactation status,Pregnancy/Lactation Status,5/5,🟢,Pregnancy/Lactation Status,Pregnancy/Lactation Status,Pregnancy/Lactation Status,Pregnancy/Lactation Status,Pregnancy/Lactation Status
+previous malignancies,Prior/Concurrent Malignancy,5/5,🟢,Prior/Concurrent Malignancy,Prior/Concurrent Malignancy,Prior/Concurrent Malignancy,Prior/Concurrent Malignancy,Prior/Concurrent Malignancy
+primary immunodeficiency,Immunosuppression/Immunodeficiency,5/5,🟢,Immunosuppression/Immunodeficiency,Immunosuppression/Immunodeficiency,Immunosuppression/Immunodeficiency,Immunosuppression/Immunodeficiency,Immunosuppression/Immunodeficiency
+primary tumor site,Primary Tumor Characteristics,5/5,🟢,Primary Tumor Characteristics,Primary Tumor Characteristics,Primary Tumor Characteristics,Primary Tumor Characteristics,Primary Tumor Characteristics
+primary tumor size ≤7 cm,Primary Tumor Characteristics,5/5,🟢,Primary Tumor Characteristics,Primary Tumor Characteristics,Primary Tumor Characteristics,Primary Tumor Characteristics,Primary Tumor Characteristics
+prior nsclc therapy,Prior Systemic Therapy,5/5,🟢,Prior Systemic Therapy,Prior Systemic Therapy,Prior Systemic Therapy,Prior Systemic Therapy,Prior Systemic Therapy
+prior parp inhibitor,Prior Targeted Therapy,3/5,🟡,Prior Targeted Therapy,Specific Prior Treatment Agents,Prior Targeted Therapy,Prior Targeted Therapy,Specific Prior Treatment Agents
+prior pd-1/pd-l1 treatment,Prior Immunotherapy/Checkpoint Inhibitors,5/5,🟢,Prior Immunotherapy/Checkpoint Inhibitors,Prior Immunotherapy/Checkpoint Inhibitors,Prior Immunotherapy/Checkpoint Inhibitors,Prior Immunotherapy/Checkpoint Inhibitors,Prior Immunotherapy/Checkpoint Inhibitors
+prior stage iii therapy,Prior Systemic Therapy,5/5,🟢,Prior Systemic Therapy,Prior Systemic Therapy,Prior Systemic Therapy,Prior Systemic Therapy,Prior Systemic Therapy
+prior tki/crizotinib treatment,Prior Targeted Therapy,5/5,🟢,Prior Targeted Therapy,Prior Targeted Therapy,Prior Targeted Therapy,Prior Targeted Therapy,Prior Targeted Therapy
+prior adjuvant therapy,Adjuvant/Neoadjuvant Therapy,5/5,🟢,Adjuvant/Neoadjuvant Therapy,Adjuvant/Neoadjuvant Therapy,Adjuvant/Neoadjuvant Therapy,Adjuvant/Neoadjuvant Therapy,Adjuvant/Neoadjuvant Therapy
+prior anti-pd-1/pd-l1,Prior Immunotherapy/Checkpoint Inhibitors,5/5,🟢,Prior Immunotherapy/Checkpoint Inhibitors,Prior Immunotherapy/Checkpoint Inhibitors,Prior Immunotherapy/Checkpoint Inhibitors,Prior Immunotherapy/Checkpoint Inhibitors,Prior Immunotherapy/Checkpoint Inhibitors
+prior anti-pd-1/pd-l1 therapy,Prior Immunotherapy/Checkpoint Inhibitors,5/5,🟢,Prior Immunotherapy/Checkpoint Inhibitors,Prior Immunotherapy/Checkpoint Inhibitors,Prior Immunotherapy/Checkpoint Inhibitors,Prior Immunotherapy/Checkpoint Inhibitors,Prior Immunotherapy/Checkpoint Inhibitors
+prior anti-tigit therapy,Prior Immunotherapy/Checkpoint Inhibitors,5/5,🟢,Prior Immunotherapy/Checkpoint Inhibitors,Prior Immunotherapy/Checkpoint Inhibitors,Prior Immunotherapy/Checkpoint Inhibitors,Prior Immunotherapy/Checkpoint Inhibitors,Prior Immunotherapy/Checkpoint Inhibitors
+prior anti-vegf therapy,Prior Anti-VEGF Therapy,5/5,🟢,Prior Anti-VEGF Therapy,Prior Anti-VEGF Therapy,Prior Anti-VEGF Therapy,Prior Anti-VEGF Therapy,Prior Anti-VEGF Therapy
+prior anti-cancer therapy lines,Prior Systemic Therapy,5/5,🟢,Prior Systemic Therapy,Prior Systemic Therapy,Prior Systemic Therapy,Prior Systemic Therapy,Prior Systemic Therapy
+prior bevacizumab plus platinum doublet treatment,Prior Anti-VEGF Therapy,5/5,🟢,Prior Anti-VEGF Therapy,Prior Anti-VEGF Therapy,Prior Anti-VEGF Therapy,Prior Anti-VEGF Therapy,Prior Anti-VEGF Therapy
+prior checkpoint inhibitor,Prior Immunotherapy/Checkpoint Inhibitors,5/5,🟢,Prior Immunotherapy/Checkpoint Inhibitors,Prior Immunotherapy/Checkpoint Inhibitors,Prior Immunotherapy/Checkpoint Inhibitors,Prior Immunotherapy/Checkpoint Inhibitors,Prior Immunotherapy/Checkpoint Inhibitors
+prior checkpoint inhibitor use,Prior Immunotherapy/Checkpoint Inhibitors,5/5,🟢,Prior Immunotherapy/Checkpoint Inhibitors,Prior Immunotherapy/Checkpoint Inhibitors,Prior Immunotherapy/Checkpoint Inhibitors,Prior Immunotherapy/Checkpoint Inhibitors,Prior Immunotherapy/Checkpoint Inhibitors
+prior checkpoint therapy,Prior Immunotherapy/Checkpoint Inhibitors,5/5,🟢,Prior Immunotherapy/Checkpoint Inhibitors,Prior Immunotherapy/Checkpoint Inhibitors,Prior Immunotherapy/Checkpoint Inhibitors,Prior Immunotherapy/Checkpoint Inhibitors,Prior Immunotherapy/Checkpoint Inhibitors
+prior chemoradiation,Prior Chemoradiation,5/5,🟢,Prior Chemoradiation,Prior Chemoradiation,Prior Chemoradiation,Prior Chemoradiation,Prior Chemoradiation
+prior high-dose chemotherapy,Prior Chemotherapy,5/5,🟢,Prior Chemotherapy,Prior Chemotherapy,Prior Chemotherapy,Prior Chemotherapy,Prior Chemotherapy
+prior immune-mediated therapy,Prior Immunotherapy/Checkpoint Inhibitors,5/5,🟢,Prior Immunotherapy/Checkpoint Inhibitors,Prior Immunotherapy/Checkpoint Inhibitors,Prior Immunotherapy/Checkpoint Inhibitors,Prior Immunotherapy/Checkpoint Inhibitors,Prior Immunotherapy/Checkpoint Inhibitors
+prior immunotherapy,Prior Immunotherapy/Checkpoint Inhibitors,5/5,🟢,Prior Immunotherapy/Checkpoint Inhibitors,Prior Immunotherapy/Checkpoint Inhibitors,Prior Immunotherapy/Checkpoint Inhibitors,Prior Immunotherapy/Checkpoint Inhibitors,Prior Immunotherapy/Checkpoint Inhibitors
+prior lung radiation,Prior Radiotherapy,5/5,🟢,Prior Radiotherapy,Prior Radiotherapy,Prior Radiotherapy,Prior Radiotherapy,Prior Radiotherapy
+prior neoadjuvant therapy,Adjuvant/Neoadjuvant Therapy,5/5,🟢,Adjuvant/Neoadjuvant Therapy,Adjuvant/Neoadjuvant Therapy,Adjuvant/Neoadjuvant Therapy,Adjuvant/Neoadjuvant Therapy,Adjuvant/Neoadjuvant Therapy
+prior or concurrent malignancy not interfering with trial,Prior/Concurrent Malignancy,5/5,🟢,Prior/Concurrent Malignancy,Prior/Concurrent Malignancy,Prior/Concurrent Malignancy,Prior/Concurrent Malignancy,Prior/Concurrent Malignancy
+prior platinum-based therapy,Prior Chemotherapy,5/5,🟢,Prior Chemotherapy,Prior Chemotherapy,Prior Chemotherapy,Prior Chemotherapy,Prior Chemotherapy
+prior radiotherapy to the study cancer,Prior Radiotherapy,5/5,🟢,Prior Radiotherapy,Prior Radiotherapy,Prior Radiotherapy,Prior Radiotherapy,Prior Radiotherapy
+prior sorafenib treatment,Prior Targeted Therapy,3/5,🟡,Prior Targeted Therapy,Specific Prior Treatment Agents,Prior Targeted Therapy,Prior Targeted Therapy,Specific Prior Treatment Agents
+prior systemic therapy,Prior Systemic Therapy,5/5,🟢,Prior Systemic Therapy,Prior Systemic Therapy,Prior Systemic Therapy,Prior Systemic Therapy,Prior Systemic Therapy
+prior systemic therapy for current cancer,Prior Systemic Therapy,5/5,🟢,Prior Systemic Therapy,Prior Systemic Therapy,Prior Systemic Therapy,Prior Systemic Therapy,Prior Systemic Therapy
+prior systemic treatment,Prior Systemic Therapy,5/5,🟢,Prior Systemic Therapy,Prior Systemic Therapy,Prior Systemic Therapy,Prior Systemic Therapy,Prior Systemic Therapy
+prior systemic treatment history,Prior Systemic Therapy,5/5,🟢,Prior Systemic Therapy,Prior Systemic Therapy,Prior Systemic Therapy,Prior Systemic Therapy,Prior Systemic Therapy
+prior targeted therapy for sensitizing mutation,Prior Targeted Therapy,5/5,🟢,Prior Targeted Therapy,Prior Targeted Therapy,Prior Targeted Therapy,Prior Targeted Therapy,Prior Targeted Therapy
+prior therapy,Prior Systemic Therapy,5/5,🟢,Prior Systemic Therapy,Prior Systemic Therapy,Prior Systemic Therapy,Prior Systemic Therapy,Prior Systemic Therapy
+prior therapy lines,Prior Systemic Therapy,5/5,🟢,Prior Systemic Therapy,Prior Systemic Therapy,Prior Systemic Therapy,Prior Systemic Therapy,Prior Systemic Therapy
+prior thoracic radiotherapy,Prior Radiotherapy,5/5,🟢,Prior Radiotherapy,Prior Radiotherapy,Prior Radiotherapy,Prior Radiotherapy,Prior Radiotherapy
+prior trastuzumab treatment,Specific Prior Treatment Agents,3/5,🟡,Specific Prior Treatment Agents,Specific Prior Treatment Agents,Prior Targeted Therapy,Prior Targeted Therapy,Specific Prior Treatment Agents
+prior treatment,Prior Systemic Therapy,5/5,🟢,Prior Systemic Therapy,Prior Systemic Therapy,Prior Systemic Therapy,Prior Systemic Therapy,Prior Systemic Therapy
+progression during crt,Disease Progression,5/5,🟢,Disease Progression,Disease Progression,Disease Progression,Disease Progression,Disease Progression
+proteinuria,Proteinuria,5/5,🟢,Proteinuria,Proteinuria,Proteinuria,Proteinuria,Proteinuria
+psychotropic drug or alcohol abuse,Neurological/Psychiatric Conditions,4/5,🟢,Neurological/Psychiatric Conditions,Study Compliance,Neurological/Psychiatric Conditions,Neurological/Psychiatric Conditions,Neurological/Psychiatric Conditions
+pulmonary conditions,Pulmonary Function,5/5,🟢,Pulmonary Function,Pulmonary Function,Pulmonary Function,Pulmonary Function,Pulmonary Function
+pulmonary fibrosis/pneumonitis,Interstitial Lung Disease/Pneumonitis,5/5,🟢,Interstitial Lung Disease/Pneumonitis,Interstitial Lung Disease/Pneumonitis,Interstitial Lung Disease/Pneumonitis,Interstitial Lung Disease/Pneumonitis,Interstitial Lung Disease/Pneumonitis
+pulmonary function,Pulmonary Function,5/5,🟢,Pulmonary Function,Pulmonary Function,Pulmonary Function,Pulmonary Function,Pulmonary Function
+pulmonary interstitial fibrosis,Interstitial Lung Disease/Pneumonitis,5/5,🟢,Interstitial Lung Disease/Pneumonitis,Interstitial Lung Disease/Pneumonitis,Interstitial Lung Disease/Pneumonitis,Interstitial Lung Disease/Pneumonitis,Interstitial Lung Disease/Pneumonitis
+recist 1.1 evaluable disease by ct scan,Measurable Disease,5/5,🟢,Measurable Disease,Measurable Disease,Measurable Disease,Measurable Disease,Measurable Disease
+recist evaluable lesions,Measurable Disease,5/5,🟢,Measurable Disease,Measurable Disease,Measurable Disease,Measurable Disease,Measurable Disease
+recist v1.1 measurable disease,Measurable Disease,5/5,🟢,Measurable Disease,Measurable Disease,Measurable Disease,Measurable Disease,Measurable Disease
+ros1 rearrangement,ROS1 Rearrangement Status,5/5,🟢,ROS1 Rearrangement Status,ROS1 Rearrangement Status,ROS1 Rearrangement Status,ROS1 Rearrangement Status,ROS1 Rearrangement Status
+radiation dose,Prior Radiotherapy,5/5,🟢,Prior Radiotherapy,Prior Radiotherapy,Prior Radiotherapy,Prior Radiotherapy,Prior Radiotherapy
+radiation therapy,Prior Radiotherapy,5/5,🟢,Prior Radiotherapy,Prior Radiotherapy,Prior Radiotherapy,Prior Radiotherapy,Prior Radiotherapy
+re-resection status,Surgical Resectability/Status,5/5,🟢,Surgical Resectability/Status,Surgical Resectability/Status,Surgical Resectability/Status,Surgical Resectability/Status,Surgical Resectability/Status
+recent biological response modifiers,Prior Immunotherapy/Checkpoint Inhibitors,2/5,🔴,Washout Period,Prior Immunotherapy/Checkpoint Inhibitors,Immunosuppression/Immunodeficiency,Prior Systemic Therapy,Prior Immunotherapy/Checkpoint Inhibitors
+recent bleeding events,Bleeding/Coagulation Disorders,5/5,🟢,Bleeding/Coagulation Disorders,Bleeding/Coagulation Disorders,Bleeding/Coagulation Disorders,Bleeding/Coagulation Disorders,Bleeding/Coagulation Disorders
+recent drug therapy,Prior Systemic Therapy,3/5,🟡,Washout Period,Recent Systemic Therapy,Prior Systemic Therapy,Prior Systemic Therapy,Prior Systemic Therapy
+recent investigational treatment,Investigational Study Participation,3/5,🟡,Washout Period,Investigational Study Participation,Prior Systemic Therapy,Investigational Study Participation,Investigational Study Participation
+recent radiotherapy,Prior Radiotherapy,4/5,🟢,Washout Period,Prior Radiotherapy,Prior Radiotherapy,Prior Radiotherapy,Prior Radiotherapy
+recent surgery,Prior Surgery,5/5,🟢,Prior Surgery,Prior Surgery,Prior Surgery,Prior Surgery,Prior Surgery
+recent systemic therapy,Prior Systemic Therapy,3/5,🟡,Washout Period,Recent Systemic Therapy,Prior Systemic Therapy,Prior Systemic Therapy,Prior Systemic Therapy
+recurrent or refractory nsclc,Advanced/Refractory Disease,5/5,🟢,Advanced/Refractory Disease,Advanced/Refractory Disease,Advanced/Refractory Disease,Advanced/Refractory Disease,Advanced/Refractory Disease
+renal function,Renal Function,5/5,🟢,Renal Function,Renal Function,Renal Function,Renal Function,Renal Function
+resection type,Surgical Resectability/Status,4/5,🟢,Surgical Resectability/Status,Surgical Resectability/Status,Prior Surgery,Surgical Resectability/Status,Surgical Resectability/Status
+residency and ancestry,Residency/Demographics,5/5,🟢,Residency/Demographics,Residency/Demographics,Residency/Demographics,Residency/Demographics,Residency/Demographics
+stk11 mutation,KRAS/STK11/KEAP1 Mutation Status,5/5,🟢,KRAS/STK11/KEAP1 Mutation Status,KRAS/STK11/KEAP1 Mutation Status,KRAS/STK11/KEAP1 Mutation Status,KRAS/STK11/KEAP1 Mutation Status,KRAS/STK11/KEAP1 Mutation Status
+second malignancy history,Prior/Concurrent Malignancy,5/5,🟢,Prior/Concurrent Malignancy,Prior/Concurrent Malignancy,Prior/Concurrent Malignancy,Prior/Concurrent Malignancy,Prior/Concurrent Malignancy
+second-line therapy refusal,Treatment Amenability,4/5,🟢,Study Compliance,Treatment Amenability,Treatment Amenability,Treatment Amenability,Treatment Amenability
+seizure disorder,Neurological/Psychiatric Conditions,5/5,🟢,Neurological/Psychiatric Conditions,Neurological/Psychiatric Conditions,Neurological/Psychiatric Conditions,Neurological/Psychiatric Conditions,Neurological/Psychiatric Conditions
+sensitizing egfr mutation,EGFR Mutation Status,5/5,🟢,EGFR Mutation Status,EGFR Mutation Status,EGFR Mutation Status,EGFR Mutation Status,EGFR Mutation Status
+separate tumor nodules in same lobe,Primary Tumor Characteristics,5/5,🟢,Primary Tumor Characteristics,Primary Tumor Characteristics,Primary Tumor Characteristics,Primary Tumor Characteristics,Primary Tumor Characteristics
+serum albumin,Body Weight and Nutritional Status,4/5,🟢,Body Weight and Nutritional Status,Body Weight and Nutritional Status,Hepatic Function,Body Weight and Nutritional Status,Body Weight and Nutritional Status
+serum bilirubin,Hepatic Function,5/5,🟢,Hepatic Function,Hepatic Function,Hepatic Function,Hepatic Function,Hepatic Function
+serum creatinine,Renal Function,5/5,🟢,Renal Function,Renal Function,Renal Function,Renal Function,Renal Function
+serum total bilirubin,Hepatic Function,5/5,🟢,Hepatic Function,Hepatic Function,Hepatic Function,Hepatic Function,Hepatic Function
+severe cardiac disease,Cardiac Function,5/5,🟢,Cardiac Function,Cardiac Function,Cardiac Function,Cardiac Function,Cardiac Function
+severe infection,Active Infection,5/5,🟢,Active Infection,Active Infection,Active Infection,Active Infection,Active Infection
+severe infections,Active Infection,5/5,🟢,Active Infection,Active Infection,Active Infection,Active Infection,Active Infection
+sex,Sex,5/5,🟢,Sex,Sex,Sex,Sex,Sex
+small cell histology,Tumor Histology,5/5,🟢,Tumor Histology,Tumor Histology,Tumor Histology,Tumor Histology,Tumor Histology
+small cell lung cancer,Tumor Histology,4/5,🟢,Tumor Histology,Tumor Histology,Tumor Histology,Diagnosis Confirmation,Tumor Histology
+smoking status,Smoking Status,5/5,🟢,Smoking Status,Smoking Status,Smoking Status,Smoking Status,Smoking Status
+spinal cord compression,Brain/CNS Metastases,5/5,🟢,Brain/CNS Metastases,Brain/CNS Metastases,Brain/CNS Metastases,Brain/CNS Metastases,Brain/CNS Metastases
+stage,Disease Stage,5/5,🟢,Disease Stage,Disease Stage,Disease Stage,Disease Stage,Disease Stage
+stage iiib upstaging,Disease Stage,5/5,🟢,Disease Stage,Disease Stage,Disease Stage,Disease Stage,Disease Stage
+staging system,Disease Stage,5/5,🟢,Disease Stage,Disease Stage,Disease Stage,Disease Stage,Disease Stage
+steroid use,Corticosteroid Use,5/5,🟢,Corticosteroid Use,Corticosteroid Use,Corticosteroid Use,Corticosteroid Use,Corticosteroid Use
+study compliance willingness,Study Compliance,5/5,🟢,Study Compliance,Study Compliance,Study Compliance,Study Compliance,Study Compliance
+surgery recovery,Prior Surgery,4/5,🟢,Prior Surgery,Wound Healing,Prior Surgery,Prior Surgery,Prior Surgery
+surgical candidacy,Surgical Resectability/Status,5/5,🟢,Surgical Resectability/Status,Surgical Resectability/Status,Surgical Resectability/Status,Surgical Resectability/Status,Surgical Resectability/Status
+surgical candidate,Surgical Resectability/Status,5/5,🟢,Surgical Resectability/Status,Surgical Resectability/Status,Surgical Resectability/Status,Surgical Resectability/Status,Surgical Resectability/Status
+surgical eligibility,Surgical Resectability/Status,5/5,🟢,Surgical Resectability/Status,Surgical Resectability/Status,Surgical Resectability/Status,Surgical Resectability/Status,Surgical Resectability/Status
+surgical margins,Surgical Resectability/Status,4/5,🟢,Surgical Resectability/Status,Residual Disease,Surgical Resectability/Status,Surgical Resectability/Status,Surgical Resectability/Status
+surgical resectability/inoperability/refusal,Surgical Resectability/Status,5/5,🟢,Surgical Resectability/Status,Surgical Resectability/Status,Surgical Resectability/Status,Surgical Resectability/Status,Surgical Resectability/Status
+systemic corticosteroids,Corticosteroid Use,5/5,🟢,Corticosteroid Use,Corticosteroid Use,Corticosteroid Use,Corticosteroid Use,Corticosteroid Use
+systemic disease,Metastatic Disease Status,5/5,🟢,Metastatic Disease Status,Metastatic Disease Status,Metastatic Disease Status,Metastatic Disease Status,Metastatic Disease Status
+systemic infection,Active Infection,5/5,🟢,Active Infection,Active Infection,Active Infection,Active Infection,Active Infection
+tace eligibility,Locoregional Therapy Eligibility,5/5,🟢,Locoregional Therapy Eligibility,Locoregional Therapy Eligibility,Locoregional Therapy Eligibility,Locoregional Therapy Eligibility,Locoregional Therapy Eligibility
+tki treatment,Prior Targeted Therapy,5/5,🟢,Prior Targeted Therapy,Prior Targeted Therapy,Prior Targeted Therapy,Prior Targeted Therapy,Prior Targeted Therapy
+tnm staging iiib/iiic/iv,Disease Stage,5/5,🟢,Disease Stage,Disease Stage,Disease Stage,Disease Stage,Disease Stage
+target lesion,Measurable Disease,5/5,🟢,Measurable Disease,Measurable Disease,Measurable Disease,Measurable Disease,Measurable Disease
+thyroid function,Thyroid Function,5/5,🟢,Thyroid Function,Thyroid Function,Thyroid Function,Thyroid Function,Thyroid Function
+time from progression to randomization,Treatment Timing,5/5,🟢,Treatment Timing,Treatment Timing,Treatment Timing,Treatment Timing,Treatment Timing
+toxicity,Treatment-Related Toxicity,5/5,🟢,Treatment-Related Toxicity,Treatment-Related Toxicity,Treatment-Related Toxicity,Treatment-Related Toxicity,Treatment-Related Toxicity
+toxicity from prior therapy,Treatment-Related Toxicity,5/5,🟢,Treatment-Related Toxicity,Treatment-Related Toxicity,Treatment-Related Toxicity,Treatment-Related Toxicity,Treatment-Related Toxicity
+toxicity recovery,Treatment-Related Toxicity,4/5,🟢,Treatment-Related Toxicity,Treatment-Related Toxicity,Treatment-Related Toxicity,Washout Period,Treatment-Related Toxicity
+treatment start feasibility,Treatment Timing,4/5,🟢,Treatment Timing,Treatment Timing,Treatment Amenability,Treatment Timing,Treatment Timing
+tuberculosis,Tuberculosis,5/5,🟢,Tuberculosis,Tuberculosis,Tuberculosis,Tuberculosis,Tuberculosis
+tumor sample,Tumor Tissue/Biospecimen,5/5,🟢,Tumor Tissue/Biospecimen,Tumor Tissue/Biospecimen,Tumor Tissue/Biospecimen,Tumor Tissue/Biospecimen,Tumor Tissue/Biospecimen
+tumor tissue,Tumor Tissue/Biospecimen,5/5,🟢,Tumor Tissue/Biospecimen,Tumor Tissue/Biospecimen,Tumor Tissue/Biospecimen,Tumor Tissue/Biospecimen,Tumor Tissue/Biospecimen
+tumor tissue and blood samples,Tumor Tissue/Biospecimen,5/5,🟢,Tumor Tissue/Biospecimen,Tumor Tissue/Biospecimen,Tumor Tissue/Biospecimen,Tumor Tissue/Biospecimen,Tumor Tissue/Biospecimen
+tumor tissue provision,Tumor Tissue/Biospecimen,5/5,🟢,Tumor Tissue/Biospecimen,Tumor Tissue/Biospecimen,Tumor Tissue/Biospecimen,Tumor Tissue/Biospecimen,Tumor Tissue/Biospecimen
+tumor tissue sample,Tumor Tissue/Biospecimen,5/5,🟢,Tumor Tissue/Biospecimen,Tumor Tissue/Biospecimen,Tumor Tissue/Biospecimen,Tumor Tissue/Biospecimen,Tumor Tissue/Biospecimen
+uncontrolled illness,Intercurrent Illness,5/5,🟢,Intercurrent Illness,Intercurrent Illness,Intercurrent Illness,Intercurrent Illness,Intercurrent Illness
+uncontrolled intercurrent illness,Intercurrent Illness,5/5,🟢,Intercurrent Illness,Intercurrent Illness,Intercurrent Illness,Intercurrent Illness,Intercurrent Illness
+unresectable/metastatic disease,Advanced/Refractory Disease,2/5,🔴,Advanced/Refractory Disease,Metastatic Disease Status,Advanced/Refractory Disease,Metastatic Disease Status,Surgical Resectability/Status
+vascular aneurysms,Vascular Conditions,5/5,🟢,Vascular Conditions,Vascular Conditions,Vascular Conditions,Vascular Conditions,Vascular Conditions
+venous thrombotic events,Thrombotic Events,5/5,🟢,Thrombotic Events,Thrombotic Events,Thrombotic Events,Thrombotic Events,Thrombotic Events
+viral hepatitis status,Hepatitis B/C Status,5/5,🟢,Hepatitis B/C Status,Hepatitis B/C Status,Hepatitis B/C Status,Hepatitis B/C Status,Hepatitis B/C Status
+viral load,Hepatitis B/C Status,2/5,🔴,Hepatitis B/C Status,Active Infection,Active Infection,Hepatitis B/C Status,HIV Status
+who performance status,Performance Status,5/5,🟢,Performance Status,Performance Status,Performance Status,Performance Status,Performance Status
+wedge resection,Surgical Resectability/Status,3/5,🟡,Surgical Resectability/Status,Prior Surgery,Prior Surgery,Surgical Resectability/Status,Surgical Resectability/Status
+weight loss,Body Weight and Nutritional Status,5/5,🟢,Body Weight and Nutritional Status,Body Weight and Nutritional Status,Body Weight and Nutritional Status,Body Weight and Nutritional Status,Body Weight and Nutritional Status
+whole blood transfusion,Transfusion Requirements,5/5,🟢,Transfusion Requirements,Transfusion Requirements,Transfusion Requirements,Transfusion Requirements,Transfusion Requirements
+wound healing,Wound Healing,5/5,🟢,Wound Healing,Wound Healing,Wound Healing,Wound Healing,Wound Healing
+actionable driver oncogenes,Actionable Genomic Alterations,5/5,🟢,Actionable Genomic Alterations,Actionable Genomic Alterations,Actionable Genomic Alterations,Actionable Genomic Alterations,Actionable Genomic Alterations
+actionable genomic alterations,Actionable Genomic Alterations,5/5,🟢,Actionable Genomic Alterations,Actionable Genomic Alterations,Actionable Genomic Alterations,Actionable Genomic Alterations,Actionable Genomic Alterations
+actionable molecular alterations,Actionable Genomic Alterations,5/5,🟢,Actionable Genomic Alterations,Actionable Genomic Alterations,Actionable Genomic Alterations,Actionable Genomic Alterations,Actionable Genomic Alterations
+active second malignancy,Prior/Concurrent Malignancy,5/5,🟢,Prior/Concurrent Malignancy,Prior/Concurrent Malignancy,Prior/Concurrent Malignancy,Prior/Concurrent Malignancy,Prior/Concurrent Malignancy
+adhesive allergy,Drug Hypersensitivity/Allergy,5/5,🟢,Drug Hypersensitivity/Allergy,Drug Hypersensitivity/Allergy,Drug Hypersensitivity/Allergy,Drug Hypersensitivity/Allergy,Drug Hypersensitivity/Allergy
+adjuvant chemotherapy,Adjuvant/Neoadjuvant Therapy,5/5,🟢,Adjuvant/Neoadjuvant Therapy,Adjuvant/Neoadjuvant Therapy,Adjuvant/Neoadjuvant Therapy,Adjuvant/Neoadjuvant Therapy,Adjuvant/Neoadjuvant Therapy
+adjuvant neoadjuvant timing,Treatment Timing,3/5,🟡,Adjuvant/Neoadjuvant Therapy,Treatment Timing,Treatment Timing,Treatment Timing,Adjuvant/Neoadjuvant Therapy
+adjuvant progression timing,Disease Progression,3/5,🟡,Adjuvant/Neoadjuvant Therapy,Disease Progression,Treatment Timing,Disease Progression,Disease Progression
+adjuvant radiotherapy,Adjuvant/Neoadjuvant Therapy,3/5,🟡,Adjuvant/Neoadjuvant Therapy,Adjuvant/Neoadjuvant Therapy,Adjuvant/Neoadjuvant Therapy,Prior Radiotherapy,Prior Radiotherapy
+adjuvant therapy,Adjuvant/Neoadjuvant Therapy,5/5,🟢,Adjuvant/Neoadjuvant Therapy,Adjuvant/Neoadjuvant Therapy,Adjuvant/Neoadjuvant Therapy,Adjuvant/Neoadjuvant Therapy,Adjuvant/Neoadjuvant Therapy
+alkaline phosphatase,Hepatic Function,5/5,🟢,Hepatic Function,Hepatic Function,Hepatic Function,Hepatic Function,Hepatic Function
+anc,Hematologic Function,5/5,🟢,Hematologic Function,Hematologic Function,Hematologic Function,Hematologic Function,Hematologic Function
+arrhythmia history,Cardiac Function,4/5,🟢,Cardiac Function,Cardiac Function,Cardiac Function,Cardiac Function,ECG Abnormalities
+ast alt,Hepatic Function,5/5,🟢,Hepatic Function,Hepatic Function,Hepatic Function,Hepatic Function,Hepatic Function
+autoimmune inflammatory disorder,Autoimmune Disease,5/5,🟢,Autoimmune Disease,Autoimmune Disease,Autoimmune Disease,Autoimmune Disease,Autoimmune Disease
+biosample provision,Tumor Tissue/Biospecimen,5/5,🟢,Tumor Tissue/Biospecimen,Tumor Tissue/Biospecimen,Tumor Tissue/Biospecimen,Tumor Tissue/Biospecimen,Tumor Tissue/Biospecimen
+blood pressure,Blood Pressure/Hypertension,5/5,🟢,Blood Pressure/Hypertension,Blood Pressure/Hypertension,Blood Pressure/Hypertension,Blood Pressure/Hypertension,Blood Pressure/Hypertension
+bone marrow function,Hematologic Function,5/5,🟢,Hematologic Function,Hematologic Function,Hematologic Function,Hematologic Function,Hematologic Function
+cardiac history,Cardiac Function,5/5,🟢,Cardiac Function,Cardiac Function,Cardiac Function,Cardiac Function,Cardiac Function
+cardiovascular cerebrovascular condition,Cardiac Function,3/5,🟡,Cardiac Function,Vascular Conditions,Cardiac Function,Cardiac Function,Vascular Conditions
+cardiovascular history,Cardiac Function,4/5,🟢,Cardiac Function,Vascular Conditions,Cardiac Function,Cardiac Function,Cardiac Function
+cardiovascular impairment,Cardiac Function,4/5,🟢,Cardiac Function,Vascular Conditions,Cardiac Function,Cardiac Function,Cardiac Function
+cerebrovascular accident,Vascular Conditions,5/5,🟢,Vascular Conditions,Vascular Conditions,Vascular Conditions,Vascular Conditions,Vascular Conditions
+chemotherapy recovery,Treatment-Related Toxicity,4/5,🟢,Treatment-Related Toxicity,Treatment-Related Toxicity,Treatment-Related Toxicity,Washout Period,Treatment-Related Toxicity
+chronic steroid use,Corticosteroid Use,5/5,🟢,Corticosteroid Use,Corticosteroid Use,Corticosteroid Use,Corticosteroid Use,Corticosteroid Use
+clinical study participation,Investigational Study Participation,5/5,🟢,Investigational Study Participation,Investigational Study Participation,Investigational Study Participation,Investigational Study Participation,Investigational Study Participation
+cns lesions,Brain/CNS Metastases,5/5,🟢,Brain/CNS Metastases,Brain/CNS Metastases,Brain/CNS Metastases,Brain/CNS Metastases,Brain/CNS Metastases
+compliance,Study Compliance,5/5,🟢,Study Compliance,Study Compliance,Study Compliance,Study Compliance,Study Compliance
+concurrent anticancer therapy,Concurrent Anti-Cancer Therapy,5/5,🟢,Concurrent Anti-Cancer Therapy,Concurrent Anti-Cancer Therapy,Concurrent Anti-Cancer Therapy,Concurrent Anti-Cancer Therapy,Concurrent Anti-Cancer Therapy
+concurrent experimental therapy,Investigational Study Participation,3/5,🟡,Investigational Study Participation,Investigational Study Participation,Investigational Study Participation,Concurrent Anti-Cancer Therapy,Concurrent Anti-Cancer Therapy
+concurrent investigational therapy,Investigational Study Participation,3/5,🟡,Investigational Study Participation,Investigational Study Participation,Investigational Study Participation,Concurrent Anti-Cancer Therapy,Concurrent Anti-Cancer Therapy
+corneal disease,Corneal Disease,5/5,🟢,Corneal Disease,Corneal Disease,Corneal Disease,Corneal Disease,Corneal Disease
+ct scan,Imaging Requirements,5/5,🟢,Imaging Requirements,Imaging Requirements,Imaging Requirements,Imaging Requirements,Imaging Requirements
+curative intent therapy,Treatment Amenability,5/5,🟢,Treatment Amenability,Treatment Amenability,Treatment Amenability,Treatment Amenability,Treatment Amenability
+current pulmonary conditions,Pulmonary Function,5/5,🟢,Pulmonary Function,Pulmonary Function,Pulmonary Function,Pulmonary Function,Pulmonary Function
+device operation,Implantable Devices,5/5,🟢,Implantable Devices,Implantable Devices,Implantable Devices,Implantable Devices,Implantable Devices
+disease burden,Measurable Disease,4/5,🟢,Measurable Disease,Measurable Disease,Disease Stage,Measurable Disease,Measurable Disease
+disease response,Disease Progression,4/5,🟢,Disease Progression,Disease Progression,Disease Progression,Investigator Assessment,Disease Progression
+dlco,Pulmonary Function,5/5,🟢,Pulmonary Function,Pulmonary Function,Pulmonary Function,Pulmonary Function,Pulmonary Function
+docetaxel contraindication,Treatment Contraindications,5/5,🟢,Treatment Contraindications,Treatment Contraindications,Treatment Contraindications,Treatment Contraindications,Treatment Contraindications
+drug allergy,Drug Hypersensitivity/Allergy,5/5,🟢,Drug Hypersensitivity/Allergy,Drug Hypersensitivity/Allergy,Drug Hypersensitivity/Allergy,Drug Hypersensitivity/Allergy,Drug Hypersensitivity/Allergy
+early stage relapse,Disease Recurrence,5/5,🟢,Disease Recurrence,Disease Recurrence,Disease Recurrence,Disease Recurrence,Disease Recurrence
+egfr alk braf ros1 mutation,Actionable Genomic Alterations,5/5,🟢,Actionable Genomic Alterations,Actionable Genomic Alterations,Actionable Genomic Alterations,Actionable Genomic Alterations,Actionable Genomic Alterations
+egfr alk mutation,Actionable Genomic Alterations,5/5,🟢,Actionable Genomic Alterations,Actionable Genomic Alterations,Actionable Genomic Alterations,Actionable Genomic Alterations,Actionable Genomic Alterations
+egfr alk ros1,Actionable Genomic Alterations,5/5,🟢,Actionable Genomic Alterations,Actionable Genomic Alterations,Actionable Genomic Alterations,Actionable Genomic Alterations,Actionable Genomic Alterations
+egfr alk ros1 testing,Actionable Genomic Alterations,4/5,🟢,Genetic/Germline Testing,Actionable Genomic Alterations,Actionable Genomic Alterations,Actionable Genomic Alterations,Actionable Genomic Alterations
+egfr alk status,Actionable Genomic Alterations,5/5,🟢,Actionable Genomic Alterations,Actionable Genomic Alterations,Actionable Genomic Alterations,Actionable Genomic Alterations,Actionable Genomic Alterations
+egfr ros1 alk,Actionable Genomic Alterations,5/5,🟢,Actionable Genomic Alterations,Actionable Genomic Alterations,Actionable Genomic Alterations,Actionable Genomic Alterations,Actionable Genomic Alterations
+enrollment timing,Treatment Timing,5/5,🟢,Treatment Timing,Treatment Timing,Treatment Timing,Treatment Timing,Treatment Timing
+fdg pet ct,Imaging Requirements,5/5,🟢,Imaging Requirements,Imaging Requirements,Imaging Requirements,Imaging Requirements,Imaging Requirements
+female contraception,Contraception Requirements,5/5,🟢,Contraception Requirements,Contraception Requirements,Contraception Requirements,Contraception Requirements,Contraception Requirements
+fistula,Wound Healing,3/5,🟡,Gastrointestinal Function,Wound Healing,Wound Healing,Wound Healing,Gastrointestinal Function
+follow up accessibility,Study Compliance,4/5,🟢,Study Compliance,Study Compliance,Study Compliance,Study Compliance,Residency/Demographics
+gi abnormalities,Gastrointestinal Function,5/5,🟢,Gastrointestinal Function,Gastrointestinal Function,Gastrointestinal Function,Gastrointestinal Function,Gastrointestinal Function
+gi absorption condition,Gastrointestinal Function,5/5,🟢,Gastrointestinal Function,Gastrointestinal Function,Gastrointestinal Function,Gastrointestinal Function,Gastrointestinal Function
+gi disease,Gastrointestinal Function,5/5,🟢,Gastrointestinal Function,Gastrointestinal Function,Gastrointestinal Function,Gastrointestinal Function,Gastrointestinal Function
+hbv hcv infection,Hepatitis B/C Status,5/5,🟢,Hepatitis B/C Status,Hepatitis B/C Status,Hepatitis B/C Status,Hepatitis B/C Status,Hepatitis B/C Status
+hematological dysfunction,Hematologic Function,5/5,🟢,Hematologic Function,Hematologic Function,Hematologic Function,Hematologic Function,Hematologic Function
+hemoptysis,Bleeding/Coagulation Disorders,4/5,🟢,Bleeding/Coagulation Disorders,Pulmonary Function,Bleeding/Coagulation Disorders,Bleeding/Coagulation Disorders,Bleeding/Coagulation Disorders
+hepatic dysfunction,Hepatic Function,5/5,🟢,Hepatic Function,Hepatic Function,Hepatic Function,Hepatic Function,Hepatic Function
+hepatitis b c,Hepatitis B/C Status,5/5,🟢,Hepatitis B/C Status,Hepatitis B/C Status,Hepatitis B/C Status,Hepatitis B/C Status,Hepatitis B/C Status
+high dose steroid,Corticosteroid Use,5/5,🟢,Corticosteroid Use,Corticosteroid Use,Corticosteroid Use,Corticosteroid Use,Corticosteroid Use
+hypertension,Blood Pressure/Hypertension,5/5,🟢,Blood Pressure/Hypertension,Blood Pressure/Hypertension,Blood Pressure/Hypertension,Blood Pressure/Hypertension,Blood Pressure/Hypertension
+ibd gi perforation,Gastrointestinal Function,3/5,🟡,Gastrointestinal Function,Gastrointestinal Function,Gastrointestinal Function,Autoimmune Disease,Autoimmune Disease
+ild history,Interstitial Lung Disease/Pneumonitis,5/5,🟢,Interstitial Lung Disease/Pneumonitis,Interstitial Lung Disease/Pneumonitis,Interstitial Lung Disease/Pneumonitis,Interstitial Lung Disease/Pneumonitis,Interstitial Lung Disease/Pneumonitis
+ild pneumonitis,Interstitial Lung Disease/Pneumonitis,5/5,🟢,Interstitial Lung Disease/Pneumonitis,Interstitial Lung Disease/Pneumonitis,Interstitial Lung Disease/Pneumonitis,Interstitial Lung Disease/Pneumonitis,Interstitial Lung Disease/Pneumonitis
+ild pneumonitis history,Interstitial Lung Disease/Pneumonitis,5/5,🟢,Interstitial Lung Disease/Pneumonitis,Interstitial Lung Disease/Pneumonitis,Interstitial Lung Disease/Pneumonitis,Interstitial Lung Disease/Pneumonitis,Interstitial Lung Disease/Pneumonitis
+immunodeficiency,Immunosuppression/Immunodeficiency,5/5,🟢,Immunosuppression/Immunodeficiency,Immunosuppression/Immunodeficiency,Immunosuppression/Immunodeficiency,Immunosuppression/Immunodeficiency,Immunosuppression/Immunodeficiency
+immunodeficiency immunosuppression,Immunosuppression/Immunodeficiency,5/5,🟢,Immunosuppression/Immunodeficiency,Immunosuppression/Immunodeficiency,Immunosuppression/Immunodeficiency,Immunosuppression/Immunodeficiency,Immunosuppression/Immunodeficiency
+immunodeficiency transplant immunosuppression,Immunosuppression/Immunodeficiency,4/5,🟢,Immunosuppression/Immunodeficiency,Immunosuppression/Immunodeficiency,Transplant History,Immunosuppression/Immunodeficiency,Immunosuppression/Immunodeficiency
+immunosuppressive drugs,Immunosuppression/Immunodeficiency,4/5,🟢,Immunosuppression/Immunodeficiency,Corticosteroid Use,Immunosuppression/Immunodeficiency,Immunosuppression/Immunodeficiency,Immunosuppression/Immunodeficiency
+immunotherapy contraindication,Treatment Contraindications,5/5,🟢,Treatment Contraindications,Treatment Contraindications,Treatment Contraindications,Treatment Contraindications,Treatment Contraindications
+immunotherapy hypersensitivity,Drug Hypersensitivity/Allergy,5/5,🟢,Drug Hypersensitivity/Allergy,Drug Hypersensitivity/Allergy,Drug Hypersensitivity/Allergy,Drug Hypersensitivity/Allergy,Drug Hypersensitivity/Allergy
+implantable devices,Implantable Devices,5/5,🟢,Implantable Devices,Implantable Devices,Implantable Devices,Implantable Devices,Implantable Devices
+infection status,Active Infection,5/5,🟢,Active Infection,Active Infection,Active Infection,Active Infection,Active Infection
+institutionalization,Study Compliance,2/5,🔴,Study Compliance,Study Compliance,Neurological/Psychiatric Conditions,Residency/Demographics,Residency/Demographics
+intercurrent illness,Intercurrent Illness,5/5,🟢,Intercurrent Illness,Intercurrent Illness,Intercurrent Illness,Intercurrent Illness,Intercurrent Illness
+interference condition,Intercurrent Illness,4/5,🟢,Intercurrent Illness,Study Compliance,Intercurrent Illness,Intercurrent Illness,Intercurrent Illness
+ip hypersensitivity,Drug Hypersensitivity/Allergy,5/5,🟢,Drug Hypersensitivity/Allergy,Drug Hypersensitivity/Allergy,Drug Hypersensitivity/Allergy,Drug Hypersensitivity/Allergy,Drug Hypersensitivity/Allergy
+leptomeningeal cns disease,Brain/CNS Metastases,5/5,🟢,Brain/CNS Metastases,Brain/CNS Metastases,Brain/CNS Metastases,Brain/CNS Metastases,Brain/CNS Metastases
+leptomeningeal disease,Brain/CNS Metastases,5/5,🟢,Brain/CNS Metastases,Brain/CNS Metastases,Brain/CNS Metastases,Brain/CNS Metastases,Brain/CNS Metastases
+live virus vaccination,Live Vaccination,5/5,🟢,Live Vaccination,Live Vaccination,Live Vaccination,Live Vaccination,Live Vaccination
+lvef,Cardiac Function,5/5,🟢,Cardiac Function,Cardiac Function,Cardiac Function,Cardiac Function,Cardiac Function
+major surgery recovery,Prior Surgery,4/5,🟢,Prior Surgery,Wound Healing,Prior Surgery,Prior Surgery,Prior Surgery
+mds aml history,Prior/Concurrent Malignancy,5/5,🟢,Prior/Concurrent Malignancy,Prior/Concurrent Malignancy,Prior/Concurrent Malignancy,Prior/Concurrent Malignancy,Prior/Concurrent Malignancy
+measurable lesion,Measurable Disease,5/5,🟢,Measurable Disease,Measurable Disease,Measurable Disease,Measurable Disease,Measurable Disease
+medical psychiatric risk,Neurological/Psychiatric Conditions,4/5,🟢,Neurological/Psychiatric Conditions,Neurological/Psychiatric Conditions,Intercurrent Illness,Neurological/Psychiatric Conditions,Neurological/Psychiatric Conditions
+metastatic progression timing,Disease Progression,4/5,🟢,Disease Progression,Disease Progression,Treatment Timing,Disease Progression,Disease Progression
+minor surgery,Prior Surgery,5/5,🟢,Prior Surgery,Prior Surgery,Prior Surgery,Prior Surgery,Prior Surgery
+molecular alterations,Actionable Genomic Alterations,5/5,🟢,Actionable Genomic Alterations,Actionable Genomic Alterations,Actionable Genomic Alterations,Actionable Genomic Alterations,Actionable Genomic Alterations
+molecular status,Actionable Genomic Alterations,5/5,🟢,Actionable Genomic Alterations,Actionable Genomic Alterations,Actionable Genomic Alterations,Actionable Genomic Alterations,Actionable Genomic Alterations
+mrd eligibility,MRD Status,5/5,🟢,MRD Status,MRD Status,MRD Status,MRD Status,MRD Status
+neo adjuvant chemotherapy,Adjuvant/Neoadjuvant Therapy,5/5,🟢,Adjuvant/Neoadjuvant Therapy,Adjuvant/Neoadjuvant Therapy,Adjuvant/Neoadjuvant Therapy,Adjuvant/Neoadjuvant Therapy,Adjuvant/Neoadjuvant Therapy
+other actionable alterations,Actionable Genomic Alterations,5/5,🟢,Actionable Genomic Alterations,Actionable Genomic Alterations,Actionable Genomic Alterations,Actionable Genomic Alterations,Actionable Genomic Alterations
+other malignancy history,Prior/Concurrent Malignancy,5/5,🟢,Prior/Concurrent Malignancy,Prior/Concurrent Malignancy,Prior/Concurrent Malignancy,Prior/Concurrent Malignancy,Prior/Concurrent Malignancy
+palliative radiotherapy,Prior Radiotherapy,5/5,🟢,Prior Radiotherapy,Prior Radiotherapy,Prior Radiotherapy,Prior Radiotherapy,Prior Radiotherapy
+pd l1 expression,PD-L1 Expression Status,5/5,🟢,PD-L1 Expression Status,PD-L1 Expression Status,PD-L1 Expression Status,PD-L1 Expression Status,PD-L1 Expression Status
+pd l1 status,PD-L1 Expression Status,5/5,🟢,PD-L1 Expression Status,PD-L1 Expression Status,PD-L1 Expression Status,PD-L1 Expression Status,PD-L1 Expression Status
+pd l1 tps,PD-L1 Expression Status,5/5,🟢,PD-L1 Expression Status,PD-L1 Expression Status,PD-L1 Expression Status,PD-L1 Expression Status,PD-L1 Expression Status
+pembrolizumab monotherapy,Prior Immunotherapy/Checkpoint Inhibitors,4/5,🟢,Specific Prior Treatment Agents,Prior Immunotherapy/Checkpoint Inhibitors,Prior Immunotherapy/Checkpoint Inhibitors,Prior Immunotherapy/Checkpoint Inhibitors,Prior Immunotherapy/Checkpoint Inhibitors
+pericarditis history,Cardiac Function,5/5,🟢,Cardiac Function,Cardiac Function,Cardiac Function,Cardiac Function,Cardiac Function
+peripheral neuropathy,Neurological/Psychiatric Conditions,3/5,🟡,Treatment-Related Toxicity,Neurological/Psychiatric Conditions,Neurological/Psychiatric Conditions,Neurological/Psychiatric Conditions,Treatment-Related Toxicity
+persistent disease,Residual Disease,5/5,🟢,Residual Disease,Residual Disease,Residual Disease,Residual Disease,Residual Disease
+pet mri brain,Imaging Requirements,5/5,🟢,Imaging Requirements,Imaging Requirements,Imaging Requirements,Imaging Requirements,Imaging Requirements
+physician assigned therapy,Investigator Assessment,4/5,🟢,Investigator Assessment,Investigator Assessment,Treatment Amenability,Investigator Assessment,Investigator Assessment
+planned surgery,Prior Surgery,3/5,🟡,Prior Surgery,Prior Surgery,Prior Surgery,Surgical Resectability/Status,Surgical Resectability/Status
+platinum cycles,Prior Chemotherapy,5/5,🟢,Prior Chemotherapy,Prior Chemotherapy,Prior Chemotherapy,Prior Chemotherapy,Prior Chemotherapy
+pneumonitis ild,Interstitial Lung Disease/Pneumonitis,5/5,🟢,Interstitial Lung Disease/Pneumonitis,Interstitial Lung Disease/Pneumonitis,Interstitial Lung Disease/Pneumonitis,Interstitial Lung Disease/Pneumonitis,Interstitial Lung Disease/Pneumonitis
+post platinum therapy,Prior Chemotherapy,4/5,🟢,Prior Chemotherapy,Prior Systemic Therapy,Prior Chemotherapy,Prior Chemotherapy,Prior Chemotherapy
+post treatment imaging,Imaging Requirements,5/5,🟢,Imaging Requirements,Imaging Requirements,Imaging Requirements,Imaging Requirements,Imaging Requirements
+pregnancy breastfeeding,Pregnancy/Lactation Status,5/5,🟢,Pregnancy/Lactation Status,Pregnancy/Lactation Status,Pregnancy/Lactation Status,Pregnancy/Lactation Status,Pregnancy/Lactation Status
+pregnancy intent,Contraception Requirements,3/5,🟡,Pregnancy/Lactation Status,Contraception Requirements,Pregnancy/Lactation Status,Contraception Requirements,Contraception Requirements
+pregnancy lactation,Pregnancy/Lactation Status,5/5,🟢,Pregnancy/Lactation Status,Pregnancy/Lactation Status,Pregnancy/Lactation Status,Pregnancy/Lactation Status,Pregnancy/Lactation Status
+preop imaging,Imaging Requirements,5/5,🟢,Imaging Requirements,Imaging Requirements,Imaging Requirements,Imaging Requirements,Imaging Requirements
+preop radiotherapy,Prior Radiotherapy,4/5,🟢,Prior Radiotherapy,Adjuvant/Neoadjuvant Therapy,Prior Radiotherapy,Prior Radiotherapy,Prior Radiotherapy
+prior adjuvant pd l1,Prior Immunotherapy/Checkpoint Inhibitors,4/5,🟢,Prior Immunotherapy/Checkpoint Inhibitors,Prior Immunotherapy/Checkpoint Inhibitors,Adjuvant/Neoadjuvant Therapy,Prior Immunotherapy/Checkpoint Inhibitors,Prior Immunotherapy/Checkpoint Inhibitors
+prior brain mets,Brain/CNS Metastases,5/5,🟢,Brain/CNS Metastases,Brain/CNS Metastases,Brain/CNS Metastases,Brain/CNS Metastases,Brain/CNS Metastases
+prior crt,Prior Chemoradiation,5/5,🟢,Prior Chemoradiation,Prior Chemoradiation,Prior Chemoradiation,Prior Chemoradiation,Prior Chemoradiation
+prior definitive therapy,Prior Systemic Therapy,4/5,🟢,Prior Systemic Therapy,Prior Systemic Therapy,Prior Radiotherapy,Prior Systemic Therapy,Prior Systemic Therapy
+prior immune related ae,Treatment-Related Toxicity,5/5,🟢,Treatment-Related Toxicity,Treatment-Related Toxicity,Treatment-Related Toxicity,Treatment-Related Toxicity,Treatment-Related Toxicity
+prior immune therapy,Prior Immunotherapy/Checkpoint Inhibitors,5/5,🟢,Prior Immunotherapy/Checkpoint Inhibitors,Prior Immunotherapy/Checkpoint Inhibitors,Prior Immunotherapy/Checkpoint Inhibitors,Prior Immunotherapy/Checkpoint Inhibitors,Prior Immunotherapy/Checkpoint Inhibitors
+prior induction therapy,Prior Systemic Therapy,3/5,🟡,Prior Systemic Therapy,Prior Systemic Therapy,Treatment Amenability,Prior Systemic Therapy,Adjuvant/Neoadjuvant Therapy
+prior io agent,Prior Immunotherapy/Checkpoint Inhibitors,5/5,🟢,Prior Immunotherapy/Checkpoint Inhibitors,Prior Immunotherapy/Checkpoint Inhibitors,Prior Immunotherapy/Checkpoint Inhibitors,Prior Immunotherapy/Checkpoint Inhibitors,Prior Immunotherapy/Checkpoint Inhibitors
+prior io rtki therapy,Prior Immunotherapy/Checkpoint Inhibitors,4/5,🟢,Prior Immunotherapy/Checkpoint Inhibitors,Prior Immunotherapy/Checkpoint Inhibitors,Prior Immunotherapy/Checkpoint Inhibitors,Prior Immunotherapy/Checkpoint Inhibitors,Prior Targeted Therapy
+prior io therapy,Prior Immunotherapy/Checkpoint Inhibitors,5/5,🟢,Prior Immunotherapy/Checkpoint Inhibitors,Prior Immunotherapy/Checkpoint Inhibitors,Prior Immunotherapy/Checkpoint Inhibitors,Prior Immunotherapy/Checkpoint Inhibitors,Prior Immunotherapy/Checkpoint Inhibitors
+prior kras g12c inhibitor,Prior Targeted Therapy,3/5,🟡,Prior Targeted Therapy,Specific Prior Treatment Agents,Prior Targeted Therapy,Prior Targeted Therapy,Specific Prior Treatment Agents
+prior lung radiotherapy,Prior Radiotherapy,5/5,🟢,Prior Radiotherapy,Prior Radiotherapy,Prior Radiotherapy,Prior Radiotherapy,Prior Radiotherapy
+prior mmae ib6 therapy,Specific Prior Treatment Agents,4/5,🟢,Specific Prior Treatment Agents,Specific Prior Treatment Agents,Specific Prior Treatment Agents,Prior Systemic Therapy,Specific Prior Treatment Agents
+prior pd1 pdl1 therapy,Prior Immunotherapy/Checkpoint Inhibitors,5/5,🟢,Prior Immunotherapy/Checkpoint Inhibitors,Prior Immunotherapy/Checkpoint Inhibitors,Prior Immunotherapy/Checkpoint Inhibitors,Prior Immunotherapy/Checkpoint Inhibitors,Prior Immunotherapy/Checkpoint Inhibitors
+prior pneumonitis,Interstitial Lung Disease/Pneumonitis,5/5,🟢,Interstitial Lung Disease/Pneumonitis,Interstitial Lung Disease/Pneumonitis,Interstitial Lung Disease/Pneumonitis,Interstitial Lung Disease/Pneumonitis,Interstitial Lung Disease/Pneumonitis
+prior radiotherapy,Prior Radiotherapy,5/5,🟢,Prior Radiotherapy,Prior Radiotherapy,Prior Radiotherapy,Prior Radiotherapy,Prior Radiotherapy
+prior topoisomerase adc,Specific Prior Treatment Agents,4/5,🟢,Specific Prior Treatment Agents,Specific Prior Treatment Agents,Specific Prior Treatment Agents,Prior Systemic Therapy,Specific Prior Treatment Agents
+prior toxicity,Treatment-Related Toxicity,5/5,🟢,Treatment-Related Toxicity,Treatment-Related Toxicity,Treatment-Related Toxicity,Treatment-Related Toxicity,Treatment-Related Toxicity
+prior transplant,Transplant History,5/5,🟢,Transplant History,Transplant History,Transplant History,Transplant History,Transplant History
+prior transplantation,Transplant History,5/5,🟢,Transplant History,Transplant History,Transplant History,Transplant History,Transplant History
+psychiatric condition,Neurological/Psychiatric Conditions,5/5,🟢,Neurological/Psychiatric Conditions,Neurological/Psychiatric Conditions,Neurological/Psychiatric Conditions,Neurological/Psychiatric Conditions,Neurological/Psychiatric Conditions
+pulmonary compromise,Pulmonary Function,5/5,🟢,Pulmonary Function,Pulmonary Function,Pulmonary Function,Pulmonary Function,Pulmonary Function
+pulmonary disease,Pulmonary Function,5/5,🟢,Pulmonary Function,Pulmonary Function,Pulmonary Function,Pulmonary Function,Pulmonary Function
+qtcf interval,ECG Abnormalities,5/5,🟢,ECG Abnormalities,ECG Abnormalities,ECG Abnormalities,ECG Abnormalities,ECG Abnormalities
+questionnaire completion,Study Compliance,5/5,🟢,Study Compliance,Study Compliance,Study Compliance,Study Compliance,Study Compliance
+radiation technique,Prior Radiotherapy,5/5,🟢,Prior Radiotherapy,Prior Radiotherapy,Prior Radiotherapy,Prior Radiotherapy,Prior Radiotherapy
+recent antitumor therapy,Prior Systemic Therapy,3/5,🟡,Washout Period,Recent Systemic Therapy,Prior Systemic Therapy,Prior Systemic Therapy,Prior Systemic Therapy
+recent colony stimulating factor,Prior Systemic Therapy,3/5,🟡,Washout Period,Prior Systemic Therapy,Prior Systemic Therapy,Prior Systemic Therapy,Washout Period
+recent mri brain,Imaging Requirements,5/5,🟢,Imaging Requirements,Imaging Requirements,Imaging Requirements,Imaging Requirements,Imaging Requirements
+recent pet,Imaging Requirements,5/5,🟢,Imaging Requirements,Imaging Requirements,Imaging Requirements,Imaging Requirements,Imaging Requirements
+recent steroids,Corticosteroid Use,4/5,🟢,Washout Period,Corticosteroid Use,Corticosteroid Use,Corticosteroid Use,Corticosteroid Use
+recovery from prior therapy,Treatment-Related Toxicity,4/5,🟢,Treatment-Related Toxicity,Treatment-Related Toxicity,Treatment-Related Toxicity,Washout Period,Treatment-Related Toxicity
+renal dysfunction,Renal Function,5/5,🟢,Renal Function,Renal Function,Renal Function,Renal Function,Renal Function
+resection types,Surgical Resectability/Status,4/5,🟢,Surgical Resectability/Status,Surgical Resectability/Status,Prior Surgery,Surgical Resectability/Status,Surgical Resectability/Status
+residual disease site,Residual Disease,5/5,🟢,Residual Disease,Residual Disease,Residual Disease,Residual Disease,Residual Disease
+second malignancy,Prior/Concurrent Malignancy,5/5,🟢,Prior/Concurrent Malignancy,Prior/Concurrent Malignancy,Prior/Concurrent Malignancy,Prior/Concurrent Malignancy,Prior/Concurrent Malignancy
+second screen imaging,Imaging Requirements,5/5,🟢,Imaging Requirements,Imaging Requirements,Imaging Requirements,Imaging Requirements,Imaging Requirements
+sequential crt,Prior Chemoradiation,4/5,🟢,Prior Chemoradiation,Treatment Timing,Prior Chemoradiation,Prior Chemoradiation,Prior Chemoradiation
+small cell sarcomatoid,Tumor Histology,5/5,🟢,Tumor Histology,Tumor Histology,Tumor Histology,Tumor Histology,Tumor Histology
+stable brain mets,Brain/CNS Metastases,5/5,🟢,Brain/CNS Metastases,Brain/CNS Metastases,Brain/CNS Metastases,Brain/CNS Metastases,Brain/CNS Metastases
+surgical resection,Surgical Resectability/Status,3/5,🟡,Prior Surgery,Prior Surgery,Surgical Resectability/Status,Surgical Resectability/Status,Surgical Resectability/Status
+surveillance consent,Informed Consent,4/5,🟢,Informed Consent,Informed Consent,Study Compliance,Informed Consent,Informed Consent
+surveillance start timing,Treatment Timing,5/5,🟢,Treatment Timing,Treatment Timing,Treatment Timing,Treatment Timing,Treatment Timing
+swallowing ability,Gastrointestinal Function,5/5,🟢,Gastrointestinal Function,Gastrointestinal Function,Gastrointestinal Function,Gastrointestinal Function,Gastrointestinal Function
+synchronous tumors,Prior/Concurrent Malignancy,3/5,🟡,Prior/Concurrent Malignancy,Primary Tumor Characteristics,Prior/Concurrent Malignancy,Prior/Concurrent Malignancy,Primary Tumor Characteristics
+systemic therapy timing,Treatment Timing,5/5,🟢,Treatment Timing,Treatment Timing,Treatment Timing,Treatment Timing,Treatment Timing
+third space fluid retention,Pleural/Pericardial Effusion,5/5,🟢,Pleural/Pericardial Effusion,Pleural/Pericardial Effusion,Pleural/Pericardial Effusion,Pleural/Pericardial Effusion,Pleural/Pericardial Effusion
+tissue provision,Tumor Tissue/Biospecimen,5/5,🟢,Tumor Tissue/Biospecimen,Tumor Tissue/Biospecimen,Tumor Tissue/Biospecimen,Tumor Tissue/Biospecimen,Tumor Tissue/Biospecimen
+treatment start,Treatment Timing,4/5,🟢,Treatment Timing,Treatment Timing,Treatment Amenability,Treatment Timing,Treatment Timing
+tumor biopsy,Tumor Tissue/Biospecimen,5/5,🟢,Tumor Tissue/Biospecimen,Tumor Tissue/Biospecimen,Tumor Tissue/Biospecimen,Tumor Tissue/Biospecimen,Tumor Tissue/Biospecimen
+tumor cavitation vessel invasion,Primary Tumor Characteristics,5/5,🟢,Primary Tumor Characteristics,Primary Tumor Characteristics,Primary Tumor Characteristics,Primary Tumor Characteristics,Primary Tumor Characteristics
+tumor size number,Primary Tumor Characteristics,5/5,🟢,Primary Tumor Characteristics,Primary Tumor Characteristics,Primary Tumor Characteristics,Primary Tumor Characteristics,Primary Tumor Characteristics
+tumor specimen,Tumor Tissue/Biospecimen,5/5,🟢,Tumor Tissue/Biospecimen,Tumor Tissue/Biospecimen,Tumor Tissue/Biospecimen,Tumor Tissue/Biospecimen,Tumor Tissue/Biospecimen
+unapproved surgical procedures,Prior Surgery,5/5,🟢,Prior Surgery,Prior Surgery,Prior Surgery,Prior Surgery,Prior Surgery
+unresectable nsclc,Surgical Resectability/Status,4/5,🟢,Surgical Resectability/Status,Surgical Resectability/Status,Advanced/Refractory Disease,Surgical Resectability/Status,Surgical Resectability/Status
+unresectable status,Surgical Resectability/Status,4/5,🟢,Surgical Resectability/Status,Surgical Resectability/Status,Advanced/Refractory Disease,Surgical Resectability/Status,Surgical Resectability/Status
+washout period,Washout Period,5/5,🟢,Washout Period,Washout Period,Washout Period,Washout Period,Washout Period
+who ps,Performance Status,5/5,🟢,Performance Status,Performance Status,Performance Status,Performance Status,Performance Status

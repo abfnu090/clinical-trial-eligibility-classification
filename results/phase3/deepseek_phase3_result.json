@@ -1,0 +1,462 @@
+[
+  {
+    "umbrella": "Age",
+    "category": "PREDICTABLE_BUT_NOT_NECESSARY",
+    "rationale": "Easily obtained from EHR demographic data and routinely documented, so imputation is unnecessary."
+  },
+  {
+    "umbrella": "Sex",
+    "category": "PREDICTABLE_BUT_NOT_NECESSARY",
+    "rationale": "Directly available from EHR demographics and commonly required, with no need for imputation."
+  },
+  {
+    "umbrella": "Performance Status",
+    "category": "PREDICTABLE_AND_NECESSARY",
+    "rationale": "Commonly required for trials, often missing in structured EHR data, but can be inferred from clinical notes and functional assessments."
+  },
+  {
+    "umbrella": "Life Expectancy",
+    "category": "PREDICTABLE_AND_NECESSARY",
+    "rationale": "Often estimated from disease progression, comorbidities, and clinical notes, but frequently missing and necessary for trial eligibility."
+  },
+  {
+    "umbrella": "Body Weight and Nutritional Status",
+    "category": "PREDICTABLE_BUT_NOT_NECESSARY",
+    "rationale": "Routinely documented in EHR through vital signs and nutrition assessments, so imputation is not needed."
+  },
+  {
+    "umbrella": "Smoking Status",
+    "category": "PREDICTABLE_BUT_NOT_NECESSARY",
+    "rationale": "Typically available from social history in EHR and easy to obtain directly, making imputation unnecessary."
+  },
+  {
+    "umbrella": "ALK Mutation Status",
+    "category": "NOT_PREDICTABLE",
+    "rationale": "Requires specialized genomic testing and cannot be reliably inferred from standard EHR data."
+  },
+  {
+    "umbrella": "EGFR Mutation Status",
+    "category": "NOT_PREDICTABLE",
+    "rationale": "Dependent on molecular testing not routinely available in EHR, so prediction is not feasible."
+  },
+  {
+    "umbrella": "ROS1 Rearrangement Status",
+    "category": "NOT_PREDICTABLE",
+    "rationale": "Needs specific genetic assays that are not part of standard EHR data, making it unpredictable."
+  },
+  {
+    "umbrella": "KRAS/STK11/KEAP1 Mutation Status",
+    "category": "NOT_PREDICTABLE",
+    "rationale": "Requires genomic profiling not typically inferable from EHR, so prediction is unreliable."
+  },
+  {
+    "umbrella": "Actionable Genomic Alterations",
+    "category": "NOT_PREDICTABLE",
+    "rationale": "Depends on comprehensive genomic testing that is not standard in EHR, so cannot be predicted."
+  },
+  {
+    "umbrella": "PD-L1 Expression Status",
+    "category": "NOT_PREDICTABLE",
+    "rationale": "Requires immunohistochemistry or similar specialized tests not available in routine EHR data."
+  },
+  {
+    "umbrella": "HER2 Status",
+    "category": "NOT_PREDICTABLE",
+    "rationale": "Needs specific pathology testing like IHC or FISH, which cannot be inferred from standard EHR."
+  },
+  {
+    "umbrella": "MRD Status",
+    "category": "NOT_PREDICTABLE",
+    "rationale": "Requires sensitive assays such as PCR or NGS that are not part of routine EHR data."
+  },
+  {
+    "umbrella": "Tumor Histology",
+    "category": "PREDICTABLE_BUT_NOT_NECESSARY",
+    "rationale": "Typically documented in pathology reports within EHR and easily accessible, so imputation is not required."
+  },
+  {
+    "umbrella": "Disease Stage",
+    "category": "PREDICTABLE_BUT_NOT_NECESSARY",
+    "rationale": "Routinely available from staging documents in EHR and directly obtainable for trial matching."
+  },
+  {
+    "umbrella": "Diagnosis Confirmation",
+    "category": "PREDICTABLE_BUT_NOT_NECESSARY",
+    "rationale": "Usually confirmed through pathology and clinical notes in EHR, with no need for imputation."
+  },
+  {
+    "umbrella": "Primary Tumor Characteristics",
+    "category": "PREDICTABLE_BUT_NOT_NECESSARY",
+    "rationale": "Commonly documented in imaging and pathology reports, making imputation unnecessary."
+  },
+  {
+    "umbrella": "Measurable Disease",
+    "category": "PREDICTABLE_BUT_NOT_NECESSARY",
+    "rationale": "Directly available from imaging reports in EHR and routinely assessed for trials."
+  },
+  {
+    "umbrella": "Metastatic Disease Status",
+    "category": "PREDICTABLE_BUT_NOT_NECESSARY",
+    "rationale": "Typically documented in imaging and clinical notes, so imputation is not needed."
+  },
+  {
+    "umbrella": "Residual Disease",
+    "category": "PREDICTABLE_AND_NECESSARY",
+    "rationale": "Often missing in structured data but can be inferred from post-treatment imaging or pathology, and is necessary for trial eligibility."
+  },
+  {
+    "umbrella": "Disease Progression",
+    "category": "PREDICTABLE_AND_NECESSARY",
+    "rationale": "Commonly required for trials and can be inferred from serial imaging and notes, but often missing and worth imputing."
+  },
+  {
+    "umbrella": "Disease Recurrence",
+    "category": "PREDICTABLE_AND_NECESSARY",
+    "rationale": "Frequently missing in EHR but inferable from follow-up data, and necessary for many trial criteria."
+  },
+  {
+    "umbrella": "Brain/CNS Metastases",
+    "category": "PREDICTABLE_BUT_NOT_NECESSARY",
+    "rationale": "Routinely documented in imaging reports and easily obtained, so imputation is unnecessary."
+  },
+  {
+    "umbrella": "Hepatic Function",
+    "category": "PREDICTABLE_BUT_NOT_NECESSARY",
+    "rationale": "Available through standard lab tests like LFTs in EHR and routinely checked for trials."
+  },
+  {
+    "umbrella": "Renal Function",
+    "category": "PREDICTABLE_BUT_NOT_NECESSARY",
+    "rationale": "Easily obtained from creatinine and eGFR labs in EHR, with no need for imputation."
+  },
+  {
+    "umbrella": "Hematologic Function",
+    "category": "PREDICTABLE_BUT_NOT_NECESSARY",
+    "rationale": "Routinely available from CBC and other blood tests in EHR, making imputation unnecessary."
+  },
+  {
+    "umbrella": "Organ Function",
+    "category": "PREDICTABLE_BUT_NOT_NECESSARY",
+    "rationale": "Typically assessed through labs and clinical data in EHR, and directly accessible for trial requirements."
+  },
+  {
+    "umbrella": "Cardiac Function",
+    "category": "PREDICTABLE_BUT_NOT_NECESSARY",
+    "rationale": "Usually documented via echocardiogram or ECG in EHR and easy to obtain, so imputation is not needed."
+  },
+  {
+    "umbrella": "ECG Abnormalities",
+    "category": "PREDICTABLE_BUT_NOT_NECESSARY",
+    "rationale": "Directly available from ECG reports in EHR and routinely evaluated for trials."
+  },
+  {
+    "umbrella": "Pulmonary Function",
+    "category": "PREDICTABLE_BUT_NOT_NECESSARY",
+    "rationale": "Typically documented through PFTs or clinical assessment in EHR, with no imputation required."
+  },
+  {
+    "umbrella": "Interstitial Lung Disease/Pneumonitis",
+    "category": "PREDICTABLE_AND_NECESSARY",
+    "rationale": "Often missing in structured data but can be inferred from radiology reports and notes, and is critical for immunotherapy trials."
+  },
+  {
+    "umbrella": "Blood Pressure/Hypertension",
+    "category": "PREDICTABLE_BUT_NOT_NECESSARY",
+    "rationale": "Routinely recorded in vital signs and diagnoses in EHR, so imputation is unnecessary."
+  },
+  {
+    "umbrella": "Thrombotic Events",
+    "category": "PREDICTABLE_AND_NECESSARY",
+    "rationale": "Commonly required for trials and can be inferred from diagnoses and notes, but often missing and worth imputing."
+  },
+  {
+    "umbrella": "Bleeding/Coagulation Disorders",
+    "category": "PREDICTABLE_BUT_NOT_NECESSARY",
+    "rationale": "Typically available from lab tests and diagnoses in EHR, making imputation unnecessary."
+  },
+  {
+    "umbrella": "Anticoagulation Therapy",
+    "category": "PREDICTABLE_BUT_NOT_NECESSARY",
+    "rationale": "Easily obtained from medication lists in EHR and routinely documented for trial safety."
+  },
+  {
+    "umbrella": "Vascular Conditions",
+    "category": "PREDICTABLE_BUT_NOT_NECESSARY",
+    "rationale": "Usually documented in diagnoses and clinical notes in EHR, so imputation is not needed."
+  },
+  {
+    "umbrella": "Autoimmune Disease",
+    "category": "PREDICTABLE_AND_NECESSARY",
+    "rationale": "Often missing in structured data but can be inferred from diagnoses and notes, and is necessary for immunotherapy trial eligibility."
+  },
+  {
+    "umbrella": "Active Infection",
+    "category": "PREDICTABLE_AND_NECESSARY",
+    "rationale": "Commonly required for trials and inferable from clinical notes and labs, but frequently missing and worth imputing."
+  },
+  {
+    "umbrella": "Hepatitis B/C Status",
+    "category": "PREDICTABLE_BUT_NOT_NECESSARY",
+    "rationale": "Routinely tested and documented in lab results in EHR, so imputation is unnecessary."
+  },
+  {
+    "umbrella": "HIV Status",
+    "category": "PREDICTABLE_BUT_NOT_NECESSARY",
+    "rationale": "Typically available from serology tests in EHR and easy to obtain directly for trials."
+  },
+  {
+    "umbrella": "Tuberculosis",
+    "category": "NOT_PREDICTABLE",
+    "rationale": "Requires specific testing like PPD or IGRA not routinely available in EHR, so prediction is unreliable."
+  },
+  {
+    "umbrella": "EBV Infection",
+    "category": "NOT_PREDICTABLE",
+    "rationale": "Depends on serology tests that are not standard in EHR, making it unpredictable."
+  },
+  {
+    "umbrella": "Immunosuppression/Immunodeficiency",
+    "category": "PREDICTABLE_AND_NECESSARY",
+    "rationale": "Can be inferred from medications, diagnoses, and labs, but often missing and necessary for trial safety."
+  },
+  {
+    "umbrella": "Prior/Concurrent Malignancy",
+    "category": "PREDICTABLE_AND_NECESSARY",
+    "rationale": "Commonly required for trials and inferable from cancer registry or notes, but frequently missing and worth imputing."
+  },
+  {
+    "umbrella": "Prior Systemic Therapy",
+    "category": "PREDICTABLE_AND_NECESSARY",
+    "rationale": "Often incomplete in EHR but can be inferred from medication history, and is critical for trial eligibility."
+  },
+  {
+    "umbrella": "Prior Immunotherapy/Checkpoint Inhibitors",
+    "category": "PREDICTABLE_AND_NECESSARY",
+    "rationale": "A subset of prior therapy that can be inferred from EHR data, but often missing and necessary for trial matching."
+  },
+  {
+    "umbrella": "Prior Targeted Therapy",
+    "category": "PREDICTABLE_AND_NECESSARY",
+    "rationale": "Can be inferred from medication history in EHR, but frequently missing and worth imputing for trials."
+  },
+  {
+    "umbrella": "Prior Chemotherapy",
+    "category": "PREDICTABLE_AND_NECESSARY",
+    "rationale": "Often documented but sometimes missing; inferable from EHR and necessary for trial criteria."
+  },
+  {
+    "umbrella": "Prior Anti-VEGF Therapy",
+    "category": "PREDICTABLE_AND_NECESSARY",
+    "rationale": "Can be inferred from medication records in EHR, but may be missing and is important for trial eligibility."
+  },
+  {
+    "umbrella": "Prior Radiotherapy",
+    "category": "PREDICTABLE_AND_NECESSARY",
+    "rationale": "Often missing in structured data but inferable from radiation oncology records, and necessary for trials."
+  },
+  {
+    "umbrella": "Prior Chemoradiation",
+    "category": "PREDICTABLE_AND_NECESSARY",
+    "rationale": "Can be inferred from treatment history in EHR, but frequently missing and worth imputing for trial matching."
+  },
+  {
+    "umbrella": "Adjuvant/Neoadjuvant Therapy",
+    "category": "PREDICTABLE_AND_NECESSARY",
+    "rationale": "Often missing in EHR but inferable from treatment timelines, and necessary for many trial criteria."
+  },
+  {
+    "umbrella": "Specific Prior Treatment Agents",
+    "category": "PREDICTABLE_AND_NECESSARY",
+    "rationale": "Can be inferred from detailed medication history in EHR, but often incomplete and worth imputing for trials."
+  },
+  {
+    "umbrella": "Prior Surgery",
+    "category": "PREDICTABLE_AND_NECESSARY",
+    "rationale": "Frequently missing in structured data but inferable from surgical records, and necessary for trial eligibility."
+  },
+  {
+    "umbrella": "Surgical Resectability/Status",
+    "category": "PREDICTABLE_AND_NECESSARY",
+    "rationale": "Often subjective and missing in EHR but can be inferred from notes, and is critical for surgical trial matching."
+  },
+  {
+    "umbrella": "Mediastinal/Lymph Node Staging",
+    "category": "PREDICTABLE_BUT_NOT_NECESSARY",
+    "rationale": "Typically available from imaging and pathology reports in EHR, so imputation is unnecessary."
+  },
+  {
+    "umbrella": "Imaging Requirements",
+    "category": "PREDICTABLE_BUT_NOT_NECESSARY",
+    "rationale": "Usually documented in order entries and reports in EHR, making imputation unnecessary."
+  },
+  {
+    "umbrella": "Tumor Tissue/Biospecimen",
+    "category": "NOT_PREDICTABLE",
+    "rationale": "Availability depends on sample collection and biobanking not reliably captured in EHR, so prediction is not feasible."
+  },
+  {
+    "umbrella": "Genetic/Germline Testing",
+    "category": "NOT_PREDICTABLE",
+    "rationale": "Requires specific genetic tests not routinely available in EHR, making it unpredictable."
+  },
+  {
+    "umbrella": "Treatment-Related Toxicity",
+    "category": "PREDICTABLE_AND_NECESSARY",
+    "rationale": "Often missing in structured data but can be inferred from adverse event documentation, and is necessary for trial safety."
+  },
+  {
+    "umbrella": "Washout Period",
+    "category": "PREDICTABLE_BUT_NOT_NECESSARY",
+    "rationale": "Can be calculated from treatment dates in EHR and is routinely assessed for trials, so imputation is not needed."
+  },
+  {
+    "umbrella": "Concurrent Anti-Cancer Therapy",
+    "category": "PREDICTABLE_BUT_NOT_NECESSARY",
+    "rationale": "Typically available from current medication lists in EHR, making imputation unnecessary."
+  },
+  {
+    "umbrella": "Investigational Study Participation",
+    "category": "NOT_PREDICTABLE",
+    "rationale": "Not reliably documented in standard EHR and requires research records, so prediction is not feasible."
+  },
+  {
+    "umbrella": "Drug Hypersensitivity/Allergy",
+    "category": "PREDICTABLE_AND_NECESSARY",
+    "rationale": "Often missing in structured data but can be inferred from allergy lists, and is critical for trial safety."
+  },
+  {
+    "umbrella": "Treatment Contraindications",
+    "category": "PREDICTABLE_AND_NECESSARY",
+    "rationale": "Can be inferred from comorbidities and conditions in EHR, but often missing and worth imputing for trial eligibility."
+  },
+  {
+    "umbrella": "Corticosteroid Use",
+    "category": "PREDICTABLE_BUT_NOT_NECESSARY",
+    "rationale": "Routinely documented in medication lists in EHR, so imputation is unnecessary."
+  },
+  {
+    "umbrella": "Transplant History",
+    "category": "PREDICTABLE_BUT_NOT_NECESSARY",
+    "rationale": "Typically available from medical history in EHR and directly obtainable for trials."
+  },
+  {
+    "umbrella": "Live Vaccination",
+    "category": "PREDICTABLE_BUT_NOT_NECESSARY",
+    "rationale": "If immunization records are available in EHR, it is predictable, but often not routinely documented; however, imputation is not typically necessary."
+  },
+  {
+    "umbrella": "Pregnancy/Lactation Status",
+    "category": "PREDICTABLE_BUT_NOT_NECESSARY",
+    "rationale": "Routinely checked via labs and clinical assessment in EHR for trials, so imputation is unnecessary."
+  },
+  {
+    "umbrella": "Contraception Requirements",
+    "category": "NOT_PREDICTABLE",
+    "rationale": "Depends on patient agreement and education not reliably captured in EHR, so prediction is not feasible."
+  },
+  {
+    "umbrella": "Gastrointestinal Function",
+    "category": "PREDICTABLE_BUT_NOT_NECESSARY",
+    "rationale": "Typically documented through symptoms and diagnoses in EHR, making imputation unnecessary."
+  },
+  {
+    "umbrella": "Pleural/Pericardial Effusion",
+    "category": "PREDICTABLE_BUT_NOT_NECESSARY",
+    "rationale": "Routinely documented in imaging reports in EHR, so imputation is not needed."
+  },
+  {
+    "umbrella": "Neurological/Psychiatric Conditions",
+    "category": "PREDICTABLE_AND_NECESSARY",
+    "rationale": "Often missing in structured data but can be inferred from diagnoses and notes, and is necessary for trial safety."
+  },
+  {
+    "umbrella": "Thyroid Function",
+    "category": "PREDICTABLE_BUT_NOT_NECESSARY",
+    "rationale": "Available from standard lab tests in EHR and routinely checked, so imputation is unnecessary."
+  },
+  {
+    "umbrella": "Diabetes",
+    "category": "PREDICTABLE_BUT_NOT_NECESSARY",
+    "rationale": "Typically documented in diagnoses and labs in EHR, making imputation unnecessary."
+  },
+  {
+    "umbrella": "Wound Healing",
+    "category": "PREDICTABLE_AND_NECESSARY",
+    "rationale": "Can be inferred from clinical notes and surgical outcomes, but often missing and necessary for some trials."
+  },
+  {
+    "umbrella": "Proteinuria",
+    "category": "PREDICTABLE_BUT_NOT_NECESSARY",
+    "rationale": "Routinely available from urine tests in EHR, so imputation is not needed."
+  },
+  {
+    "umbrella": "Corneal Disease",
+    "category": "NOT_PREDICTABLE",
+    "rationale": "Requires ophthalmology evaluation not routinely available in EHR, so prediction is unreliable."
+  },
+  {
+    "umbrella": "Drug Interactions",
+    "category": "PREDICTABLE_BUT_NOT_NECESSARY",
+    "rationale": "Can be predicted from medication lists in EHR, but typically assessed by pharmacists and not necessary for trial matching imputation."
+  },
+  {
+    "umbrella": "Informed Consent",
+    "category": "NOT_PREDICTABLE",
+    "rationale": "A process-related factor not captured in standard EHR data, so prediction is not feasible."
+  },
+  {
+    "umbrella": "Study Compliance",
+    "category": "NOT_PREDICTABLE",
+    "rationale": "Behavioral and not reliably inferable from EHR data, making prediction unreliable."
+  },
+  {
+    "umbrella": "Investigator Assessment",
+    "category": "NOT_PREDICTABLE",
+    "rationale": "Subjective and based on clinical judgment not stored in EHR, so cannot be predicted."
+  },
+  {
+    "umbrella": "Treatment Timing",
+    "category": "PREDICTABLE_BUT_NOT_NECESSARY",
+    "rationale": "Typically available from scheduling and treatment records in EHR, so imputation is unnecessary."
+  },
+  {
+    "umbrella": "Intercurrent Illness",
+    "category": "PREDICTABLE_AND_NECESSARY",
+    "rationale": "Often missing in structured data but can be inferred from acute diagnoses and notes, and is necessary for trial safety."
+  },
+  {
+    "umbrella": "Implantable Devices",
+    "category": "PREDICTABLE_BUT_NOT_NECESSARY",
+    "rationale": "Usually documented in procedure records in EHR, making imputation unnecessary."
+  },
+  {
+    "umbrella": "Transfusion Requirements",
+    "category": "PREDICTABLE_BUT_NOT_NECESSARY",
+    "rationale": "Routinely available from blood bank records in EHR, so imputation is not needed."
+  },
+  {
+    "umbrella": "Locoregional Therapy Eligibility",
+    "category": "PREDICTABLE_AND_NECESSARY",
+    "rationale": "Can be inferred from disease characteristics and staging in EHR, but often missing and worth imputing for trials."
+  },
+  {
+    "umbrella": "Residency/Demographics",
+    "category": "PREDICTABLE_BUT_NOT_NECESSARY",
+    "rationale": "Easily obtained from demographic data in EHR and routinely required, so imputation is unnecessary."
+  },
+  {
+    "umbrella": "Advanced/Refractory Disease",
+    "category": "PREDICTABLE_AND_NECESSARY",
+    "rationale": "Often inferred from treatment history and response in EHR, but frequently missing and necessary for trial eligibility."
+  },
+  {
+    "umbrella": "Treatment Amenability",
+    "category": "NOT_PREDICTABLE",
+    "rationale": "Subjective and based on provider assessment not reliably captured in EHR, so prediction is not feasible."
+  },
+  {
+    "umbrella": "Tumor Markers",
+    "category": "PREDICTABLE_BUT_NOT_NECESSARY",
+    "rationale": "Typically available from lab tests like CEA or CA-19-9 in EHR, so imputation is unnecessary."
+  }
+]

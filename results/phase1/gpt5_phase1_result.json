@@ -1,0 +1,1318 @@
+[
+  {
+    "umbrella": "ALK Alteration Status",
+    "traits": [
+      "alk fusion",
+      "alk fusion status",
+      "alk gene translocation status",
+      "alk mutation",
+      "alk rearrangement",
+      "alk status",
+      "alk translocation",
+      "egfr/alk status",
+      "no egfr mutation or alk fusion",
+      "egfr alk braf ros1 mutation",
+      "egfr alk mutation",
+      "egfr alk ros1",
+      "egfr alk ros1 testing",
+      "egfr alk status",
+      "egfr ros1 alk"
+    ]
+  },
+  {
+    "umbrella": "AST and ALT Levels",
+    "traits": [
+      "ast/alt",
+      "ast alt"
+    ]
+  },
+  {
+    "umbrella": "Ability to Receive Study Treatment",
+    "traits": [
+      "ability to safely receive investigational and soc regimens",
+      "treatment start feasibility",
+      "treatment start",
+      "device operation",
+      "physician assigned therapy",
+      "curative intent eligibility (clinical appropriateness)",
+      "curative intent therapy"
+    ]
+  },
+  {
+    "umbrella": "Ability to Swallow Oral Medication",
+    "traits": [
+      "ability to swallow oral medication",
+      "swallowing ability",
+      "gi absorption condition"
+    ]
+  },
+  {
+    "umbrella": "Occult Primary Tumor Status",
+    "traits": [
+      "absence of identifiable primary tumor or nodal disease",
+      "identified primary tumor and at least one nodal metastasis"
+    ]
+  },
+  {
+    "umbrella": "Absolute Neutrophil Count",
+    "traits": [
+      "absolute neutrophil count",
+      "anc"
+    ]
+  },
+  {
+    "umbrella": "Actionable Molecular Alterations",
+    "traits": [
+      "actionable mutations",
+      "actionable driver oncogenes",
+      "actionable genomic alterations",
+      "actionable molecular alterations",
+      "molecular alterations",
+      "molecular status",
+      "other actionable alterations",
+      "other driver oncogenes"
+    ]
+  },
+  {
+    "umbrella": "Active Infection Status",
+    "traits": [
+      "active infection",
+      "active infections",
+      "infection",
+      "infection status",
+      "systemic infection",
+      "grade 3 active infection",
+      "severe infection",
+      "severe infections"
+    ]
+  },
+  {
+    "umbrella": "Active Tuberculosis Status",
+    "traits": [
+      "active tuberculosis",
+      "tuberculosis"
+    ]
+  },
+  {
+    "umbrella": "Acute Coronary Syndrome History",
+    "traits": [
+      "acute coronary syndrome"
+    ]
+  },
+  {
+    "umbrella": "Acute Serious Disease or Illness",
+    "traits": [
+      "acute disease",
+      "life-threatening non-cancer illness",
+      "uncontrolled illness",
+      "uncontrolled intercurrent illness",
+      "intercurrent illness",
+      "medical/psychiatric conditions",
+      "medical psychiatric risk",
+      "interference condition"
+    ]
+  },
+  {
+    "umbrella": "Additional / Concurrent Malignancy",
+    "traits": [
+      "additional malignancy",
+      "concurrent/prior malignancy",
+      "other active malignancy",
+      "other malignancy",
+      "other primary malignancy",
+      "previous malignancies",
+      "prior or concurrent malignancy not interfering with trial",
+      "second malignancy history",
+      "second malignancy",
+      "active second malignancy",
+      "other malignancy history"
+    ]
+  },
+  {
+    "umbrella": "Adenocarcinoma or Undifferentiated Carcinoma Histology",
+    "traits": [
+      "adenocarcinoma or undifferentiated carcinoma histology"
+    ]
+  },
+  {
+    "umbrella": "Adjuvant Systemic Therapy History and Tolerance",
+    "traits": [
+      "adjuvant chemotherapy tolerance",
+      "adjuvant/neoadjuvant therapy",
+      "adjuvant chemotherapy",
+      "neo adjuvant chemotherapy",
+      "adjuvant therapy",
+      "neoadjuvant/adjuvant therapy history",
+      "prior adjuvant therapy",
+      "adjuvant neoadjuvant timing",
+      "adjuvant progression timing"
+    ]
+  },
+  {
+    "umbrella": "Adjuvant and Neoadjuvant Radiotherapy",
+    "traits": [
+      "adjuvant radiotherapy",
+      "neoadjuvant radiotherapy",
+      "preop radiotherapy"
+    ]
+  },
+  {
+    "umbrella": "Advanced or Refractory Solid Tumors",
+    "traits": [
+      "advanced refractory solid tumors"
+    ]
+  },
+  {
+    "umbrella": "Age",
+    "traits": [
+      "age",
+      "age 18-75 years",
+      "age \u226518 years"
+    ]
+  },
+  {
+    "umbrella": "Allogeneic Transplant History",
+    "traits": [
+      "allogeneic transplant"
+    ]
+  },
+  {
+    "umbrella": "Alpha-fetoprotein Level",
+    "traits": [
+      "alpha-fetoprotein level"
+    ]
+  },
+  {
+    "umbrella": "Amenability to Consolidation Immunotherapy",
+    "traits": [
+      "amenability to consolidation immunotherapy"
+    ]
+  },
+  {
+    "umbrella": "Hepatitis B Core Antibody",
+    "traits": [
+      "anti-hepatitis b core antibody"
+    ]
+  },
+  {
+    "umbrella": "Anticoagulation Therapy",
+    "traits": [
+      "anticoagulant treatment",
+      "anticoagulation treatment"
+    ]
+  },
+  {
+    "umbrella": "Arterial Thrombotic Events",
+    "traits": [
+      "arterial thrombotic events"
+    ]
+  },
+  {
+    "umbrella": "Autoimmune and Inflammatory Disorders",
+    "traits": [
+      "autoimmune disease",
+      "autoimmune disease or immune deficiency",
+      "autoimmune diseases",
+      "autoimmune disorder",
+      "autoimmune disorders",
+      "autoimmune/inflammatory disorders",
+      "autoimmune inflammatory disorder"
+    ]
+  },
+  {
+    "umbrella": "Bevacizumab Treatment History and Continuity",
+    "traits": [
+      "bevacizumab treatment continuity",
+      "prior bevacizumab plus platinum doublet treatment"
+    ]
+  },
+  {
+    "umbrella": "Bilirubin Level",
+    "traits": [
+      "bilirubin",
+      "serum bilirubin",
+      "serum total bilirubin"
+    ]
+  },
+  {
+    "umbrella": "Bleeding and Coagulation Disorders",
+    "traits": [
+      "bleeding disorders",
+      "coagulation disorders",
+      "recent bleeding events",
+      "ibd gi perforation"
+    ]
+  },
+  {
+    "umbrella": "Blood Pressure and Hypertension Control",
+    "traits": [
+      "blood pressure control",
+      "blood pressure",
+      "hypertension"
+    ]
+  },
+  {
+    "umbrella": "Body Weight and Weight Loss",
+    "traits": [
+      "body weight",
+      "weight loss"
+    ]
+  },
+  {
+    "umbrella": "Brain Imaging Requirements",
+    "traits": [
+      "brain mri or ct prior to registration",
+      "brain imaging",
+      "pet mri brain",
+      "recent mri brain"
+    ]
+  },
+  {
+    "umbrella": "Brain and CNS Metastases",
+    "traits": [
+      "brain metastases",
+      "cns metastases",
+      "cns lesions",
+      "stable brain mets",
+      "prior brain mets",
+      "leptomeningeal carcinomatosis",
+      "carcinomatous meningitis",
+      "leptomeningeal cns disease",
+      "leptomeningeal disease",
+      "spinal cord compression"
+    ]
+  },
+  {
+    "umbrella": "COPD and Severe Pulmonary Compromise",
+    "traits": [
+      "copd with respiratory failure",
+      "pulmonary compromise"
+    ]
+  },
+  {
+    "umbrella": "Chemoradiation (CRT) Sequence and History",
+    "traits": [
+      "crt sequence",
+      "sequential crt",
+      "prior crt",
+      "progression during crt",
+      "grade \u22652 pneumonitis from prior crt"
+    ]
+  },
+  {
+    "umbrella": "Thoracic and Whole-Body Imaging",
+    "traits": [
+      "ct chest with iv contrast or pet/ct",
+      "ct scan",
+      "fdg pet ct",
+      "pre-op fdg-pet/ct",
+      "preop imaging",
+      "post-op chest ct",
+      "post treatment imaging",
+      "recent pet",
+      "pre-op chest ct/mri",
+      "second screen imaging"
+    ]
+  },
+  {
+    "umbrella": "CYP3A4 Inhibitors and Inducers",
+    "traits": [
+      "cyp3a4 inhibitors/inducers"
+    ]
+  },
+  {
+    "umbrella": "Cardiac Aneurysms and Vascular Aneurysms",
+    "traits": [
+      "cardiac aneurysms",
+      "vascular aneurysms"
+    ]
+  },
+  {
+    "umbrella": "Cardiovascular and Cardiac Disease",
+    "traits": [
+      "cardiac conditions",
+      "cardiac disease",
+      "cardiac disease history",
+      "cardiac function",
+      "cardiac history",
+      "cardiovascular disease",
+      "cardiovascular cerebrovascular condition",
+      "cardiovascular history",
+      "cardiovascular impairment",
+      "severe cardiac disease",
+      "pericarditis history",
+      "arrhythmia history"
+    ]
+  },
+  {
+    "umbrella": "Chemotherapy Regimens, Timing and Cycles",
+    "traits": [
+      "chemotherapy cycles",
+      "chemotherapy timing",
+      "cisplatin-based chemotherapy",
+      "platinum doublet cycles",
+      "platinum cycles",
+      "prior high-dose chemotherapy",
+      "post platinum therapy"
+    ]
+  },
+  {
+    "umbrella": "Liver Function and Child-Pugh Classification",
+    "traits": [
+      "child-pugh classification",
+      "liver enzymes",
+      "liver function",
+      "hepatic disorder",
+      "hepatic dysfunction"
+    ]
+  },
+  {
+    "umbrella": "Chronic Immunosuppression and Steroid Use",
+    "traits": [
+      "chronic immunosuppression",
+      "chronic steroid use",
+      "systemic corticosteroids",
+      "steroid use",
+      "high dose steroid",
+      "recent steroids"
+    ]
+  },
+  {
+    "umbrella": "Cisplatin-Based Chemotherapy Use",
+    "traits": [
+      "cisplatin-based chemotherapy"
+    ]
+  },
+  {
+    "umbrella": "Complete Surgical Resection Status",
+    "traits": [
+      "complete resection",
+      "re-resection status",
+      "surgical resection"
+    ]
+  },
+  {
+    "umbrella": "HBV and HCV Coinfection",
+    "traits": [
+      "concurrent hbv/hcv",
+      "hbv hcv infection",
+      "hepatitis b c"
+    ]
+  },
+  {
+    "umbrella": "Concurrent Anticancer and Investigational Therapy",
+    "traits": [
+      "concurrent anti-cancer therapy",
+      "concurrent antineoplastic therapy",
+      "concurrent anticancer therapy",
+      "concurrent clinical trials",
+      "concurrent experimental therapy",
+      "concurrent investigational therapy"
+    ]
+  },
+  {
+    "umbrella": "Informed Consent and Compliance",
+    "traits": [
+      "consent compliance",
+      "informed consent",
+      "genetic informed consent",
+      "study compliance willingness",
+      "compliance",
+      "surveillance consent",
+      "questionnaire completion",
+      "follow up accessibility",
+      "institutionalization"
+    ]
+  },
+  {
+    "umbrella": "Contraception and Pregnancy Prevention",
+    "traits": [
+      "contraception",
+      "contraception compliance",
+      "contraceptive use",
+      "contraceptive use compliance",
+      "female contraception compliance",
+      "female contraception",
+      "male contraception",
+      "male contraception compliance",
+      "pregnancy intent"
+    ]
+  },
+  {
+    "umbrella": "Renal Function and Creatinine Clearance",
+    "traits": [
+      "creatinine clearance",
+      "creatinine clearance \u226525 ml/min (cockcroft-gault)",
+      "renal function",
+      "renal dysfunction",
+      "serum creatinine"
+    ]
+  },
+  {
+    "umbrella": "Denosumab Use",
+    "traits": [
+      "denosumab use"
+    ]
+  },
+  {
+    "umbrella": "Diabetes Mellitus",
+    "traits": [
+      "diabetes"
+    ]
+  },
+  {
+    "umbrella": "Cancer Diagnosis",
+    "traits": [
+      "diagnosis",
+      "hcc diagnosis",
+      "nsclc histology/cytology confirmation"
+    ]
+  },
+  {
+    "umbrella": "Disease Progression and Response Status",
+    "traits": [
+      "disease progression",
+      "disease progression after anti-pd-1/pd-l1",
+      "disease progression after neoadjuvant/adjuvant/consolidation anti-pd-1/pd-l1",
+      "disease progression status",
+      "disease recurrence timing",
+      "disease response",
+      "metastatic progression timing",
+      "early stage relapse",
+      "persistent disease",
+      "post-op recurrence"
+    ]
+  },
+  {
+    "umbrella": "Drug Allergy, Hypersensitivity and Intolerance",
+    "traits": [
+      "drug allergy history",
+      "drug hypersensitivity",
+      "drug intolerance",
+      "hypersensitivity",
+      "hypersensitivity to carboplatin or nab-paclitaxel",
+      "hypersensitivity to monoclonal antibodies",
+      "monoclonal antibody hypersensitivity",
+      "drug allergy",
+      "immunotherapy hypersensitivity",
+      "ip hypersensitivity",
+      "adhesive allergy"
+    ]
+  },
+  {
+    "umbrella": "Epstein-Barr Virus Infection",
+    "traits": [
+      "ebv infection",
+      "epstein-barr virus (ebv) infection"
+    ]
+  },
+  {
+    "umbrella": "Electrocardiogram and QT Interval",
+    "traits": [
+      "ecg abnormalities",
+      "qtcf interval"
+    ]
+  },
+  {
+    "umbrella": "ECOG / WHO Performance Status",
+    "traits": [
+      "ecog ps",
+      "ecog performance status",
+      "ecog performance status 0-2",
+      "performance status",
+      "who performance status",
+      "who ps"
+    ]
+  },
+  {
+    "umbrella": "EGFR Alteration Status and TKI Response",
+    "traits": [
+      "egfr tki treatment failure",
+      "egfr mutation",
+      "egfr mutation status",
+      "egfr status",
+      "known egfr/alk/other driver mutation",
+      "sensitizing egfr mutation",
+      "prior targeted therapy for sensitizing mutation"
+    ]
+  },
+  {
+    "umbrella": "Cardiac Imaging and Left Ventricular Function",
+    "traits": [
+      "echocardiogram findings",
+      "left ventricular ejection fraction",
+      "lvef"
+    ]
+  },
+  {
+    "umbrella": "End-organ and Organ Function",
+    "traits": [
+      "end-organ function",
+      "organ and marrow function",
+      "organ function",
+      "bone marrow function",
+      "hematologic function",
+      "hematologic function amenable to chemo/radiation",
+      "hematological function",
+      "hematological dysfunction"
+    ]
+  },
+  {
+    "umbrella": "Expected Survival and Life Expectancy",
+    "traits": [
+      "expected survival",
+      "life expectancy"
+    ]
+  },
+  {
+    "umbrella": "Extracapsular Extension",
+    "traits": [
+      "extracapsular extension"
+    ]
+  },
+  {
+    "umbrella": "Female Pregnancy and Lactation Status",
+    "traits": [
+      "female pregnancy status",
+      "negative pregnancy test within 14 days",
+      "pregnancy or unwillingness to discontinue nursing",
+      "pregnancy status",
+      "pregnancy test",
+      "pregnancy/breastfeeding status",
+      "pregnancy/lactation status",
+      "pregnancy breastfeeding",
+      "pregnancy lactation"
+    ]
+  },
+  {
+    "umbrella": "Germline Testing and Sequencing",
+    "traits": [
+      "germline sequencing",
+      "mrd eligibility",
+      "mrd status"
+    ]
+  },
+  {
+    "umbrella": "HBV Infection and Serologic Status",
+    "traits": [
+      "hbv infection",
+      "hbv status",
+      "hepatitis b surface antigen"
+    ]
+  },
+  {
+    "umbrella": "HCV Infection and Serologic Status",
+    "traits": [
+      "hcv infection",
+      "hcv status"
+    ]
+  },
+  {
+    "umbrella": "HER2 Status",
+    "traits": [
+      "her2 status",
+      "prior trastuzumab treatment"
+    ]
+  },
+  {
+    "umbrella": "HIV Infection and Status",
+    "traits": [
+      "hiv infection",
+      "hiv status",
+      "kaposi sarcoma/mcd in hiv"
+    ]
+  },
+  {
+    "umbrella": "Hemoglobin Level",
+    "traits": [
+      "hemoglobin",
+      "hemoglobin level"
+    ]
+  },
+  {
+    "umbrella": "Hemoptysis History and Risk",
+    "traits": [
+      "hemoptysis history",
+      "hemoptysis"
+    ]
+  },
+  {
+    "umbrella": "Hepatitis Infection and Viral Hepatitis Status",
+    "traits": [
+      "hepatitis status",
+      "viral hepatitis status",
+      "viral load"
+    ]
+  },
+  {
+    "umbrella": "Tumor Histology and Histologic Exclusions",
+    "traits": [
+      "histology",
+      "histology exclusion",
+      "mixed histology",
+      "mixed tumor histology",
+      "primary tumor site",
+      "small cell histology",
+      "small cell sarcomatoid"
+    ]
+  },
+  {
+    "umbrella": "Interstitial Lung Disease and Pneumonitis",
+    "traits": [
+      "ild",
+      "ild/pneumonitis",
+      "interstitial lung disease",
+      "interstitial lung disease/pneumonitis",
+      "idiopathic pulmonary fibrosis/pneumonitis",
+      "pneumonitis",
+      "pneumonitis history",
+      "pneumonitis/ild",
+      "pulmonary fibrosis/pneumonitis",
+      "pulmonary interstitial fibrosis",
+      "ild history",
+      "ild pneumonitis",
+      "ild pneumonitis history",
+      "pneumonitis ild",
+      "prior pneumonitis"
+    ]
+  },
+  {
+    "umbrella": "Coagulation Parameters (INR)",
+    "traits": [
+      "inr"
+    ]
+  },
+  {
+    "umbrella": "Imaging Timing Requirements",
+    "traits": [
+      "imaging timing",
+      "pet-ct timing",
+      "pre-op imaging coverage",
+      "second screen imaging",
+      "surveillance start timing",
+      "enrollment timing",
+      "systemic therapy timing",
+      "washout period",
+      "recent antitumor therapy",
+      "recent investigational treatment",
+      "recent systemic therapy"
+    ]
+  },
+  {
+    "umbrella": "Immune Checkpoint and Immunotherapy Exposure",
+    "traits": [
+      "immune-mediated therapy",
+      "prior immune-mediated therapy",
+      "prior immunotherapy",
+      "prior checkpoint inhibitor",
+      "prior checkpoint inhibitor use",
+      "prior checkpoint therapy",
+      "prior immune therapy",
+      "prior io agent",
+      "prior io rtki therapy",
+      "prior io therapy",
+      "pembrolizumab monotherapy",
+      "prior anti-pd-1/pd-l1",
+      "prior anti-pd-1/pd-l1 therapy",
+      "prior pd-1/pd-l1 treatment",
+      "prior adjuvant pd l1",
+      "prior immune related ae",
+      "immunotherapy contraindication"
+    ]
+  },
+  {
+    "umbrella": "Immunocompromised and Immunodeficiency Status",
+    "traits": [
+      "immunocompromised state",
+      "primary immunodeficiency",
+      "immunodeficiency",
+      "immunodeficiency immunosuppression",
+      "immunodeficiency transplant immunosuppression"
+    ]
+  },
+  {
+    "umbrella": "Immunostimulatory and Immunosuppressive Medications",
+    "traits": [
+      "immunostimulatory agents",
+      "immunosuppressive medication",
+      "immunosuppressive therapy",
+      "immunosuppressive drugs"
+    ]
+  },
+  {
+    "umbrella": "Inflammatory Bowel Disease and GI Perforation Risk",
+    "traits": [
+      "inflammatory bowel disease",
+      "ibd gi perforation"
+    ]
+  },
+  {
+    "umbrella": "Operability and Surgical Candidacy",
+    "traits": [
+      "inoperability status",
+      "surgical candidacy",
+      "surgical candidate",
+      "surgical eligibility",
+      "surgical resectability/inoperability/refusal",
+      "unresectable status",
+      "unresectable nsclc"
+    ]
+  },
+  {
+    "umbrella": "Investigational Therapy and Clinical Study Participation",
+    "traits": [
+      "investigational study participation",
+      "investigational therapy",
+      "clinical study participation",
+      "recent investigational treatment"
+    ]
+  },
+  {
+    "umbrella": "Investigator Judgment and Discretion",
+    "traits": [
+      "investigator discretion",
+      "investigator judgment",
+      "investigator judgment early termination risk",
+      "physician assigned therapy"
+    ]
+  },
+  {
+    "umbrella": "KEAP1 Mutation Status",
+    "traits": [
+      "keap1 mutation"
+    ]
+  },
+  {
+    "umbrella": "KRAS Mutation and KRAS G12C Inhibitor",
+    "traits": [
+      "kras mutation",
+      "prior kras g12c inhibitor"
+    ]
+  },
+  {
+    "umbrella": "Laboratory Abnormalities",
+    "traits": [
+      "lab abnormalities"
+    ]
+  },
+  {
+    "umbrella": "Life-Threatening Non-Cancer Illness",
+    "traits": [
+      "life-threatening non-cancer illness"
+    ]
+  },
+  {
+    "umbrella": "Live Attenuated and Virus Vaccination",
+    "traits": [
+      "live attenuated vaccination",
+      "live vaccination",
+      "live vaccine",
+      "live virus vaccination"
+    ]
+  },
+  {
+    "umbrella": "Myelodysplastic Syndrome / Acute Myeloid Leukemia",
+    "traits": [
+      "mds/aml",
+      "mds aml history"
+    ]
+  },
+  {
+    "umbrella": "Maintenance Therapy History",
+    "traits": [
+      "maintenance therapy history"
+    ]
+  },
+  {
+    "umbrella": "Major and Minor Surgery History and Recovery",
+    "traits": [
+      "major surgery",
+      "major surgery recovery",
+      "minor surgery",
+      "recent surgery",
+      "surgery recovery",
+      "planned surgery",
+      "unapproved surgical procedures"
+    ]
+  },
+  {
+    "umbrella": "Malabsorption and GI Disease",
+    "traits": [
+      "malabsorption syndromes",
+      "gi abnormalities",
+      "gi disease"
+    ]
+  },
+  {
+    "umbrella": "Measurable and Evaluable Disease (RECIST)",
+    "traits": [
+      "measurable disease",
+      "recist 1.1 evaluable disease by ct scan",
+      "recist evaluable lesions",
+      "recist v1.1 measurable disease",
+      "measurable lesion",
+      "target lesion",
+      "tumor size number"
+    ]
+  },
+  {
+    "umbrella": "Metastatic Disease Status",
+    "traits": [
+      "metastatic disease",
+      "unresectable/metastatic disease",
+      "metastatic or locally recurrent gastro-oesophageal cancer"
+    ]
+  },
+  {
+    "umbrella": "NSCLC Histology and Stage",
+    "traits": [
+      "nsclc histology",
+      "non-squamous nsclc histology",
+      "nsclc resection status",
+      "nsclc stage",
+      "pathologically proven non-operable stage iib or iii, node positive nsclc",
+      "stage",
+      "staging system",
+      "tnm staging iiib/iiic/iv",
+      "no evidence of stage iv",
+      "no evidence of distant metastases (by fdg pet/ct)",
+      "stage iiib upstaging"
+    ]
+  },
+  {
+    "umbrella": "Non-Malignant Effusions (Pleural and Pericardial)",
+    "traits": [
+      "non-malignant pleural effusion status",
+      "pleural fluid cytology if effusion visible on ct and x-ray",
+      "pericardial effusion",
+      "minimal pleural effusion eligibility"
+    ]
+  },
+  {
+    "umbrella": "Nucleoside Analogue Treatment",
+    "traits": [
+      "nucleoside analog treatment"
+    ]
+  },
+  {
+    "umbrella": "Organ Transplantation History",
+    "traits": [
+      "organ transplant",
+      "prior transplant",
+      "prior transplantation"
+    ]
+  },
+  {
+    "umbrella": "PD-1 / PD-L1 Expression and Testing",
+    "traits": [
+      "pd-1/pd-l1 expression",
+      "pd-l1 biomarker",
+      "pd-l1 expression",
+      "pd-l1 status",
+      "pd-l1 status exclusion",
+      "pd-l1 testing",
+      "pd-l1 tissue",
+      "known pd-l1 result",
+      "pd l1 expression",
+      "pd l1 status",
+      "pd l1 tps"
+    ]
+  },
+  {
+    "umbrella": "Prior Anticancer Systemic Therapy",
+    "traits": [
+      "prior nsclc therapy",
+      "prior parp inhibitor",
+      "prior anti-tigit therapy",
+      "prior anti-vegf therapy",
+      "prior anti-cancer therapy lines",
+      "prior systemic therapy",
+      "prior systemic therapy for current cancer",
+      "prior systemic treatment",
+      "prior systemic treatment history",
+      "prior therapy",
+      "prior therapy lines",
+      "prior treatment",
+      "recent systemic therapy",
+      "second-line therapy refusal"
+    ]
+  },
+  {
+    "umbrella": "Prior Radiotherapy and Thoracic Radiation",
+    "traits": [
+      "prior chemoradiation",
+      "prior radiotherapy to the study cancer",
+      "prior radiotherapy",
+      "palliative radiotherapy",
+      "recent radiotherapy",
+      "radiation therapy",
+      "radiation dose",
+      "radiation technique",
+      "prior thoracic radiotherapy",
+      "prior lung radiation",
+      "prior lung radiotherapy"
+    ]
+  },
+  {
+    "umbrella": "Prior Targeted and ADC Therapies",
+    "traits": [
+      "prior tki/crizotinib treatment",
+      "tki treatment",
+      "prior topoisomerase adc",
+      "prior mmae ib6 therapy",
+      "recent drug therapy"
+    ]
+  },
+  {
+    "umbrella": "Prior Definitive or Induction Therapy",
+    "traits": [
+      "prior stage iii therapy",
+      "prior definitive therapy",
+      "prior induction therapy"
+    ]
+  },
+  {
+    "umbrella": "Prior Sorafenib Treatment",
+    "traits": [
+      "prior sorafenib treatment"
+    ]
+  },
+  {
+    "umbrella": "Toxicity from Prior Therapy and Recovery",
+    "traits": [
+      "toxicity",
+      "toxicity from prior therapy",
+      "toxicity recovery",
+      "chemotherapy recovery",
+      "recovery from prior therapy",
+      "prior toxicity"
+    ]
+  },
+  {
+    "umbrella": "Pulmonary Function and DLCO",
+    "traits": [
+      "pulmonary function",
+      "dlco"
+    ]
+  },
+  {
+    "umbrella": "Pulmonary Disease and Conditions",
+    "traits": [
+      "pulmonary conditions",
+      "current pulmonary conditions",
+      "pulmonary disease"
+    ]
+  },
+  {
+    "umbrella": "RECIST Disease Burden and Response",
+    "traits": [
+      "disease burden",
+      "systemic disease"
+    ]
+  },
+  {
+    "umbrella": "ROS1 Rearrangement",
+    "traits": [
+      "ros1 rearrangement"
+    ]
+  },
+  {
+    "umbrella": "Surgical Margins and Microscopic Disease",
+    "traits": [
+      "positive microscopic margins",
+      "surgical margins",
+      "wedge resection",
+      "resection type",
+      "resection types"
+    ]
+  },
+  {
+    "umbrella": "Serum Albumin Level",
+    "traits": [
+      "serum albumin"
+    ]
+  },
+  {
+    "umbrella": "Second Malignancy History",
+    "traits": [
+      "second malignancy history",
+      "second malignancy",
+      "previous malignancies"
+    ]
+  },
+  {
+    "umbrella": "Seizure and Neurological/Psychiatric Disorders",
+    "traits": [
+      "seizure disorder",
+      "neurological/psychiatric disorders",
+      "psychiatric condition",
+      "psychotropic drug or alcohol abuse"
+    ]
+  },
+  {
+    "umbrella": "Separate Tumor Nodules and Synchronous Tumors",
+    "traits": [
+      "separate tumor nodules in same lobe",
+      "synchronous tumors"
+    ]
+  },
+  {
+    "umbrella": "Platelet Count",
+    "traits": [
+      "platelet count",
+      "platelets"
+    ]
+  },
+  {
+    "umbrella": "Platinum-Based Chemotherapy Exposure and Contraindications",
+    "traits": [
+      "platinum allergy",
+      "platinum doublet contraindication",
+      "platinum doublet progression",
+      "platinum-based chemotherapy contraindication",
+      "prior platinum-based therapy",
+      "post platinum therapy"
+    ]
+  },
+  {
+    "umbrella": "Pneumonitis and ILD (see ILD umbrella)",
+    "traits": [
+      "pulmonary fibrosis/pneumonitis",
+      "pulmonary interstitial fibrosis"
+    ]
+  },
+  {
+    "umbrella": "Pregnancy and Breastfeeding Status (combined)",
+    "traits": [
+      "pregnancy breastfeeding",
+      "pregnancy lactation",
+      "pregnancy/breastfeeding status",
+      "pregnancy/lactation status"
+    ]
+  },
+  {
+    "umbrella": "Primary Tumor Size and Cavitation",
+    "traits": [
+      "primary tumor size \u22647 cm",
+      "tumor cavitation vessel invasion"
+    ]
+  },
+  {
+    "umbrella": "Prior NSCLC-Directed Therapies",
+    "traits": [
+      "prior nsclc therapy",
+      "recurrent or refractory nsclc",
+      "unresectable nsclc"
+    ]
+  },
+  {
+    "umbrella": "Proteinuria",
+    "traits": [
+      "proteinuria"
+    ]
+  },
+  {
+    "umbrella": "QT Interval (QTcF)",
+    "traits": [
+      "qtcf interval"
+    ]
+  },
+  {
+    "umbrella": "Radiation Dose and Technique",
+    "traits": [
+      "radiation dose",
+      "radiation technique"
+    ]
+  },
+  {
+    "umbrella": "Recent Antitumor and Colony Stimulating Factor Use",
+    "traits": [
+      "recent antitumor therapy",
+      "recent colony stimulating factor"
+    ]
+  },
+  {
+    "umbrella": "Recurrence and Residual Disease",
+    "traits": [
+      "residual disease site",
+      "post-op recurrence",
+      "gross disease remaining"
+    ]
+  },
+  {
+    "umbrella": "Resection Type and Surgical Approach",
+    "traits": [
+      "resection type",
+      "resection types",
+      "wedge resection"
+    ]
+  },
+  {
+    "umbrella": "Sex",
+    "traits": [
+      "sex"
+    ]
+  },
+  {
+    "umbrella": "Small Cell Lung Cancer",
+    "traits": [
+      "small cell lung cancer",
+      "small cell histology",
+      "small cell sarcomatoid"
+    ]
+  },
+  {
+    "umbrella": "Smoking Status",
+    "traits": [
+      "smoking status"
+    ]
+  },
+  {
+    "umbrella": "Stroke and Cerebrovascular Disease",
+    "traits": [
+      "cerebrovascular accident"
+    ]
+  },
+  {
+    "umbrella": "Systemic Therapy Timing and Washout",
+    "traits": [
+      "systemic therapy timing",
+      "washout period"
+    ]
+  },
+  {
+    "umbrella": "Thyroid Function",
+    "traits": [
+      "thyroid function"
+    ]
+  },
+  {
+    "umbrella": "Time from Progression to Randomization",
+    "traits": [
+      "time from progression to randomization",
+      "enrollment timing"
+    ]
+  },
+  {
+    "umbrella": "Transfusion Requirements",
+    "traits": [
+      "whole blood transfusion"
+    ]
+  },
+  {
+    "umbrella": "Tumor Tissue and Biospecimen Provision",
+    "traits": [
+      "tumor sample",
+      "tumor tissue",
+      "tumor tissue and blood samples",
+      "tumor tissue provision",
+      "tumor tissue sample",
+      "pre-surgical plasma sample",
+      "tumor biopsy",
+      "tumor specimen",
+      "biosample provision",
+      "tissue provision"
+    ]
+  },
+  {
+    "umbrella": "Venous Thromboembolism",
+    "traits": [
+      "venous thrombotic events"
+    ]
+  },
+  {
+    "umbrella": "Wound Healing and Non-Healing Wounds",
+    "traits": [
+      "non-healing wounds",
+      "wound healing",
+      "third space fluid retention"
+    ]
+  },
+  {
+    "umbrella": "STK11 Mutation Status",
+    "traits": [
+      "stk11 mutation"
+    ]
+  },
+  {
+    "umbrella": "N2 Node Sampling and Mediastinal Staging",
+    "traits": [
+      "n2 node sampling",
+      "pre-op mediastinal staging"
+    ]
+  },
+  {
+    "umbrella": "Kaposi Sarcoma / MCD in HIV",
+    "traits": [
+      "kaposi sarcoma/mcd in hiv"
+    ]
+  },
+  {
+    "umbrella": "Pericardial Disease",
+    "traits": [
+      "pericarditis history",
+      "pericardial effusion"
+    ]
+  },
+  {
+    "umbrella": "Docetaxel Contraindication",
+    "traits": [
+      "docetaxel contraindication"
+    ]
+  },
+  {
+    "umbrella": "Corneal Disease",
+    "traits": [
+      "corneal disease"
+    ]
+  },
+  {
+    "umbrella": "Implantable Devices",
+    "traits": [
+      "implantable devices"
+    ]
+  },
+  {
+    "umbrella": "HbV/HCV Combined Infection or Status",
+    "traits": [
+      "hbv hcv infection",
+      "hepatitis b c"
+    ]
+  },
+  {
+    "umbrella": "GI Structural Abnormalities",
+    "traits": [
+      "gi abnormalities"
+    ]
+  },
+  {
+    "umbrella": "Medical and Psychiatric Risk Conditions",
+    "traits": [
+      "medical psychiatric risk"
+    ]
+  },
+  {
+    "umbrella": "Surveillance Start and Follow Up",
+    "traits": [
+      "surveillance start timing"
+    ]
+  },
+  {
+    "umbrella": "Physician or Investigator-Assigned Therapy",
+    "traits": [
+      "physician assigned therapy"
+    ]
+  },
+  {
+    "umbrella": "TACE Eligibility",
+    "traits": [
+      "tace eligibility"
+    ]
+  },
+  {
+    "umbrella": "Weight Loss and Nutritional Status",
+    "traits": [
+      "weight loss"
+    ]
+  }
+]

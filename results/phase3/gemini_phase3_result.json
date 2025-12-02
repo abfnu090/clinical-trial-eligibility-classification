@@ -1,0 +1,462 @@
+[
+  {
+    "umbrella": "Age",
+    "category": "PREDICTABLE_BUT_NOT_NECESSARY",
+    "rationale": "Patient date of birth is universally captured in structured EHR fields, requiring no complex prediction."
+  },
+  {
+    "umbrella": "Sex",
+    "category": "PREDICTABLE_BUT_NOT_NECESSARY",
+    "rationale": "Biological sex is a standard structured demographic field in all EHR systems."
+  },
+  {
+    "umbrella": "Performance Status",
+    "category": "PREDICTABLE_AND_NECESSARY",
+    "rationale": "ECOG/KPS scores are critical for eligibility but often missing from structured fields; they can be accurately inferred from clinical notes via NLP."
+  },
+  {
+    "umbrella": "Life Expectancy",
+    "category": "PREDICTABLE_AND_NECESSARY",
+    "rationale": "Prognostic estimates (e.g., '> 3 months') are subjective and unstructured but can be inferred from oncologist assessment notes or hospice referrals."
+  },
+  {
+    "umbrella": "Body Weight and Nutritional Status",
+    "category": "PREDICTABLE_BUT_NOT_NECESSARY",
+    "rationale": "Weight and BMI are routinely captured in structured vital signs data."
+  },
+  {
+    "umbrella": "Smoking Status",
+    "category": "PREDICTABLE_BUT_NOT_NECESSARY",
+    "rationale": "Social history fields typically capture structured data regarding current and former smoking status."
+  },
+  {
+    "umbrella": "ALK Mutation Status",
+    "category": "NOT_PREDICTABLE",
+    "rationale": "Requires specific genomic sequencing or IHC results which cannot be inferred from clinical phenotype alone."
+  },
+  {
+    "umbrella": "EGFR Mutation Status",
+    "category": "NOT_PREDICTABLE",
+    "rationale": "Requires specific molecular testing results; phenotype (e.g., non-smoker) is suggestive but insufficient for trial eligibility confirmation."
+  },
+  {
+    "umbrella": "ROS1 Rearrangement Status",
+    "category": "NOT_PREDICTABLE",
+    "rationale": "Requires specific FISH or NGS testing results unavailable from standard clinical history."
+  },
+  {
+    "umbrella": "KRAS/STK11/KEAP1 Mutation Status",
+    "category": "NOT_PREDICTABLE",
+    "rationale": "Requires specific genomic alteration data that must be explicitly measured."
+  },
+  {
+    "umbrella": "Actionable Genomic Alterations",
+    "category": "NOT_PREDICTABLE",
+    "rationale": "Identifying specific actionable mutations requires comprehensive genomic profiling results."
+  },
+  {
+    "umbrella": "PD-L1 Expression Status",
+    "category": "NOT_PREDICTABLE",
+    "rationale": "Requires specific immunohistochemistry (IHC) assays and TPS/CPS scoring."
+  },
+  {
+    "umbrella": "HER2 Status",
+    "category": "NOT_PREDICTABLE",
+    "rationale": "Requires IHC or FISH testing results; cannot be reliably predicted from histology alone."
+  },
+  {
+    "umbrella": "MRD Status",
+    "category": "NOT_PREDICTABLE",
+    "rationale": "Minimal Residual Disease requires high-sensitivity assays not inferable from standard labs or history."
+  },
+  {
+    "umbrella": "Tumor Histology",
+    "category": "PREDICTABLE_BUT_NOT_NECESSARY",
+    "rationale": "Histology is the foundational diagnosis usually available in structured pathology reports or problem lists without need for probabilistic imputation."
+  },
+  {
+    "umbrella": "Disease Stage",
+    "category": "PREDICTABLE_AND_NECESSARY",
+    "rationale": "Current stage (especially identifying stage IV) is often outdated in structured fields and must be inferred from recent imaging and notes."
+  },
+  {
+    "umbrella": "Diagnosis Confirmation",
+    "category": "PREDICTABLE_BUT_NOT_NECESSARY",
+    "rationale": "Presence of a cancer diagnosis is the primary entry point for the patient record and is structurally available."
+  },
+  {
+    "umbrella": "Primary Tumor Characteristics",
+    "category": "PREDICTABLE_BUT_NOT_NECESSARY",
+    "rationale": "Location and size are typically explicitly stated in pathology and radiology reports."
+  },
+  {
+    "umbrella": "Measurable Disease",
+    "category": "PREDICTABLE_AND_NECESSARY",
+    "rationale": "RECIST criteria compliance is rarely structured; NLP extraction from radiology impressions is necessary to confirm target lesions."
+  },
+  {
+    "umbrella": "Metastatic Disease Status",
+    "category": "PREDICTABLE_AND_NECESSARY",
+    "rationale": "The presence of metastases is critical for matching and often requires synthesizing data from notes and imaging rather than a single field."
+  },
+  {
+    "umbrella": "Residual Disease",
+    "category": "PREDICTABLE_AND_NECESSARY",
+    "rationale": "Post-surgical residual disease status is found in operative or pathology notes and requires extraction."
+  },
+  {
+    "umbrella": "Disease Progression",
+    "category": "PREDICTABLE_AND_NECESSARY",
+    "rationale": "Determining if a patient has progressed on current therapy is the primary trigger for trial eligibility and requires complex inference from notes and scans."
+  },
+  {
+    "umbrella": "Disease Recurrence",
+    "category": "PREDICTABLE_AND_NECESSARY",
+    "rationale": "Similar to progression, recurrence is a timeline event inferred from clinical documentation rather than a static field."
+  },
+  {
+    "umbrella": "Brain/CNS Metastases",
+    "category": "PREDICTABLE_AND_NECESSARY",
+    "rationale": "Active or untreated CNS mets are a common exclusion; status is buried in MRI reports and requires NLP extraction."
+  },
+  {
+    "umbrella": "Hepatic Function",
+    "category": "PREDICTABLE_BUT_NOT_NECESSARY",
+    "rationale": "AST, ALT, and Bilirubin are standard, high-frequency structured lab values."
+  },
+  {
+    "umbrella": "Renal Function",
+    "category": "PREDICTABLE_BUT_NOT_NECESSARY",
+    "rationale": "Creatinine and calculated EGFR are standard, high-frequency structured lab values."
+  },
+  {
+    "umbrella": "Hematologic Function",
+    "category": "PREDICTABLE_BUT_NOT_NECESSARY",
+    "rationale": "CBC data (ANC, Platelets, Hemoglobin) is universally available in structured lab formats."
+  },
+  {
+    "umbrella": "Organ Function",
+    "category": "PREDICTABLE_BUT_NOT_NECESSARY",
+    "rationale": "General organ function is assessed via standard metabolic panels which are structured data."
+  },
+  {
+    "umbrella": "Cardiac Function",
+    "category": "PREDICTABLE_AND_NECESSARY",
+    "rationale": "LVEF percentages are crucial for drug safety but often exist only within echocardiogram PDF reports, requiring extraction."
+  },
+  {
+    "umbrella": "ECG Abnormalities",
+    "category": "PREDICTABLE_BUT_NOT_NECESSARY",
+    "rationale": "QTc and ECG results are often available as structured data or simple observation reports."
+  },
+  {
+    "umbrella": "Pulmonary Function",
+    "category": "PREDICTABLE_BUT_NOT_NECESSARY",
+    "rationale": "O2 saturation is a vital sign; PFTs are standard diagnostic reports usually available if relevant."
+  },
+  {
+    "umbrella": "Interstitial Lung Disease/Pneumonitis",
+    "category": "PREDICTABLE_AND_NECESSARY",
+    "rationale": "A critical exclusion for immunotherapy; diagnosis is often nuanced and found in imaging text or problem lists rather than structured history."
+  },
+  {
+    "umbrella": "Blood Pressure/Hypertension",
+    "category": "PREDICTABLE_BUT_NOT_NECESSARY",
+    "rationale": "Blood pressure is a standard structured vital sign."
+  },
+  {
+    "umbrella": "Thrombotic Events",
+    "category": "PREDICTABLE_AND_NECESSARY",
+    "rationale": "History of DVT/PE within a specific window (e.g., 6 months) requires temporal extraction from problem lists or notes."
+  },
+  {
+    "umbrella": "Bleeding/Coagulation Disorders",
+    "category": "PREDICTABLE_BUT_NOT_NECESSARY",
+    "rationale": "Coagulation panels (INR/PT) are structured labs; history is usually in the problem list."
+  },
+  {
+    "umbrella": "Anticoagulation Therapy",
+    "category": "PREDICTABLE_BUT_NOT_NECESSARY",
+    "rationale": "Current medications are available in structured medication lists."
+  },
+  {
+    "umbrella": "Vascular Conditions",
+    "category": "PREDICTABLE_BUT_NOT_NECESSARY",
+    "rationale": "Conditions like arterial thromboembolism are typically captured in the structured problem list."
+  },
+  {
+    "umbrella": "Autoimmune Disease",
+    "category": "PREDICTABLE_AND_NECESSARY",
+    "rationale": "Distinguishing between active autoimmune disease (exclusion) and history (allowed) often requires interpreting clinical notes."
+  },
+  {
+    "umbrella": "Active Infection",
+    "category": "PREDICTABLE_AND_NECESSARY",
+    "rationale": "Determining if an infection is 'active' or 'uncontrolled' requires synthesizing vitals, micro labs, and antibiotic administration logs."
+  },
+  {
+    "umbrella": "Hepatitis B/C Status",
+    "category": "PREDICTABLE_BUT_NOT_NECESSARY",
+    "rationale": "Viral serology is a discrete lab result."
+  },
+  {
+    "umbrella": "HIV Status",
+    "category": "PREDICTABLE_BUT_NOT_NECESSARY",
+    "rationale": "HIV status is determined by discrete lab assays."
+  },
+  {
+    "umbrella": "Tuberculosis",
+    "category": "PREDICTABLE_BUT_NOT_NECESSARY",
+    "rationale": "TB status is determined by skin tests or IGRA labs, or historical coding."
+  },
+  {
+    "umbrella": "EBV Infection",
+    "category": "PREDICTABLE_BUT_NOT_NECESSARY",
+    "rationale": "Viral load or serology is a discrete lab result."
+  },
+  {
+    "umbrella": "Immunosuppression/Immunodeficiency",
+    "category": "PREDICTABLE_AND_NECESSARY",
+    "rationale": "Requires calculating steroid equivalent doses over time from med lists to determine if the patient meets exclusion thresholds."
+  },
+  {
+    "umbrella": "Prior/Concurrent Malignancy",
+    "category": "PREDICTABLE_AND_NECESSARY",
+    "rationale": "Exclusion usually depends on a 'disease-free interval' (e.g., 2 years), requiring date calculation from historical notes."
+  },
+  {
+    "umbrella": "Prior Systemic Therapy",
+    "category": "PREDICTABLE_AND_NECESSARY",
+    "rationale": "Counting 'lines of therapy' is complex and requires inferring regimen switches due to progression vs. toxicity from medication history."
+  },
+  {
+    "umbrella": "Prior Immunotherapy/Checkpoint Inhibitors",
+    "category": "PREDICTABLE_AND_NECESSARY",
+    "rationale": "Requires identifying specific classes of drugs in history and determining if the patient progressed on them."
+  },
+  {
+    "umbrella": "Prior Targeted Therapy",
+    "category": "PREDICTABLE_AND_NECESSARY",
+    "rationale": "Requires mapping medication history to specific inhibitor classes and assessing outcome."
+  },
+  {
+    "umbrella": "Prior Chemotherapy",
+    "category": "PREDICTABLE_AND_NECESSARY",
+    "rationale": "Requires grouping agents into regimens and lines of therapy."
+  },
+  {
+    "umbrella": "Prior Anti-VEGF Therapy",
+    "category": "PREDICTABLE_AND_NECESSARY",
+    "rationale": "Requires identifying specific agents and timing relative to the proposed trial."
+  },
+  {
+    "umbrella": "Prior Radiotherapy",
+    "category": "PREDICTABLE_AND_NECESSARY",
+    "rationale": "Radiation fields and timing are often in radiation oncology summaries, not standard structured history."
+  },
+  {
+    "umbrella": "Prior Chemoradiation",
+    "category": "PREDICTABLE_AND_NECESSARY",
+    "rationale": "Requires synthesizing concurrent timing of medication administration and radiation procedures."
+  },
+  {
+    "umbrella": "Adjuvant/Neoadjuvant Therapy",
+    "category": "PREDICTABLE_AND_NECESSARY",
+    "rationale": "Determining the *intent* of prior therapy (curative vs palliative) requires note interpretation."
+  },
+  {
+    "umbrella": "Specific Prior Treatment Agents",
+    "category": "PREDICTABLE_BUT_NOT_NECESSARY",
+    "rationale": "Checking if a patient ever received a specific drug (e.g., 'Has received Doxorubicin') is a simple query of the medication list."
+  },
+  {
+    "umbrella": "Prior Surgery",
+    "category": "PREDICTABLE_BUT_NOT_NECESSARY",
+    "rationale": "Surgical history is typically available in procedure codes or surgical history lists."
+  },
+  {
+    "umbrella": "Surgical Resectability/Status",
+    "category": "PREDICTABLE_AND_NECESSARY",
+    "rationale": "Resectability is a subjective surgeon assessment found in consult notes."
+  },
+  {
+    "umbrella": "Mediastinal/Lymph Node Staging",
+    "category": "PREDICTABLE_AND_NECESSARY",
+    "rationale": "Detailed nodal involvement is often described in text reports of EBUS or CT scans rather than structured staging fields."
+  },
+  {
+    "umbrella": "Imaging Requirements",
+    "category": "PREDICTABLE_BUT_NOT_NECESSARY",
+    "rationale": "Checking for the existence of a recent scan is a metadata query, not a prediction."
+  },
+  {
+    "umbrella": "Tumor Tissue/Biospecimen",
+    "category": "NOT_PREDICTABLE",
+    "rationale": "The physical availability or quality of archival tissue blocks cannot be inferred reliably from the EHR."
+  },
+  {
+    "umbrella": "Genetic/Germline Testing",
+    "category": "NOT_PREDICTABLE",
+    "rationale": "Germline mutations (e.g., BRCA) require specific test results that cannot be predicted from phenotype."
+  },
+  {
+    "umbrella": "Treatment-Related Toxicity",
+    "category": "PREDICTABLE_AND_NECESSARY",
+    "rationale": "Resolution of prior toxicities (e.g., 'recovered to Grade 1') is a subjective assessment found in progress notes."
+  },
+  {
+    "umbrella": "Washout Period",
+    "category": "PREDICTABLE_BUT_NOT_NECESSARY",
+    "rationale": "Calculating days since last dose is a deterministic operation on structured medication data."
+  },
+  {
+    "umbrella": "Concurrent Anti-Cancer Therapy",
+    "category": "PREDICTABLE_BUT_NOT_NECESSARY",
+    "rationale": "Active medications are listed in the structured medication record."
+  },
+  {
+    "umbrella": "Investigational Study Participation",
+    "category": "PREDICTABLE_BUT_NOT_NECESSARY",
+    "rationale": "Study enrollment is typically flagged in the patient header or demographics."
+  },
+  {
+    "umbrella": "Drug Hypersensitivity/Allergy",
+    "category": "PREDICTABLE_BUT_NOT_NECESSARY",
+    "rationale": "Allergies are a standard structured list in the EHR."
+  },
+  {
+    "umbrella": "Treatment Contraindications",
+    "category": "PREDICTABLE_BUT_NOT_NECESSARY",
+    "rationale": "Specific medical contraindications are usually found in the problem list or allergy list."
+  },
+  {
+    "umbrella": "Corticosteroid Use",
+    "category": "PREDICTABLE_BUT_NOT_NECESSARY",
+    "rationale": "Current usage is available in the medication list; simple dosage checks do not require complex inference."
+  },
+  {
+    "umbrella": "Transplant History",
+    "category": "PREDICTABLE_BUT_NOT_NECESSARY",
+    "rationale": "History of organ or stem cell transplant is a major event coded in procedure history."
+  },
+  {
+    "umbrella": "Live Vaccination",
+    "category": "PREDICTABLE_BUT_NOT_NECESSARY",
+    "rationale": "Immunization records are structured data."
+  },
+  {
+    "umbrella": "Pregnancy/Lactation Status",
+    "category": "PREDICTABLE_BUT_NOT_NECESSARY",
+    "rationale": "Pregnancy tests (hCG) are structured labs; lactation is a standard intake checkbox."
+  },
+  {
+    "umbrella": "Contraception Requirements",
+    "category": "PREDICTABLE_BUT_NOT_NECESSARY",
+    "rationale": "Willingness to use contraception is a consent/administrative item, not a prediction target."
+  },
+  {
+    "umbrella": "Gastrointestinal Function",
+    "category": "PREDICTABLE_AND_NECESSARY",
+    "rationale": "Issues like 'malabsorption syndrome' or 'inability to swallow pills' are often only documented in free text."
+  },
+  {
+    "umbrella": "Pleural/Pericardial Effusion",
+    "category": "PREDICTABLE_AND_NECESSARY",
+    "rationale": "Presence and clinical significance (symptomatic vs asymptomatic) are found in imaging reports and notes."
+  },
+  {
+    "umbrella": "Neurological/Psychiatric Conditions",
+    "category": "PREDICTABLE_AND_NECESSARY",
+    "rationale": "Assessing if a condition would 'limit compliance' requires interpreting the severity described in consult notes."
+  },
+  {
+    "umbrella": "Thyroid Function",
+    "category": "PREDICTABLE_BUT_NOT_NECESSARY",
+    "rationale": "TSH and T4 are standard structured labs."
+  },
+  {
+    "umbrella": "Diabetes",
+    "category": "PREDICTABLE_BUT_NOT_NECESSARY",
+    "rationale": "HbA1c and diagnosis codes are structured."
+  },
+  {
+    "umbrella": "Wound Healing",
+    "category": "PREDICTABLE_AND_NECESSARY",
+    "rationale": "Non-healing wounds or ulcers are physical exam findings described in text."
+  },
+  {
+    "umbrella": "Proteinuria",
+    "category": "PREDICTABLE_BUT_NOT_NECESSARY",
+    "rationale": "Urinalysis and 24h urine protein are structured lab values."
+  },
+  {
+    "umbrella": "Corneal Disease",
+    "category": "PREDICTABLE_BUT_NOT_NECESSARY",
+    "rationale": "Ophthalmologic diagnoses are typically coded in the problem list."
+  },
+  {
+    "umbrella": "Drug Interactions",
+    "category": "PREDICTABLE_BUT_NOT_NECESSARY",
+    "rationale": "Potential interactions (e.g., CYP inhibitors) can be identified by comparing the structured med list against a reference database."
+  },
+  {
+    "umbrella": "Informed Consent",
+    "category": "PREDICTABLE_BUT_NOT_NECESSARY",
+    "rationale": "Patient willingness is an administrative process, not a data attribute to be predicted from the chart."
+  },
+  {
+    "umbrella": "Study Compliance",
+    "category": "PREDICTABLE_BUT_NOT_NECESSARY",
+    "rationale": "Anticipated compliance is a subjective investigator judgment during screening, not a chart-derived prediction."
+  },
+  {
+    "umbrella": "Investigator Assessment",
+    "category": "PREDICTABLE_AND_NECESSARY",
+    "rationale": "Criteria like 'investigator believes benefit outweighs risk' are subjective but can sometimes be inferred from favorable clinic notes."
+  },
+  {
+    "umbrella": "Treatment Timing",
+    "category": "PREDICTABLE_BUT_NOT_NECESSARY",
+    "rationale": "Timelines are calculated from structured dates."
+  },
+  {
+    "umbrella": "Intercurrent Illness",
+    "category": "PREDICTABLE_AND_NECESSARY",
+    "rationale": "Uncontrolled intercurrent illness is a broad exclusion requiring synthesis of recent acute events in the chart."
+  },
+  {
+    "umbrella": "Implantable Devices",
+    "category": "PREDICTABLE_BUT_NOT_NECESSARY",
+    "rationale": "Pacemakers and other devices are recorded in surgical history or device lists."
+  },
+  {
+    "umbrella": "Transfusion Requirements",
+    "category": "PREDICTABLE_AND_NECESSARY",
+    "rationale": "Transfusion dependence is inferred from the frequency of blood product administration logs."
+  },
+  {
+    "umbrella": "Locoregional Therapy Eligibility",
+    "category": "PREDICTABLE_AND_NECESSARY",
+    "rationale": "Whether a patient is amenable to local therapy vs. systemic therapy is a clinical judgment found in notes."
+  },
+  {
+    "umbrella": "Residency/Demographics",
+    "category": "PREDICTABLE_BUT_NOT_NECESSARY",
+    "rationale": "Zip code and residency are structured demographic fields."
+  },
+  {
+    "umbrella": "Advanced/Refractory Disease",
+    "category": "PREDICTABLE_AND_NECESSARY",
+    "rationale": "Identifying 'refractory' status requires correlating disease progression dates with treatment dates."
+  },
+  {
+    "umbrella": "Treatment Amenability",
+    "category": "PREDICTABLE_AND_NECESSARY",
+    "rationale": "Criteria like 'no standard curative options exist' require inferring the exhaustion of standard of care lines."
+  },
+  {
+    "umbrella": "Tumor Markers",
+    "category": "PREDICTABLE_BUT_NOT_NECESSARY",
+    "rationale": "Markers like PSA, CEA, and CA-125 are standard structured lab values."
+  }
+]

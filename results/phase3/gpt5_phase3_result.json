@@ -1,0 +1,462 @@
+[
+  {
+    "umbrella": "Age",
+    "category": "PREDICTABLE_BUT_NOT_NECESSARY",
+    "rationale": "Chronological age is directly recorded in the EHR and universally available; there is no need to infer or impute it for trial matching."
+  },
+  {
+    "umbrella": "Sex",
+    "category": "PREDICTABLE_BUT_NOT_NECESSARY",
+    "rationale": "Sex is a core demographic variable routinely captured in structured EHR fields, so prediction is unnecessary."
+  },
+  {
+    "umbrella": "Performance Status",
+    "category": "PREDICTABLE_AND_NECESSARY",
+    "rationale": "ECOG/Karnofsky scores are frequently missing in structured EHR data but can be inferred from clinical notes and utilization patterns and are a common determinant of eligibility."
+  },
+  {
+    "umbrella": "Life Expectancy",
+    "category": "PREDICTABLE_AND_NECESSARY",
+    "rationale": "Explicit estimated life expectancy is rarely documented but can be approximated from disease status, comorbidities, and trajectories, and is often a trial inclusion/exclusion requirement."
+  },
+  {
+    "umbrella": "Body Weight and Nutritional Status",
+    "category": "PREDICTABLE_BUT_NOT_NECESSARY",
+    "rationale": "Weight, BMI, and basic nutritional indicators are routinely measured and stored; while risk models could be built, imputation is usually not needed for matching."
+  },
+  {
+    "umbrella": "Smoking Status",
+    "category": "PREDICTABLE_AND_NECESSARY",
+    "rationale": "Smoking history is inconsistently structured but inferable from notes and problem lists and often materially affects eligibility, especially in thoracic oncology trials."
+  },
+  {
+    "umbrella": "ALK Mutation Status",
+    "category": "NOT_PREDICTABLE",
+    "rationale": "ALK rearrangement requires specific molecular assays; while sometimes inferred from existing results, it cannot be reliably predicted from routine clinical data when untested."
+  },
+  {
+    "umbrella": "EGFR Mutation Status",
+    "category": "NOT_PREDICTABLE",
+    "rationale": "EGFR mutation status depends on genomic testing; population-level associations are insufficient for patient-level prediction suitable for trial eligibility."
+  },
+  {
+    "umbrella": "ROS1 Rearrangement Status",
+    "category": "NOT_PREDICTABLE",
+    "rationale": "ROS1 rearrangements require dedicated molecular diagnostics and are not inferable with adequate reliability from standard EHR variables."
+  },
+  {
+    "umbrella": "KRAS/STK11/KEAP1 Mutation Status",
+    "category": "NOT_PREDICTABLE",
+    "rationale": "These somatic mutations demand genomic sequencing; phenotypic surrogates are too weak for eligibility-level inference."
+  },
+  {
+    "umbrella": "Actionable Genomic Alterations",
+    "category": "NOT_PREDICTABLE",
+    "rationale": "Most actionable alterations are defined by specific somatic variants or fusions that require NGS or other assays and cannot be safely imputed from routine data."
+  },
+  {
+    "umbrella": "PD-L1 Expression Status",
+    "category": "NOT_PREDICTABLE",
+    "rationale": "PD-L1 expression is determined by immunohistochemistry with variable cutoffs; it cannot be reliably predicted from demographic or clinical features alone."
+  },
+  {
+    "umbrella": "HER2 Status",
+    "category": "NOT_PREDICTABLE",
+    "rationale": "HER2 positivity/negativity is established by IHC/FISH and is not accurately inferable from other EHR data when testing has not been done."
+  },
+  {
+    "umbrella": "MRD Status",
+    "category": "NOT_PREDICTABLE",
+    "rationale": "Minimal residual disease requires sensitive assay-based detection (flow, PCR, NGS) and cannot be inferred from routine labs or imaging."
+  },
+  {
+    "umbrella": "Tumor Histology",
+    "category": "PREDICTABLE_AND_NECESSARY",
+    "rationale": "Histologic subtype is essential for matching and is available in pathology reports but often unstructured, requiring NLP extraction rather than true imputation."
+  },
+  {
+    "umbrella": "Disease Stage",
+    "category": "PREDICTABLE_AND_NECESSARY",
+    "rationale": "Stage is frequently missing or outdated in structured fields yet can be derived from pathology, imaging, and procedures, and is central to eligibility."
+  },
+  {
+    "umbrella": "Diagnosis Confirmation",
+    "category": "PREDICTABLE_AND_NECESSARY",
+    "rationale": "Pathologic or cytologic confirmation is often only documented in notes/reports but can be inferred from pathology and procedure data and is routinely required."
+  },
+  {
+    "umbrella": "Primary Tumor Characteristics",
+    "category": "PREDICTABLE_AND_NECESSARY",
+    "rationale": "Features like primary site, size, and local invasion are gleaned from radiology and pathology free text and are key for many protocols, often requiring NLP-based inference."
+  },
+  {
+    "umbrella": "Measurable Disease",
+    "category": "PREDICTABLE_AND_NECESSARY",
+    "rationale": "RECIST-measurable disease is derived from imaging narratives and measurements, which are usually unstructured but can be algorithmically inferred and are pivotal for trial entry."
+  },
+  {
+    "umbrella": "Metastatic Disease Status",
+    "category": "PREDICTABLE_AND_NECESSARY",
+    "rationale": "Presence of metastases can be inferred from imaging, problem lists, and procedures and is a frequent eligibility anchor yet not always discretely coded."
+  },
+  {
+    "umbrella": "Residual Disease",
+    "category": "PREDICTABLE_AND_NECESSARY",
+    "rationale": "Residual tumor post-surgery or treatment is often only described in operative and pathology reports but can be inferred and is important for adjuvant/neoadjuvant trials."
+  },
+  {
+    "umbrella": "Disease Progression",
+    "category": "PREDICTABLE_AND_NECESSARY",
+    "rationale": "Progression status is rarely discretely captured but can be inferred from longitudinal imaging, notes, and treatment changes and is central for relapsed/refractory studies."
+  },
+  {
+    "umbrella": "Disease Recurrence",
+    "category": "PREDICTABLE_AND_NECESSARY",
+    "rationale": "Recurrence is typically described narratively (e.g., in clinic or radiology notes) and can be algorithmically detected, and is critical to many trial definitions."
+  },
+  {
+    "umbrella": "Brain/CNS Metastases",
+    "category": "PREDICTABLE_AND_NECESSARY",
+    "rationale": "CNS metastases can be inferred from neuroimaging reports and problem lists and are frequent inclusion/exclusion factors but not always stored in structured form."
+  },
+  {
+    "umbrella": "Hepatic Function",
+    "category": "PREDICTABLE_BUT_NOT_NECESSARY",
+    "rationale": "Liver function parameters (e.g., AST, ALT, bilirubin) are standard labs widely available at most treatment visits, so direct use is preferable to imputation."
+  },
+  {
+    "umbrella": "Renal Function",
+    "category": "PREDICTABLE_BUT_NOT_NECESSARY",
+    "rationale": "Creatinine and eGFR are routinely measured and stored; while GFR estimation is itself an inference, it is standard and readily available for eligibility checks."
+  },
+  {
+    "umbrella": "Hematologic Function",
+    "category": "PREDICTABLE_BUT_NOT_NECESSARY",
+    "rationale": "CBC-based parameters (e.g., ANC, platelets, hemoglobin) are required labs that are usually present in structured form at baseline."
+  },
+  {
+    "umbrella": "Organ Function",
+    "category": "PREDICTABLE_BUT_NOT_NECESSARY",
+    "rationale": "Global organ function requirements generally reduce to standard lab and clinical measures (hepatic, renal, cardiac) that are routinely collected."
+  },
+  {
+    "umbrella": "Cardiac Function",
+    "category": "PREDICTABLE_BUT_NOT_NECESSARY",
+    "rationale": "Parameters like LVEF and heart failure status are directly obtained via echocardiography or MUGA and documented; prediction is not typically needed for matching."
+  },
+  {
+    "umbrella": "ECG Abnormalities",
+    "category": "PREDICTABLE_BUT_NOT_NECESSARY",
+    "rationale": "QTc and rhythm abnormalities are captured by ECG systems and can be parsed from structured ECG outputs or reports without requiring imputation."
+  },
+  {
+    "umbrella": "Pulmonary Function",
+    "category": "PREDICTABLE_BUT_NOT_NECESSARY",
+    "rationale": "When required, spirometry and DLCO are ordered and reported; these specialized tests are not reliably predicted but are directly obtained for candidates."
+  },
+  {
+    "umbrella": "Interstitial Lung Disease/Pneumonitis",
+    "category": "PREDICTABLE_AND_NECESSARY",
+    "rationale": "ILD/pneumonitis status is often encoded in imaging and notes, not in structured diagnoses, yet has become a common immune-oncology exclusion criterion."
+  },
+  {
+    "umbrella": "Blood Pressure/Hypertension",
+    "category": "PREDICTABLE_BUT_NOT_NECESSARY",
+    "rationale": "Vital signs and hypertension diagnoses are routinely captured, and repeat measurement is simple, so inference is generally unnecessary for eligibility."
+  },
+  {
+    "umbrella": "Thrombotic Events",
+    "category": "PREDICTABLE_AND_NECESSARY",
+    "rationale": "History of DVT/PE or arterial thrombosis can be inferred from diagnoses, imaging, and anticoagulant use and often impacts eligibility, yet may be inconsistently coded."
+  },
+  {
+    "umbrella": "Bleeding/Coagulation Disorders",
+    "category": "PREDICTABLE_AND_NECESSARY",
+    "rationale": "Significant bleeding history and coagulopathies can be inferred from diagnoses, transfusions, and coagulation labs but are often incompletely structured and important for safety criteria."
+  },
+  {
+    "umbrella": "Anticoagulation Therapy",
+    "category": "PREDICTABLE_BUT_NOT_NECESSARY",
+    "rationale": "Use of anticoagulants is readily identified from medication lists and orders, which are routinely structured in oncology EHRs."
+  },
+  {
+    "umbrella": "Vascular Conditions",
+    "category": "PREDICTABLE_AND_NECESSARY",
+    "rationale": "Conditions like aneurysm, significant vascular disease, or recent MI/stroke can be inferred from diagnoses and procedures and frequently appear as anti-VEGF-related exclusions."
+  },
+  {
+    "umbrella": "Autoimmune Disease",
+    "category": "PREDICTABLE_AND_NECESSARY",
+    "rationale": "Autoimmune conditions are variably coded and often described in notes, yet they are key exclusion criteria in immunotherapy trials and can be inferred via diagnosis patterns and medications."
+  },
+  {
+    "umbrella": "Active Infection",
+    "category": "PREDICTABLE_AND_NECESSARY",
+    "rationale": "Active serious infection can be approximated from antibiotics, cultures, vitals, and notes and is a common, time-dependent exclusion that is not always discretely labeled."
+  },
+  {
+    "umbrella": "Hepatitis B/C Status",
+    "category": "PREDICTABLE_BUT_NOT_NECESSARY",
+    "rationale": "Serologic tests for HBV/HCV are standardized and typically ordered when needed for eligibility; prediction from other data is avoidable and inferior to direct testing."
+  },
+  {
+    "umbrella": "HIV Status",
+    "category": "PREDICTABLE_BUT_NOT_NECESSARY",
+    "rationale": "HIV infection is determined by specific tests and usually known or easily obtained in the evaluation of trial candidates; imputation is not advisable."
+  },
+  {
+    "umbrella": "Tuberculosis",
+    "category": "PREDICTABLE_BUT_NOT_NECESSARY",
+    "rationale": "TB status (latent/active) is defined by dedicated testing and history and, when required, is checked prospectively rather than inferred."
+  },
+  {
+    "umbrella": "EBV Infection",
+    "category": "PREDICTABLE_BUT_NOT_NECESSARY",
+    "rationale": "EBV serostatus or viremia is assessed using specific assays in trials where relevant; relying on prediction is unnecessary and unsafe."
+  },
+  {
+    "umbrella": "Immunosuppression/Immunodeficiency",
+    "category": "PREDICTABLE_AND_NECESSARY",
+    "rationale": "Clinically significant immunosuppression (e.g., chronic steroids, transplant, certain conditions) is often distributed across meds, diagnoses, and notes and must be inferred for many protocols."
+  },
+  {
+    "umbrella": "Prior/Concurrent Malignancy",
+    "category": "PREDICTABLE_AND_NECESSARY",
+    "rationale": "History of other cancers and concurrent primaries can be reconstructed from diagnosis codes, pathology, and treatments and frequently affect eligibility windows."
+  },
+  {
+    "umbrella": "Prior Systemic Therapy",
+    "category": "PREDICTABLE_AND_NECESSARY",
+    "rationale": "Systemic treatment history is essential and can be derived from medication administrations and orders but is often fragmented and needs inference for accurate summarization."
+  },
+  {
+    "umbrella": "Prior Immunotherapy/Checkpoint Inhibitors",
+    "category": "PREDICTABLE_AND_NECESSARY",
+    "rationale": "Use of checkpoint inhibitors is identifiable from drug records yet often requires normalization and summarization for line-of-therapy-based criteria."
+  },
+  {
+    "umbrella": "Prior Targeted Therapy",
+    "category": "PREDICTABLE_AND_NECESSARY",
+    "rationale": "Targeted therapies can be algorithmically recognized from medication histories and linked to prior biomarker status, which is highly relevant to many trial designs."
+  },
+  {
+    "umbrella": "Prior Chemotherapy",
+    "category": "PREDICTABLE_AND_NECESSARY",
+    "rationale": "Chemotherapy exposure and regimens are reconstructible from treatment records and are core to line-of-therapy and prior-exposure inclusion/exclusion rules."
+  },
+  {
+    "umbrella": "Prior Anti-VEGF Therapy",
+    "category": "PREDICTABLE_AND_NECESSARY",
+    "rationale": "Anti-VEGF agents (e.g., bevacizumab) can be recognized via medication data, and prior exposure often conditions eligibility for angiogenesis-targeting trials."
+  },
+  {
+    "umbrella": "Prior Radiotherapy",
+    "category": "PREDICTABLE_AND_NECESSARY",
+    "rationale": "Radiation fields, doses, and timing can be inferred from radiation oncology systems and are frequently crucial for eligibility and toxicity risk assessments."
+  },
+  {
+    "umbrella": "Prior Chemoradiation",
+    "category": "PREDICTABLE_AND_NECESSARY",
+    "rationale": "Combined modality treatment can be derived from temporal overlap of chemo and RT data, informing eligibility for definitive versus salvage protocols."
+  },
+  {
+    "umbrella": "Adjuvant/Neoadjuvant Therapy",
+    "category": "PREDICTABLE_AND_NECESSARY",
+    "rationale": "Classifying systemic therapy as adjuvant or neoadjuvant requires inference from timing relative to surgery and staging and is central to many post-operative trial designs."
+  },
+  {
+    "umbrella": "Specific Prior Treatment Agents",
+    "category": "PREDICTABLE_AND_NECESSARY",
+    "rationale": "Agent-level exposure (e.g., prior platinum, prior PARP inhibitor) is derivable from the medication record and commonly conditions eligibility and stratification."
+  },
+  {
+    "umbrella": "Prior Surgery",
+    "category": "PREDICTABLE_AND_NECESSARY",
+    "rationale": "Oncologic surgeries are present in procedure data but require normalization and linkage to tumor sites, which are important for many surgical/adjunctive trials."
+  },
+  {
+    "umbrella": "Surgical Resectability/Status",
+    "category": "PREDICTABLE_AND_NECESSARY",
+    "rationale": "Resectability (e.g., R0/R1/R2, technically unresectable) is inferred from operative notes, imaging, and MDT assessments and is a frequent trial-defining criterion."
+  },
+  {
+    "umbrella": "Mediastinal/Lymph Node Staging",
+    "category": "PREDICTABLE_AND_NECESSARY",
+    "rationale": "Nodal staging from imaging, EBUS, mediastinoscopy, or pathology is crucial in thoracic and other cancers and often needs inference from multiple unstructured sources."
+  },
+  {
+    "umbrella": "Imaging Requirements",
+    "category": "PREDICTABLE_BUT_NOT_NECESSARY",
+    "rationale": "Whether required scans (CT/MRI/PET) have been done is knowable from orders and reports and can be obtained prospectively if missing rather than predicted."
+  },
+  {
+    "umbrella": "Tumor Tissue/Biospecimen",
+    "category": "PREDICTABLE_BUT_NOT_NECESSARY",
+    "rationale": "Availability of archival or fresh tissue can be determined from pathology and biobank records; prediction of availability is less useful than direct verification/collection."
+  },
+  {
+    "umbrella": "Genetic/Germline Testing",
+    "category": "NOT_PREDICTABLE",
+    "rationale": "Germline variants (e.g., BRCA1/2) require dedicated genetic testing; phenotype-based prediction is insufficiently specific for eligibility decisions."
+  },
+  {
+    "umbrella": "Treatment-Related Toxicity",
+    "category": "PREDICTABLE_AND_NECESSARY",
+    "rationale": "Prior toxicities (e.g., CTCAE grade) are scattered across notes, labs, and dose modifications and require inference but strongly influence eligibility and safety."
+  },
+  {
+    "umbrella": "Washout Period",
+    "category": "PREDICTABLE_AND_NECESSARY",
+    "rationale": "Calculating washout requires precise dating of prior therapies, which is available but fragmented and must be algorithmically aggregated for trial matching."
+  },
+  {
+    "umbrella": "Concurrent Anti-Cancer Therapy",
+    "category": "PREDICTABLE_AND_NECESSARY",
+    "rationale": "Simultaneous anti-cancer treatments can be detected from active treatment orders and administrations but require temporal reasoning; they are common exclusion criteria."
+  },
+  {
+    "umbrella": "Investigational Study Participation",
+    "category": "PREDICTABLE_AND_NECESSARY",
+    "rationale": "Enrollment in other interventional studies and recent experimental therapy often appears in research systems and notes rather than standard structured fields but is critical for eligibility."
+  },
+  {
+    "umbrella": "Drug Hypersensitivity/Allergy",
+    "category": "PREDICTABLE_BUT_NOT_NECESSARY",
+    "rationale": "Allergies and severe hypersensitivity reactions are recorded in allergy modules and notes; verification is usually done clinically without the need for prediction."
+  },
+  {
+    "umbrella": "Treatment Contraindications",
+    "category": "PREDICTABLE_AND_NECESSARY",
+    "rationale": "Contraindications arise from combinations of comorbidities, prior toxicities, and concomitant meds and require inference, yet directly impact trial suitability."
+  },
+  {
+    "umbrella": "Corticosteroid Use",
+    "category": "PREDICTABLE_AND_NECESSARY",
+    "rationale": "Chronic or high-dose steroid use can be identified from medication data but requires dose and indication interpretation and is a frequent immunotherapy exclusion."
+  },
+  {
+    "umbrella": "Transplant History",
+    "category": "PREDICTABLE_AND_NECESSARY",
+    "rationale": "Solid organ or stem cell transplant can be inferred from procedures, diagnoses, and meds, and significantly shapes eligibility in many immune-related protocols."
+  },
+  {
+    "umbrella": "Live Vaccination",
+    "category": "PREDICTABLE_AND_NECESSARY",
+    "rationale": "Recent live vaccines are recorded in immunization data but sometimes missing if given externally; they are time-sensitive exclusions that benefit from inference where possible."
+  },
+  {
+    "umbrella": "Pregnancy/Lactation Status",
+    "category": "PREDICTABLE_BUT_NOT_NECESSARY",
+    "rationale": "Pregnancy and breastfeeding status are assessed via testing and intake history; they are routinely checked prospectively rather than inferred for trial enrollment."
+  },
+  {
+    "umbrella": "Contraception Requirements",
+    "category": "PREDICTABLE_BUT_NOT_NECESSARY",
+    "rationale": "Need for and use of contraception are determined by patient counseling and documentation at screening rather than requiring predictive modeling from EHR data."
+  },
+  {
+    "umbrella": "Gastrointestinal Function",
+    "category": "PREDICTABLE_AND_NECESSARY",
+    "rationale": "Conditions like malabsorption, bowel obstruction, or prior GI surgeries are inferred from diagnoses, procedures, and notes, and often impact oral therapy trials."
+  },
+  {
+    "umbrella": "Pleural/Pericardial Effusion",
+    "category": "PREDICTABLE_AND_NECESSARY",
+    "rationale": "Clinically significant effusions can be inferred from imaging reports and procedure codes (e.g., thoracentesis) and are common exclusion factors in some protocols."
+  },
+  {
+    "umbrella": "Neurological/Psychiatric Conditions",
+    "category": "PREDICTABLE_AND_NECESSARY",
+    "rationale": "Major neurologic or psychiatric comorbidities affecting consent or safety are dispersed across diagnosis codes and notes and need inference but often appear in eligibility sections."
+  },
+  {
+    "umbrella": "Thyroid Function",
+    "category": "PREDICTABLE_BUT_NOT_NECESSARY",
+    "rationale": "TSH and free T4 are standard labs that can be ordered as needed, and many oncology patients have these available directly at baseline."
+  },
+  {
+    "umbrella": "Diabetes",
+    "category": "PREDICTABLE_AND_NECESSARY",
+    "rationale": "Diabetes status and control can be inferred from diagnoses, medications, and HbA1c values and may influence eligibility, especially where metabolic risk is specified."
+  },
+  {
+    "umbrella": "Wound Healing",
+    "category": "PREDICTABLE_AND_NECESSARY",
+    "rationale": "Impaired wound healing and presence of non-healed surgical sites are largely captured in notes and procedure timelines and require inference for anti-VEGF and surgical trials."
+  },
+  {
+    "umbrella": "Proteinuria",
+    "category": "PREDICTABLE_BUT_NOT_NECESSARY",
+    "rationale": "Proteinuria is measured directly via urinalysis or 24-hour collections when needed for trials, making prediction unnecessary."
+  },
+  {
+    "umbrella": "Corneal Disease",
+    "category": "PREDICTABLE_AND_NECESSARY",
+    "rationale": "Corneal pathology relevant to certain targeted agents can be inferred from ophthalmology notes and diagnoses but is seldom discretely surfaced and affects eligibility."
+  },
+  {
+    "umbrella": "Drug Interactions",
+    "category": "PREDICTABLE_AND_NECESSARY",
+    "rationale": "Potential interactions are derivable from concurrent medication lists and known interaction knowledge bases and often appear as explicit protocol restrictions."
+  },
+  {
+    "umbrella": "Informed Consent",
+    "category": "NOT_PREDICTABLE",
+    "rationale": "Ability and willingness to provide informed consent is a prospective, patient-level determination that cannot be reliably inferred from existing EHR data alone."
+  },
+  {
+    "umbrella": "Study Compliance",
+    "category": "PREDICTABLE_AND_NECESSARY",
+    "rationale": "Likelihood of adherence can be approximated from prior appointment adherence, refill history, and social factors, and is often qualitatively assessed by investigators for eligibility."
+  },
+  {
+    "umbrella": "Investigator Assessment",
+    "category": "NOT_PREDICTABLE",
+    "rationale": "Global investigator judgment (e.g., overall suitability) is inherently subjective and context-specific, not reliably reproducible from structured EHR data."
+  },
+  {
+    "umbrella": "Treatment Timing",
+    "category": "PREDICTABLE_AND_NECESSARY",
+    "rationale": "Temporal relationships between diagnosis, therapies, and procedures are derivable from timestamps and central to many criteria (e.g., within X weeks of surgery)."
+  },
+  {
+    "umbrella": "Intercurrent Illness",
+    "category": "PREDICTABLE_AND_NECESSARY",
+    "rationale": "Significant non-cancer illnesses arising during care can be inferred from hospitalizations, diagnoses, and medications and frequently influence ongoing eligibility."
+  },
+  {
+    "umbrella": "Implantable Devices",
+    "category": "PREDICTABLE_AND_NECESSARY",
+    "rationale": "Presence of pacemakers, defibrillators, or other implants is often recorded in procedures and device logs and affects eligibility for certain imaging or device trials."
+  },
+  {
+    "umbrella": "Transfusion Requirements",
+    "category": "PREDICTABLE_AND_NECESSARY",
+    "rationale": "Recent or chronic need for transfusions can be inferred from blood product orders and administrations and is explicitly addressed in many protocols."
+  },
+  {
+    "umbrella": "Locoregional Therapy Eligibility",
+    "category": "PREDICTABLE_AND_NECESSARY",
+    "rationale": "Suitability for locoregional approaches (e.g., TACE, RFA) depends on anatomy, tumor burden, and liver function, inferable from imaging and labs but not discretely coded."
+  },
+  {
+    "umbrella": "Residency/Demographics",
+    "category": "PREDICTABLE_BUT_NOT_NECESSARY",
+    "rationale": "Address, distance to center, and demographic factors are directly stored and do not require predictive modeling for eligibility checks."
+  },
+  {
+    "umbrella": "Advanced/Refractory Disease",
+    "category": "PREDICTABLE_AND_NECESSARY",
+    "rationale": "Refractoriness and advanced status are derived from lines of therapy, progression events, and staging, all of which require nontrivial inference but are central to trials."
+  },
+  {
+    "umbrella": "Treatment Amenability",
+    "category": "PREDICTABLE_AND_NECESSARY",
+    "rationale": "Amenability to a specific intervention (e.g., surgery, radiation field) can be inferred from anatomical extent, comorbidities, and prior treatments, often guiding inclusion."
+  },
+  {
+    "umbrella": "Tumor Markers",
+    "category": "PREDICTABLE_BUT_NOT_NECESSARY",
+    "rationale": "Serologic tumor markers (e.g., CEA, CA-125, PSA) are standard labs that can be ordered and measured directly when needed for eligibility."
+  }
+]
